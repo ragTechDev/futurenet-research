@@ -105,17 +105,17 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 📁 Project Resources
 
-To learn more about Next.js, take a look at the following resources:
+For easier navigation, here are links to the main project folders and documentation:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Area | Description | Link |
+|------|-------------|------|
+| **Research** | All research documentation | [docs/research](docs/research/README.md) |
+| **Stakeholder Research** | Notes, templates, and insights from interviews with parents, teachers, students, and experts. | [docs/research/stakeholders](docs/research/stakeholders/README.md) |
+| **User Persona Research** | Template for user persona. | [docs\research\user-personas\user-persona-[name].md](docs\research\user-personas\user-persona-[name].md) |
+| **Design** | All design documentation | [docs/design](docs/design/README.md) |
+| **Wireframes (Low-Fidelity)** | PlantUML/SALT wireframes. | [docs\design\wireframes\low-fidelity\README.md](docs\design\wireframes\low-fidelity\README.md) |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> Tip: Always refer to the relevant README in each folder for detailed instructions and workflow.

@@ -1,0 +1,19 @@
+@startuml Messaging
+salt
+{
+  {+
+  [< Back] | Messages
+  }
+
+  {#
+  * Mama
+  * Papa
+  * Grandma
+  * Best Friend
+  }
+
+  {+
+  [New Voice Message]
+  }
+}
+@enduml
