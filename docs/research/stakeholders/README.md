@@ -36,7 +36,7 @@ We use stakeholder codes (e.g. P01, T01, S03) to protect identities.
 # 📌 Before the Interview
 
 ### **1. Review Materials and Prepare**
-- Read the [**Interview Plan**](docs\research\stakeholders\interview-plan.md) and [**Interview Guide**](docs\research\stakeholders\interview-guide.md) in this folder
+- Prepare and/or if already available read the relevant **interview-questions**
 - Know which stakeholder type you’re speaking with
 - Check if consent form is needed for recording
 
@@ -81,7 +81,7 @@ Capture:
 - Surprising insights
 
 Use the template:  
-[`/docs/research/stakeholders/interview-notes-template.md`](docs\research\stakeholders\interview-notes-template.md)
+[`docs\research\stakeholders\interview-notes\0-interview-notes-template.md`](docs\research\stakeholders\interview-notes\0-interview-notes-template.md)
 
 Use tags such as `#safety #communication #screenaddiction #schooluse #trust #privacy` for easy searching across repository.
 
@@ -103,12 +103,12 @@ Use format:
 
 ### **2. Add Findings to Insights Dashboard**
 Update:
-[`docs\research\stakeholders\insights-dashboard.md`](docs\research\stakeholders\insights-dashboard.md)
+[`docs\research\stakeholders\summary\insights-dashboard.md`](docs\research\stakeholders\summary\insights-dashboard.md)
 
 
 ### **3. Identify Themes**
 Add summary insights & opportunities to:
-[`docs\research\stakeholders\insights-and-themes.md`](docs\research\stakeholders\insights-and-themes.md)
+[`docs\research\stakeholders\summary\insights-and-themes.md`](docs\research\stakeholders\summary\insights-and-themes.md)
 
 
 ### **4. Create GitHub Issues if Needed**
