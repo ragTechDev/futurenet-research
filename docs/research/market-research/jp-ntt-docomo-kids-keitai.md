@@ -2,6 +2,8 @@
 
 ### **1.1 What is NTT Docomo Kids Keitai?**
 
+![Picture of Yellow NTT Docomo Kids Keitai Model KY-41C](https://www.docomo.ne.jp/flcache_data/product/ky41c/mv_01.png)
+
 NTT Docomo’s **Kids Keitai** is a child-specific mobile handset + service plan designed for **children who are too young for smartphones but old enough to move independently outside the home**.
 It is positioned as a **safety and communication device**, not a first smartphone.
 
@@ -30,6 +32,8 @@ Docomo currently offers two devices:
 
 #### **1. Kids Keitai KY-41C** (handset model)
 
+![Picture of Lavender NTT Docomo Kids Keitai Model KY-41C](https://www.docomo.ne.jp/flcache_data/product/ky41c/mv_02.png)
+
 * A small, rugged, child-friendly mobile phone with:
 
   * camera
@@ -41,6 +45,8 @@ Docomo currently offers two devices:
 * Designed so young children can take it to school or activities.
 
 #### **2. Kids Keitai Compact SK-41D** (wearable/compact model)
+
+![Picture of Blue NTT Docomo Kids Keitai Compact Model SK-41D ](https://www.docomo.ne.jp/flcache_data/product/sk41d/mv_02.png)
 
 * A **smaller, lightweight device** designed to be worn on the wrist or clipped onto a school bag
 * Created from parent feedback that children often **forget to carry** the main handset or don’t hear incoming calls in a bag.
@@ -69,6 +75,10 @@ NTT Docomo’s Kids Keitai groups features into four practical safety domains:
 ### **2.1 Communication Safety (Whitelisted Contacts Only)**
 
 #### **Whitelisted calling & messaging**
+![Infographic on whitelisted contacts in Kids Keitai/Keitai Compact](https://www.docomo.ne.jp/flcache_data/product/sk41d/img_features_03.png)
+
+![Infographic on voice message feature in Kids Keitai/Keitai Compact](https://www.docomo.ne.jp/flcache_data/product/sk41d/img_features_06.png?ver=1729213213)
+
 * Kids Keitai devices **only allow communication with pre-registered contacts** in the address book. 
 * Children **cannot call or message unknown numbers**, and unknown numbers cannot freely reach the child.  
 
@@ -82,6 +92,10 @@ NTT Docomo’s Kids Keitai groups features into four practical safety domains:
 ### **2.2 Location Safety & Watch-Over Model**
 
 #### **GPS-based location checking**
+![Infographic on GPS feature on Kids Keitai Compact](https://www.docomo.ne.jp/flcache_data/product/sk41d/img_features_07.png)
+
+![UI of location tracking on Parents App](https://imadoco.tda.docomo.ne.jp/img/imadoco_search_img.webp?20250707)
+
 * Parents can check the child’s location through Docomo’s watch-over services (e.g., “imadoco search” or integrated guardian app).
 
 #### **“Home Arrival” Wi-Fi detection**
@@ -96,8 +110,14 @@ NTT Docomo’s Kids Keitai groups features into four practical safety domains:
 ### **2.3 Emergency Response Features**
 
 #### **Large physical emergency buzzer**
+![SOS button on Kids Keitai Compact](https://www.docomo.ne.jp/flcache_data/product/sk41d/img_features_04.png)
+
+![Infographic on possible Emergency Situation](https://imadoco.tda.docomo.ne.jp/img/imadoco_list_pc_img03_1.webp)
+
 The Kids Keitai includes a high-volume emergency buzzer, activated by pulling the dedicated strap.
 Docomo states the buzzer emits approximately 100 dB, designed to attract the attention of nearby adults.
+
+![Parents App UI and SMS notification on SOS](https://imadoco.tda.docomo.ne.jp/img/imadoco_list_pc_img04_1.webp)
 
 When the buzzer is activated, the device also:
 * Automatically sends the child’s location to registered caregivers through the watch-over service.
@@ -108,6 +128,7 @@ When the buzzer is activated, the device also:
 Kids Keitai devices allow calls to Japan’s emergency numbers 110 (police) and 119 (fire/ambulance) even when other communication features are restricted.
 
 ### **2.4 Physical Safety & Child-Centric Hardware Decisions**
+![Infographic on physical safety and hardiness features of Kids Keitai Compact](https://www.docomo.ne.jp/flcache_data/product/sk41d/img_features_09.png)
 
 #### **Water / dust resistance and durability**
 * Kids Keitai KY-41C is rated IPX5/IPX8 (waterproof) and IP6X (dust-resistant), making it more resistant than a typical smartphone to water and dust exposure. 
@@ -120,6 +141,8 @@ Kids Keitai devices allow calls to Japan’s emergency numbers 110 (police) and 
 
 ### **2.5 Remote Management by Parents**
 
+![Infographic on Parents' App](https://www.docomo.ne.jp/flcache_data/product/sk41d/img_features_08.png)
+
 On supported models (KY-41C), parents can perform remote operations through the guardian app:
 
 * **Trigger auto-answer** if the child is not responding
@@ -131,6 +154,23 @@ Docomo frames this as helping parents reach the child even if:
 * the phone is inside the school bag,
 * the child forgot to switch sound on,
 * or the child is nervous and not answering.
+
+#### Other Useful Features on Parents' App
+
+![Scheduling of Location Update UI](https://imadoco.tda.docomo.ne.jp/img/function_img02.webp?20250707)
+1. Parents can schedule when they want location updates from the kids keitai
+
+![Area Monitoring Feature on Parents App](https://imadoco.tda.docomo.ne.jp/img/function_img03.webp?20250707)
+2. Parents can set a notification for when their child is detected within certain areas, such as schools or cram schools (extracurricular activities)
+
+![Repeated search feature on Parents App](https://imadoco.tda.docomo.ne.jp/img/function_img04.webp?20250707)
+3. If the location search fails once, the app will trigger a repeated search for a certain period of time
+
+#### Other features only available on Android Phones
+As the Keitai is programmed off of Android's OS, there are more features available on the Parents' App for parents using Android phones.
+
+![Battery alarm notification feature on Parents Phone](https://imadoco.tda.docomo.ne.jp/img/function_img03.webp?20250707)
+1. Battery alarm notification: When the battery on the Kids Keitai drops to <=20% AND when it is completely off, the child's location will immediately be sent to the parents' phone
 
 ### **2.6 Safety Philosophy (Docomo’s Position)**
 
@@ -153,6 +193,7 @@ They emphasise safety over features:
 * [Docomo spec page](https://www.docomo.ne.jp/product/ky41c/)
 * [Imadoko FAQS including battery related location features](https://imadoco.tda.docomo.ne.jp/faq/)
 * [IF Design Award Description](https://ifdesign.com/en/winner-ranking/project/kids-keitai/271011)
+* [Imadoco Search Article](https://imadoco.tda.docomo.ne.jp/index.html?utm_source=imadoco&utm_medium=other&utm_campaign=imadoco_202405_promotion&utm_content=corp-SK41D)
 
 ---
 
@@ -189,6 +230,12 @@ These promote attachment and increase the likelihood that children consistently 
 ### **3.5 Hardware Limitations (Deliberate)**
 
 Docomo emphasises that the constrained hardware and limited features are deliberate design choices to minimise distractions, extend battery life, and prioritise safety and reliability for children.
+
+- Kids Keitai KY-41C Specs
+![Kids Keitai KY-41C Specs](docs\research\market-research\images\kids-keitai-specs.png)
+
+- Kids Keitai Compact Specs
+![Kids Keitai Compact Specs](docs\research\market-research\images\kids-keitai-compact-specs.png)
 
 ---
 
