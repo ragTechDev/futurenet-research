@@ -1,0 +1,199 @@
+/**
+ * FutureNet theme for reveal.js.
+ * Calm, child-first design inspired by FutureNet's visual identity.
+ */
+
+// Default mixins and settings -----------------
+@use "sass:color";
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap);
+
+// FutureNet color palette from page.tsx
+$futurenetGreen: #dcefc8;
+$futurenetPink: #f3ccd7;
+$futurenetGray: #cededb;
+$futurenetDark: #333333;
+$futurenetText: #1e293b;
+$futurenetLight: #f8fafc;
+$futurenetBorder: #cededb;
+
+// Override theme settings
+$mainFont: "Inter", sans-serif;
+$mainFontSize: 32px;
+$mainColor: $futurenetText;
+$headingFont: "Inter", sans-serif;
+$headingColor: $futurenetText;
+$headingTextShadow: none;
+$headingFontWeight: 600;
+$heading1Size: 3.5em;
+$heading2Size: 2.8em;
+$heading3Size: 2.2em;
+
+$backgroundColor: $futurenetGreen;
+$linkColor: $futurenetGray;
+$linkColorHover: color.scale($futurenetGray, $lightness: -15%);
+$selectionBackgroundColor: rgba(243, 204, 215, 0.99);
+
+$overlayElementBgColor: 220, 239, 200;
+$overlayElementFgColor: 51, 51, 51;
+
+// Background generator
+@mixin bodyBackground() {
+    background: linear-gradient(135deg, $futurenetGreen 0%, rgba(206, 237, 219, 0.4) 100%);
+}
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color($futurenetLight);
+
+// Theme template
+@import "../template/theme";
+
+// Custom FutureNet styles
+.reveal {
+  font-family: $mainFont;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $futurenetText;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  h1 {
+    text-shadow: none;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    line-height: 1.6;
+    color: $futurenetText;
+  }
+
+  // Slide backgrounds with soft rings
+  .slide {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 24px;
+    padding: 3rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border: 1px solid $futurenetBorder;
+    margin: 1rem;
+  }
+
+  // Accent boxes in various colors
+  .accent-box {
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border: 1px solid $futurenetBorder;
+    line-height: 1.8;
+
+    &.green {
+      background-color: rgba(220, 239, 200, 0.6);
+    }
+
+    &.pink {
+      background-color: rgba(243, 204, 215, 0.6);
+    }
+
+    &.gray {
+      background-color: rgba(206, 237, 219, 0.6);
+    }
+  }
+
+  // Links
+  a {
+    color: $linkColor;
+    border-bottom: 2px solid $linkColor;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $linkColorHover;
+      border-bottom-color: $linkColorHover;
+    }
+  }
+
+  // Code blocks
+  pre {
+    width: 100%;
+    font-size: 0.55em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: rgba(248, 250, 252, 0.95);
+    border: 1px solid $futurenetBorder;
+    border-radius: 12px;
+    padding: 1.2em;
+    color: $futurenetText;
+  }
+
+  code {
+    color: $futurenetText;
+    font-family: "Courier New", monospace;
+  }
+
+  // Blockquotes
+  blockquote {
+    background: rgba(220, 239, 200, 0.4);
+    border-left: 4px solid $futurenetGray;
+    padding: 1.5rem;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: $futurenetText;
+  }
+
+  // Lists
+  ul,
+  ol {
+    text-align: left;
+    margin: 1.5rem 0;
+
+    li {
+      margin: 0.6em 0;
+      line-height: 1.7;
+    }
+  }
+
+  // Tables
+  table {
+    border-collapse: collapse;
+    margin: 1rem auto;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    overflow: hidden;
+
+    th,
+    td {
+      padding: 0.8em;
+      border: 1px solid $futurenetBorder;
+      text-align: left;
+    }
+
+    th {
+      background-color: rgba(206, 237, 219, 0.5);
+      color: $futurenetText;
+      font-weight: 600;
+    }
+  }
+
+  // Navigation
+  .controls {
+    color: $futurenetText;
+  }
+
+  .progress {
+    background: $futurenetPink;
+    color: $futurenetText;
+  }
+}
+
+// Print styles
+.print-pdf .reveal .slide {
+  page-break-after: always;
+}
