@@ -187,5 +187,25 @@
 ![alt text](image.png)
 ![alt text](image-2.png)
 
+## Additional Notes
+#### In the US context:
+- Parents already accept phones due to school safety concerns (e.g. school shootings)
+- But wish for an iPhone-like device without apps/social media
+
+#### kid's feedback (if she wanted a better phone) 
+- She’s grateful because most kids her daughter’s age don’t have a phone like this or if they had, they’d have the walkie talkie model. 
+- It’s a plus being able to call parent and talk instead of just sending the voice over walkie talkie and hoping they got the message.
+		
+#### Parents’ remote control clarification
+- Parents cannot remotely control the phone
+- Parents have no access to the phone directly without internet, setup is done on the kids phone and parent only has communication through texts.
+		
+#### School rules/keeping phone in bag
+- Phones are never used during school hours
+- Communication goes through teachers / after-school programmes
+- This aligns with an existing cultural norm
+
+#### Competitor mention
+- Some commenters mentioned Firefly - suggests further research.
 
 
