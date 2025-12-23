@@ -8,6 +8,7 @@
 | School Level | University-educated (inferred from structured digital management & MOE familiarity) |
 | Tech Proficiency | Medium–High (Apple Family, apps, tracking tools, Parents Gateway) |
 | Location / Community | Singapore, with children in MOE school system |
+| Source interview notes | [P01](docs/research/stakeholders/interview-notes/P01-sg-mum-kids-10-and-17-notes.md) |
 
 ---
 

@@ -8,6 +8,7 @@
 | School Level | Parent of a child in Primary 4–6 (10–12) or Secondary 1–2 (13–15) |
 | Tech Proficiency | Medium |
 | Location / Community | Singapore; school WhatsApp/Telegram parent groups |
+| Source interview notes | [E01](docs/research/stakeholders/interview-notes/E01-ntt-docomo-notes.md) (inferred) |
 
 ---
 

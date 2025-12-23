@@ -8,6 +8,7 @@
 | School Level | University-educated professional (software engineer) |
 | Tech Proficiency | High (iOS ecosystem, parental controls, tracking devices; informed about online platform incentives) |
 | Location / Community | Singapore, children in MOE primary school system |
+| Source interview notes | [P06](docs/research/stakeholders/interview-notes/P06-sg-stay-home-mum-kids-6-and-9-notes.md) + (original base) [P05](docs/research/stakeholders/interview-notes/P05-jp-tiktok-mum-with-keitai-notes.md) |
 
 ---
 
@@ -36,6 +37,9 @@ She is not ideologically anti-tech: she believes children eventually need exposu
 - High anxiety around chat-enabled or UGC-heavy platforms (Roblox) due to predators and uncontrolled interactions.
 - Real-world independence creates safety needs (child traveling alone; uncertainty when routes change).
 - Wary of emerging AI chat products for young children; wants evidence and safeguards before adoption.
+- School-driven tech exposure can conflict with home values (e.g., schools integrating iPads/online tools early); parent worries filters can be bypassed and critical thinking may degrade.
+- New risk category: “AI as shortcut” (e.g., kids using ChatGPT to do homework) and rising cyberbullying concerns.
+- Sibling spillover risk: older child’s access can introduce younger siblings to inappropriate content earlier than intended.
 
 ---
 
@@ -50,6 +54,8 @@ She is not ideologically anti-tech: she believes children eventually need exposu
 | Trust-centered tooling | Controls should support healthy parent-child trust (transparent monitoring expectations; review rhythms) rather than secret surveillance. |
 | Ad-minimization and content quality curation | Prefers paid/ad-free options and high-quality content standards; wants to avoid “fast, overstimulating” content patterns. |
 | Evidence-based AI safety stance | Would only consider AI features if well-tested, age-appropriate, and clearly bounded for children. |
+| School-context support (classroom-safe modes) | Needs controls that match school realities (e.g., disable messaging at school time, limit to homework sites, reduce distraction) without heavy manual policing. |
+| Sibling-aware safety controls | Needs age-differentiated access and nudges that help older kids avoid “teaching” risky content to younger siblings. |
 
 ---
 
@@ -61,6 +67,8 @@ She is not ideologically anti-tech: she believes children eventually need exposu
 | Content preferences | Netflix Kids preferred; avoids YouTube/YouTube Kids where possible; pays for YouTube Premium when needed to avoid ads. |
 | Safety routines | Uses location tracking (e.g., AirTag in bag) to monitor commuting; values reliable, low-friction setup. |
 | Parenting approach to tech | “Controlled exposure” rather than strict isolation; sees skill-building as necessary long-term. |
+| Offline structure & incentives | Uses structured offline activities (sports, chores) and reward systems to reduce defaulting to screens. |
+| Communication/location tools | Will use bounded communication tools (e.g., smartwatch for location + messaging) and may disable features at school time to prevent distraction. |
 
 ---
 
