@@ -19,7 +19,11 @@
 - Limited play allowance: son plays games about once a week; parent monitors what he plays.
 - Uses tracking for child safety (AirTag in bag) due to child commuting and occasional unplanned route changes.
 - Prefers Apple ecosystem (iPhone/Apple Watch) for stability and stronger parental controls/location tracking.
+- "TV Time" for both kids is usually limited to 1 episode on Netflix, around 25mins / day; occasionally 1 hour.
 - Curates content sources: prefers Netflix Kids; avoids YouTube/YouTube Kids except when needed (e.g., music/violin content with YouTube Premium to avoid ads).
+- Allows both kids to trade "TV Time" for game time on the Nintendo Switch 2 with age-appropriate games like Mario Kart, Pokémon Legends: Z-A, Sonic X Shadow Generations.
+- In line with ad-avoidance, I also highly prefer paid games as free games, especially those on iPad, are often full of ads, micro-transactions and game currency (e.g. Roblox's robux). Hence the choice of Switch 2 as a gaming platform vs iPad. 
+- Prefers to not expose my developing children's minds to psychological manipulation.
 
 ### Pain Points / Frustrations
 - Exposure to harmful/stimulating content can occur indirectly via peers (friends with phones; older kids at playground).

@@ -19,7 +19,7 @@
 - Youngest 
 
 ## Screens for Learning
-- Introduced age since young age, mostly for lessons
+- Introduced since young age, mostly for lessons
 - don't use phones but have their own ipads
 - don't get to use it all the time, only when they have lessons
 - lessons that they signed up from china
@@ -32,10 +32,10 @@
 - come from a content quality perspectvie and safety
 - for classes not worried about safety, because we know who is running the classes and can observe class
 
-# Sociela media exposure concern
+# Social media exposure concern
 - more worried about other apps and social media stuff
 - do not let him use any social media
-- but son is stille xposed to it through his friends, like 6- trends. or any other memes in primary school, spreads in school and in person
+- but son is still exposed to it through his friends, like 6-7 trends. or any other memes in primary school, spreads in school and in person
 - kids with phones showing to other kids
 - know his friends sometimes show him videos, friends at the playground - there are older kids, some even p5 (not just in school)
 - don't get to control what is shown
@@ -143,7 +143,7 @@
 
 ## air tag
 - runs on flat lithium battery
-- cr203
+- CR2032
 - has a bluetooth connection, connects to iphones that are nearby and sends location
 by itself it isn't so powerful, it relies on network of iphones in the ecosystem
 - battery is cheap have 20 of those, haven't needed to replace it
@@ -236,3 +236,8 @@ by itself it isn't so powerful, it relies on network of iphones in the ecosystem
 ## notes
 - very small subst of parents who knows how tech works, uses tech, grew up in gradual xposure evnronemtn and now with kids
 - people tend to be very black and white about such things if they dk how it works esp ai
+
+## Additional Notes from PR Review by Interviewee
+- Forgot to mention that "TV Time" for both kids is usually limited to 1 episode on Netflix, around 25mins / day. Occasionally 1 hour.
+- TV time can be traded for game time on the Nintendo Switch 2 with age appropriate games like Mario Kart, Pokémon Legends: Z-A, Sonic X Shadow Generations.
+- In line with ad-avoidance, I also highly prefer paid games. Free games especially those on iPad are often full of ads, micro-transactions and game currency e.g. Roblox's robux. Hence the choice of Switch 2 as a gaming platform vs iPad. I prefer to not expose my developing children's minds to psychological manipulation.

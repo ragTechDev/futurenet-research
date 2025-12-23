@@ -24,7 +24,7 @@ She is not ideologically anti-tech: she believes children eventually need exposu
 - Keep children safe from harmful content, predatory behavior, and manipulation by algorithms/ads.
 - Introduce communication tools (calls/text) for real-world safety and coordination as kids gain independence (e.g., commuting, after-school classes).
 - Maintain a strong relationship of trust so kids disclose incidents instead of hiding them.
-- Prioritize high-quality, less over-stimulating content (prefers Netflix Kids over YouTube-style content).
+- Prioritize high-quality, less over-stimulating content (prefers Netflix Kids over YouTube-style content; prefers paid games over free ones due to ads).
 - Avoid making children social outcasts by completely isolating them from common tech experiences.
 
 ---
