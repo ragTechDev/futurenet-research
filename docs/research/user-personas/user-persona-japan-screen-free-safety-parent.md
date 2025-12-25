@@ -8,6 +8,7 @@
 | School Level | Parent of an elementary school child (started device in Grade 1; now Grade 3) |
 | Tech Proficiency | Medium |
 | Location / Community | Japan; child walks to school; school culture expects independence and responsibility |
+| Source interview notes | [P05](docs/research/stakeholders/interview-notes/P05-jp-tiktok-mum-with-keitai-notes.md) |
 
 ---
 

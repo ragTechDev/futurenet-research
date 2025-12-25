@@ -1,9 +1,9 @@
-# Interview Notes – P04 Japanese Parent on Tiktok With Kid with Kids Keitai
+# Interview Transcript – P04
 
 ## Participant Info
 | Field | Notes |
 |-------|--------|
-| Stakeholder type | Parent |
+| Stakeholder type | Parent, Japanese Parent on Tiktok With Kid with Kids Keitai |
 | Age group | |
 | Interview date | 18 Dec 2025 |
 | Interviewer | Natasha, Sugi |

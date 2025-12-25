@@ -1,3 +1,13 @@
+# Interview Transcript – E02
+
+## Participant Info
+| Field | Notes |
+|-------|--------|
+| Stakeholder type | Expert (Cybersafety Education) |
+| Age group | Adult / Founder of Cyberlite |
+| Interview date | 16th Dec 9am SGT|
+| Interviewer | @natashaannn |
+| Consent status | Recording allowed: Yes |
 
 # Key takeaways for book ready set go:
 - Wrote in 2020

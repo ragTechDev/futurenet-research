@@ -8,6 +8,7 @@
 | School Level | University-educated professional |
 | Tech Proficiency | Medium–High (uses digital tools, married to tech‑savvy husband) |
 | Location / Community | Singapore, with prior experience living in US and China |
+| Source interview notes | [P02](docs/research/stakeholders/interview-notes/P02-sg-mum-kids-1-and-3-notes.md) |
 
 ---
 
