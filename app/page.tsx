@@ -21,7 +21,12 @@ export default function Home() {
           <Doodle className={`${styles.doodleCell} ${styles.bc}`} delayMs={1250} src="/doodles/laptop.svg" />
 
           <div className={styles.heroInner}>
-            <h1 className={styles.title}>FutureNet</h1>
+            <div className={styles.titleContainer}>
+              <h1 className={styles.title}>FutureNet</h1>
+              <p className={styles.subtitle}>
+                <em>with love from <a href="https://ragtechdev.com" target="_blank" rel="noopener noreferrer" className={styles.subtitleLink} style={{ textDecoration: 'underline' }}>ragtechdev</a></em>
+              </p>
+            </div>
             <p className={`${styles.tagline} ${styles.taglineHero}`}>
               Giving our children <span className={styles.highlight}>a chance to grow up</span>, 
               <br></br>

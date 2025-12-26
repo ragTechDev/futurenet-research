@@ -314,22 +314,140 @@ export default function DigitalParentQuizPage() {
 
       ctx.clearRect(0, 0, W, H);
 
-      ctx.fillStyle = "#000";
+      // Y2K Cyberpunk gradient background
+      const bgGrad = ctx.createLinearGradient(0, 0, W, H);
+      bgGrad.addColorStop(0, "#000000");
+      bgGrad.addColorStop(0.3, "#001122");
+      bgGrad.addColorStop(0.7, "#000011");
+      bgGrad.addColorStop(1, "#000000");
+      ctx.fillStyle = bgGrad;
       ctx.fillRect(0, 0, W, H);
 
+      // Cyberpunk grid overlay
       ctx.save();
-      ctx.globalAlpha = 0.22;
-      ctx.fillStyle = "rgba(255,255,255,0.14)";
-      for (let x = 0; x < W; x += 54) ctx.fillRect(x, 0, 1, H);
-      for (let y = 0; y < H; y += 54) ctx.fillRect(0, y, W, 1);
+      ctx.globalAlpha = 0.15;
+      ctx.strokeStyle = "#00ff41";
+      ctx.lineWidth = 1;
+      for (let x = 0; x < W; x += 40) {
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, H);
+        ctx.stroke();
+      }
+      for (let y = 0; y < H; y += 40) {
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(W, y);
+        ctx.stroke();
+      }
       ctx.restore();
 
-      roundedRect(36, 36, W - 72, H - 72, 36);
-      ctx.strokeStyle = "rgba(255,255,255,1)";
-      ctx.lineWidth = 2;
-      ctx.stroke();
+      // Add cyberpunk decorative elements
+      const drawSmiley = (x: number, y: number, size: number, alpha: number) => {
+        ctx.save();
+        ctx.globalAlpha = alpha;
+        ctx.strokeStyle = "#00ff41";
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.arc(x, y, size, 0, Math.PI * 2);
+        ctx.stroke();
+        // Eyes
+        ctx.fillStyle = "#00ff41";
+        ctx.beginPath();
+        ctx.arc(x - size * 0.3, y - size * 0.2, size * 0.1, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc(x + size * 0.3, y - size * 0.2, size * 0.1, 0, Math.PI * 2);
+        ctx.fill();
+        // Smile
+        ctx.beginPath();
+        ctx.arc(x, y + size * 0.1, size * 0.5, 0, Math.PI);
+        ctx.stroke();
+        ctx.restore();
+      };
 
-      cornerMarks(36, 36, W - 72, H - 72, 26, "rgba(255,255,255,0.6)");
+      const drawStar = (x: number, y: number, size: number, alpha: number) => {
+        ctx.save();
+        ctx.globalAlpha = alpha;
+        ctx.fillStyle = "#ff0080";
+        ctx.beginPath();
+        for (let i = 0; i < 5; i++) {
+          const angle = (i * Math.PI * 2) / 5 - Math.PI / 2;
+          const px = x + Math.cos(angle) * size;
+          const py = y + Math.sin(angle) * size;
+          if (i === 0) ctx.moveTo(px, py);
+          else ctx.lineTo(px, py);
+          const innerAngle = ((i + 0.5) * Math.PI * 2) / 5 - Math.PI / 2;
+          const ipx = x + Math.cos(innerAngle) * size * 0.4;
+          const ipy = y + Math.sin(innerAngle) * size * 0.4;
+          ctx.lineTo(ipx, ipy);
+        }
+        ctx.closePath();
+        ctx.fill();
+        ctx.restore();
+      };
+
+      const drawSun = (x: number, y: number, size: number, alpha: number) => {
+        ctx.save();
+        ctx.globalAlpha = alpha;
+        ctx.fillStyle = "#ffff00";
+        ctx.strokeStyle = "#ffff00";
+        ctx.lineWidth = 2;
+        // Center circle
+        ctx.beginPath();
+        ctx.arc(x, y, size * 0.4, 0, Math.PI * 2);
+        ctx.fill();
+        // Rays
+        for (let i = 0; i < 8; i++) {
+          const angle = (i * Math.PI * 2) / 8;
+          ctx.beginPath();
+          ctx.moveTo(x + Math.cos(angle) * size * 0.6, y + Math.sin(angle) * size * 0.6);
+          ctx.lineTo(x + Math.cos(angle) * size, y + Math.sin(angle) * size);
+          ctx.stroke();
+        }
+        ctx.restore();
+      };
+
+      // Place decorative elements
+      drawSmiley(150, 200, 25, 0.3);
+      drawStar(W - 120, 180, 20, 0.4);
+      drawSun(200, H - 200, 30, 0.25);
+      drawSmiley(W - 180, H - 300, 20, 0.2);
+      drawStar(120, H - 400, 15, 0.3);
+
+      // Sharp-edged main border (flat design)
+      ctx.strokeStyle = "#ffffff";
+      ctx.lineWidth = 4;
+      ctx.strokeRect(36, 36, W - 72, H - 72);
+
+      // Cyberpunk corner accents
+      const cornerSize = 40;
+      ctx.strokeStyle = "#00ff41";
+      ctx.lineWidth = 3;
+      // Top-left
+      ctx.beginPath();
+      ctx.moveTo(36, 36 + cornerSize);
+      ctx.lineTo(36, 36);
+      ctx.lineTo(36 + cornerSize, 36);
+      ctx.stroke();
+      // Top-right
+      ctx.beginPath();
+      ctx.moveTo(W - 36 - cornerSize, 36);
+      ctx.lineTo(W - 36, 36);
+      ctx.lineTo(W - 36, 36 + cornerSize);
+      ctx.stroke();
+      // Bottom-left
+      ctx.beginPath();
+      ctx.moveTo(36, H - 36 - cornerSize);
+      ctx.lineTo(36, H - 36);
+      ctx.lineTo(36 + cornerSize, H - 36);
+      ctx.stroke();
+      // Bottom-right
+      ctx.beginPath();
+      ctx.moveTo(W - 36 - cornerSize, H - 36);
+      ctx.lineTo(W - 36, H - 36);
+      ctx.lineTo(W - 36, H - 36 - cornerSize);
+      ctx.stroke();
 
       ctx.fillStyle = "rgba(255,255,255,1)";
       ctx.font = `800 18px ${fontTech}`;
@@ -349,18 +467,38 @@ export default function DigitalParentQuizPage() {
       const phoneY = headerY + 52;
       const textMaxW = headerW - phoneBoxW - (phonePad * 3);
 
-      const headerGrad = ctx.createLinearGradient(headerX, headerY, headerX, headerY + headerH);
-      headerGrad.addColorStop(0, "rgba(0,0,0,0.78)");
-      headerGrad.addColorStop(1, "rgba(0,0,0,0.56)");
-      roundedRect(headerX, headerY, headerW, headerH, 34);
-      ctx.strokeStyle = "rgba(255,255,255,1)";
+      // Flat cyberpunk header box
+      ctx.fillStyle = "rgba(0,0,0,0.85)";
+      ctx.fillRect(headerX, headerY, headerW, headerH);
+      
+      // Sharp white border
+      ctx.strokeStyle = "#ffffff";
+      ctx.lineWidth = 3;
+      ctx.strokeRect(headerX, headerY, headerW, headerH);
+      
+      // Holographic accent line
+      ctx.strokeStyle = "#ff0080";
       ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(headerX, headerY + 30);
+      ctx.lineTo(headerX + headerW, headerY + 30);
       ctx.stroke();
 
       ctx.fillStyle = "rgba(255,255,255,0.14)";
       ctx.fillRect(headerX + Math.floor(headerW * 0.62), headerY, 1, headerH);
 
-      gridTexture(headerX + 2, headerY + 2, Math.floor(headerW * 0.62) - 6, headerH - 4, 54, 0.55, false);
+      // Cyberpunk scan lines
+      ctx.save();
+      ctx.globalAlpha = 0.2;
+      ctx.strokeStyle = "#00ff41";
+      ctx.lineWidth = 1;
+      for (let y = headerY + 10; y < headerY + headerH - 10; y += 8) {
+        ctx.beginPath();
+        ctx.moveTo(headerX + 10, y);
+        ctx.lineTo(headerX + Math.floor(headerW * 0.62) - 10, y);
+        ctx.stroke();
+      }
+      ctx.restore();
 
       ctx.save();
       ctx.fillStyle = "rgba(255,255,255,0.22)";
@@ -419,13 +557,18 @@ export default function DigitalParentQuizPage() {
       const pillX = headerX + 26;
       const pillY = headerY + 198;
       const pillH = 54;
-      const pillGrad = ctx.createLinearGradient(pillX, pillY, pillX, pillY + pillH);
-      pillGrad.addColorStop(0, "rgba(0,0,0,0.72)");
-      pillGrad.addColorStop(1, "rgba(0,0,0,0.54)");
-      roundedRect(pillX, pillY, pillW, pillH, 27);
-      ctx.strokeStyle = "rgba(255,255,255,1)";
+      // Flat cyberpunk pill
+      ctx.fillStyle = "#000000";
+      ctx.fillRect(pillX, pillY, pillW, pillH);
+      
+      ctx.strokeStyle = "#ffffff";
+      ctx.lineWidth = 3;
+      ctx.strokeRect(pillX, pillY, pillW, pillH);
+      
+      // Holographic accent
+      ctx.strokeStyle = "#00ff41";
       ctx.lineWidth = 2;
-      ctx.stroke();
+      ctx.strokeRect(pillX + 3, pillY + 3, pillW - 6, pillH - 6);
       ctx.fillStyle = "rgba(255,255,255,1)";
       {
         let size = 26;
@@ -483,17 +626,26 @@ export default function DigitalParentQuizPage() {
       const dx = phoneX + Math.floor((phoneBoxW - dw) / 2);
       const dy = phoneY + Math.floor((phoneBoxH - dh) / 2);
 
+      // Flat phone image container
       ctx.save();
-      ctx.imageSmoothingEnabled = true;
-      roundedRect(phoneX, phoneY, phoneBoxW, phoneBoxH, 28);
+      ctx.fillStyle = "#000000";
+      ctx.fillRect(phoneX, phoneY, phoneBoxW, phoneBoxH);
+      
+      // Clip for image
+      ctx.beginPath();
+      ctx.rect(phoneX + 6, phoneY + 6, phoneBoxW - 12, phoneBoxH - 12);
       ctx.clip();
       drawBwImage(dx, dy, dw, dh);
       ctx.restore();
 
-      roundedRect(phoneX, phoneY, phoneBoxW, phoneBoxH, 28);
-      ctx.strokeStyle = "rgba(255,255,255,1)";
+      // Sharp border with cyberpunk accent
+      ctx.strokeStyle = "#ffffff";
+      ctx.lineWidth = 3;
+      ctx.strokeRect(phoneX, phoneY, phoneBoxW, phoneBoxH);
+      
+      ctx.strokeStyle = "#ff0080";
       ctx.lineWidth = 2;
-      ctx.stroke();
+      ctx.strokeRect(phoneX + 4, phoneY + 4, phoneBoxW - 8, phoneBoxH - 8);
 
       ctx.strokeStyle = "rgba(255,255,255,0.6)";
       ctx.lineWidth = 2;
@@ -645,6 +797,36 @@ export default function DigitalParentQuizPage() {
         ctx.fillText(idTag, bx + bw - 28 - ctx.measureText(idTag).width, by + 28);
         by += btnH + btnGap;
       }
+
+      // Call-to-action section
+      const ctaY = H - 220;
+      const ctaH = 120;
+      
+      // CTA background box
+      ctx.fillStyle = "rgba(0,0,0,0.9)";
+      ctx.fillRect(safePad, ctaY, headerW, ctaH);
+      
+      // Sharp border with cyberpunk accent
+      ctx.strokeStyle = "#ffffff";
+      ctx.lineWidth = 3;
+      ctx.strokeRect(safePad, ctaY, headerW, ctaH);
+      
+      ctx.strokeStyle = "#00ff41";
+      ctx.lineWidth = 2;
+      ctx.strokeRect(safePad + 4, ctaY + 4, headerW - 8, ctaH - 8);
+      
+      // CTA text
+      ctx.fillStyle = "#ffffff";
+      ctx.font = `900 28px ${fontHeadline}`;
+      ctx.fillText("HELP US RESEARCH DIGITAL PARENTING", safePad + 20, ctaY + 38);
+      
+      ctx.fillStyle = "#00ff41";
+      ctx.font = `700 20px ${fontUi}`;
+      ctx.fillText("Share this quiz with other parents to expand our research", safePad + 20, ctaY + 68);
+      
+      ctx.fillStyle = "rgba(255,255,255,0.8)";
+      ctx.font = `600 16px ${fontTech}`;
+      ctx.fillText("Every response helps us understand how parenting evolves with technology", safePad + 20, ctaY + 92);
 
       ctx.fillStyle = "rgba(255,255,255,1)";
       ctx.font = `800 24px ${fontTech}`;
