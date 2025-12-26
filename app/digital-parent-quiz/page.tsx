@@ -781,9 +781,13 @@ export default function DigitalParentQuizPage() {
         {step === "intro" ? (
           <>
             <p className={styles.subcopy}>
-              A short day-in-the-life quiz. Pick one of two options each time, and we’ll reveal your <span style={{ fontWeight: 650 }}>2000s
-              phone persona</span>.
+              A short day-in-the-life quiz that contributes to crucial research on digital parenting. Pick one of two options each time, and we&apos;ll reveal your <span style={{ fontWeight: 650 }}>2000s
+              phone persona</span> based on your digital parenting style.
             </p>
+            
+            <div className={styles.subcopy} style={{ marginTop: 16, padding: 16, backgroundColor: "rgba(0, 0, 0, 0.05)", borderRadius: 8 }}>
+              <strong>About FutureNet:</strong> We&apos;re a group of technologists who are also parents, working to give our kids a chance to grow up with the same freedom, creativity, and authentic connections we experienced. Every response helps us understand how parenting styles have evolved with technology.
+            </div>
 
             <div className={`${styles.card} ${styles.sceneEnter}`}>
               <div className={styles.kicker}>Prologue</div>

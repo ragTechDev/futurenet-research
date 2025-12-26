@@ -8,7 +8,7 @@ export const PHONE_IMAGE_URLS: Record<PersonaId, string> = {
     "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/msnbc/Components/Photos/060515/060515_palm_vmed_9a.jpg",
   razr: "https://upload.wikimedia.org/wikipedia/commons/5/56/Motorola_Razr_V3_montage_closed_open.png",
   walkman: "https://static01.nyt.com/images/2007/10/24/technology/circuits/25phone.L.jpg?quality=75&auto=webp&disable=upscale",
-  "nokia-3310": "https://static.wikia.nocookie.net/nokia/images/6/6a/Nokia3310.jpg/revision/latest/scale-to-width-down/225?cb=20091222173051",
+  "nokia-3310": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%2Fid%2FOIP.xdUzCB07DvB5zNsI7WJHEwHaHa%3Fpid%3DApi&f=1&ipt=ce6fb3020d1e52e385b270a61c1c2eccc481091038451e6504472b080ed761a6",
   "nokia-e71": "https://media.wired.com/photos/59eac137cc302878a9fdc4d5/master/pass/nokia_e71_f.jpg",
   "bb-curve":
     "https://i5.walmartimages.com/seo/Used-BlackBerry-Curve-8520-GSM-Keyboard-Trackpad-Smartphone-Unlocked_d3fa4d2b-deab-46e0-a8b6-ccd010036f37_1.749bb9e6cbb51b3de6c85913e01b9b2c.jpeg",
