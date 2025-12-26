@@ -125,7 +125,7 @@ const defaultProps: DigitalParentQuizResultsEmailProps = {
   productUrl: "https://futurenet-demo.netlify.app/digital-parent-quiz",
 };
 
-export default function DigitalParentQuizResultsEmail(props: DigitalParentQuizResultsEmailProps = defaultProps) {
+export default function DigitalParentQuizResultsEmail(props: DigitalParentQuizResultsEmailProps) {
   const { topPersona = defaultProps.topPersona, allPersonas = defaultProps.allPersonas, payload = defaultProps.payload, productUrl = defaultProps.productUrl } = props;
   
 
@@ -530,7 +530,7 @@ export default function DigitalParentQuizResultsEmail(props: DigitalParentQuizRe
                 </Heading>
               </div>
               <Text style={{ margin: "0 0 12px", fontSize: "12px", color: "#666", fontStyle: "italic" }}>
-                For FutureNet's research purposes - thank you for contributing to our study!
+                For FutureNet&#39;s research purposes - thank you for contributing to our study!
               </Text>
               
               {/* Metadata Block */}
@@ -576,7 +576,7 @@ email: payload?.email || 'unknown'
                   wordBreak: "break-all"
                 }}>
                   <span style={{ fontFamily: "'Courier New', monospace", fontSize: "11px" }}>
-{JSON.stringify(payload?.answers?.map((q: any, index: number) => ({
+{JSON.stringify(payload?.answers?.map((q, index: number) => ({
 question_id: q.questionId,
 selected_option: q.optionId,
 chapter: q.chapter

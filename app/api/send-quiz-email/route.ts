@@ -9,7 +9,7 @@ import DigitalParentQuizResultsEmail, {
 
 import { QUESTIONS } from "../../digital-parent-quiz/quizQuestions";
 import { PERSONAS } from "../../digital-parent-quiz/quizPersonas";
-import type { PersonaId } from "../../digital-parent-quiz/quizTypes";
+import type { PersonaId, QuizPersona } from "../../digital-parent-quiz/quizTypes";
 
 export const runtime = "nodejs";
 
@@ -66,7 +66,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Invalid email" }, { status: 400 });
   }
 
-  if (answers.length !== QUESTIONS.length || answers.some((a) => typeof a !== "string" || !a)) {
+  if (answers.length !== QUESTIONS.length || answers.some((a) => a === null || typeof a !== "string" || !a)) {
     return NextResponse.json({ error: "Incomplete answers" }, { status: 400 });
   }
 
@@ -106,7 +106,7 @@ export async function POST(req: Request) {
   }
 
   const topPersonaId = getTopPersonaId(scores);
-  const topPersona = PERSONAS.find((p) => p.id === topPersonaId);
+  const topPersona = PERSONAS.find((p: QuizPersona) => p.id === topPersonaId);
   if (!topPersona) {
     return NextResponse.json({ error: "Top persona not found" }, { status: 500 });
   }
@@ -119,7 +119,7 @@ export async function POST(req: Request) {
     topPersonaId,
   };
 
-  const allPersonas = PERSONAS.map((p) => ({
+  const allPersonas = PERSONAS.map((p: QuizPersona) => ({
     id: p.id,
     phoneModel: p.phoneModel,
     characterName: p.characterName,
