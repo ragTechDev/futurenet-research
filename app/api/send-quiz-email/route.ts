@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 import { render } from "@react-email/render";
 import * as React from "react";
+import crypto from "crypto";
 
 import DigitalParentQuizResultsEmail, {
   type DigitalParentQuizResultsPayload,
@@ -56,6 +57,14 @@ function requireEnv(name: string): string {
 function errorToMessage(err: unknown) {
   if (err instanceof Error) return err.message;
   return String(err);
+}
+
+function makeParticipantId(email: string) {
+  const salt = process.env.PARTICIPANT_ID_SALT;
+  if (salt) {
+    return crypto.createHmac("sha256", salt).update(email).digest("hex").slice(0, 16);
+  }
+  return crypto.createHash("sha256").update(email).digest("hex").slice(0, 16);
 }
 
 export async function POST(req: Request) {
@@ -119,8 +128,11 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Top persona not found" }, { status: 500 });
   }
 
+  const participantId = makeParticipantId(email);
+
   const payload: DigitalParentQuizResultsPayload = {
     submittedAt: new Date().toISOString(),
+    participantId,
     email,
     answers: answerRows,
     scores,

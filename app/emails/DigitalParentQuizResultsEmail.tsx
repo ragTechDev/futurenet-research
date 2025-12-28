@@ -16,6 +16,7 @@ export type PersonaId =
 
 export type DigitalParentQuizResultsPayload = {
   submittedAt: string;
+  participantId: string;
   email: string;
   answers: Array<{
     questionId: string;
@@ -107,6 +108,7 @@ const defaultProps: DigitalParentQuizResultsEmailProps = {
   allPersonas: PERSONAS,
   payload: {
     submittedAt: "2025-12-26T14:00:00Z",
+    participantId: "demo-participant-id",
     email: "parent@example.com",
     answers: [
       {
@@ -564,16 +566,16 @@ export default function DigitalParentQuizResultsEmail(props: DigitalParentQuizRe
                   wordBreak: "break-all"
                 }}>
                   <span style={{ fontFamily: "'Courier New', monospace", fontSize: "11px" }}>
-{JSON.stringify({
-timestamp: new Date().toISOString(),
-persona_id: topPersona.id,
-email: payload?.email || 'unknown',
-respondent_type: payload?.respondent?.type ?? null,
-research_opt_in: payload?.respondent?.researchOptIn ?? null,
-birth_year: payload?.respondent?.birthYear ?? null,
-gender: payload?.respondent?.gender ?? null,
-kids_ages: payload?.respondent?.kidsAges ?? null,
-})}
+                  {JSON.stringify({
+                  timestamp: new Date().toISOString(),
+                  persona_id: topPersona.id,
+                  participant_id: payload?.participantId || 'unknown',
+                  respondent_type: payload?.respondent?.type ?? null,
+                  research_opt_in: payload?.respondent?.researchOptIn ?? null,
+                  birth_year: payload?.respondent?.birthYear ?? null,
+                  gender: payload?.respondent?.gender ?? null,
+                  kids_ages: payload?.respondent?.kidsAges ?? null,
+                  })}
                   </span>
                 </div>
               </div>
