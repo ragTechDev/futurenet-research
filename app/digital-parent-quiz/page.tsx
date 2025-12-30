@@ -92,6 +92,7 @@ export default function DigitalParentQuizPage() {
   const [kidsAgeBands, setKidsAgeBands] = useState<string[]>([]);
   const [isSharingStory, setIsSharingStory] = useState(false);
   const [shareError, setShareError] = useState<string | null>(null);
+  const [emailSent, setEmailSent] = useState(false);
 
   const quizUrl = useMemo(() => {
     try {
@@ -1087,7 +1088,7 @@ export default function DigitalParentQuizPage() {
         // ignore
       }
 
-      setIsUnlocked(true);
+      setEmailSent(true);
     } catch {
       setEmailError("Network error. Please try again.");
     } finally {
@@ -1158,6 +1159,29 @@ export default function DigitalParentQuizPage() {
       }
     } finally {
       setIsSharingStory(false);
+    }
+  }
+
+  function openInbox() {
+    const e = email.trim().toLowerCase();
+    const domain = e.includes("@") ? e.split("@").pop() ?? "" : "";
+    const isGmail = domain === "gmail.com" || domain === "googlemail.com";
+    const isOutlook =
+      domain === "outlook.com" || domain === "hotmail.com" || domain === "live.com" || domain === "msn.com";
+    const isYahoo = domain === "yahoo.com" || domain === "yahoo.com.sg" || domain === "ymail.com";
+    const isIcloud = domain === "icloud.com" || domain === "me.com" || domain === "mac.com";
+
+    let url: string | null = null;
+    if (isGmail) url = "https://mail.google.com/mail/u/0/#inbox";
+    else if (isOutlook) url = "https://outlook.live.com/mail/0/inbox";
+    else if (isYahoo) url = "https://mail.yahoo.com/d/folders/1";
+    else if (isIcloud) url = "https://www.icloud.com/mail";
+
+    try {
+      if (url) window.open(url, "_blank", "noopener,noreferrer");
+      else window.location.href = "mailto:";
+    } catch {
+      // ignore
     }
   }
 
@@ -1291,6 +1315,11 @@ export default function DigitalParentQuizPage() {
             {isUnlocked ? (
               <div style={{ marginBottom: 12 }}>
                 <div className={styles.subtle} style={{ marginBottom: 10 }}>
+                  Check your email for a <strong>full breakdown</strong> of your results, plus an overview of the other personas. 
+                  <br/>
+                  <i>If you don't see it, it could be in Spam - help us by marking it as &apos;Not Spam&apos; so we can reach out to you in the future for further research!</i>
+                </div>
+                <div className={styles.subtle} style={{ marginBottom: 10 }}>
                   Help our research by sharing this on your social media — together, we can shape a safer and healthier digital landscape for our next generation!
                 </div>
                 <div style={{ display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center" }}>
@@ -1299,6 +1328,9 @@ export default function DigitalParentQuizPage() {
                   </button>
                   <button type="button" className={`${styles.button} ${styles.buttonSecondary}`} onClick={downloadStoryImage}>
                     ⬇️ Download Your Results
+                  </button>
+                  <button type="button" className={`${styles.button} ${styles.buttonSecondary}`} onClick={openInbox}>
+                    📧 Check email for full breakdown
                   </button>
                   {shareError ? <div className={styles.subtle}>{shareError}</div> : null}
                 </div>
@@ -1313,7 +1345,7 @@ export default function DigitalParentQuizPage() {
               <div className={styles.resultGateOverlay} role="dialog" aria-modal="true">
                 <div className={styles.resultGateWindow}>
                   <div className={styles.resultGateTitlebar}>
-                    <div className={styles.resultGateTitle}>Email required</div>
+                    <div className={styles.resultGateTitle}>{emailSent ? "Email sent" : "Email required"}</div>
                     <div className={styles.resultGateControls}>
                       <div className={styles.resultGateControl} aria-hidden="true" />
                       <div className={styles.resultGateControl} aria-hidden="true" />
@@ -1322,9 +1354,115 @@ export default function DigitalParentQuizPage() {
                   </div>
 
                   <div className={styles.resultGateBody}>
-                    <div className={styles.resultGateCopy}>
-                      Thank you for taking the quiz and helping us in our research! Enter your email to reveal the rest of your result and get a full breakdown of all Digital Parent persona types.
-                    </div>
+                    {emailSent ? (
+                      <>
+                        <div className={styles.resultGateCopy}>
+                          <div style={{ display: "flex", justifyContent: "center", marginBottom: 14 }}>
+                            <svg
+                              width="72"
+                              height="72"
+                              viewBox="0 0 120 120"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              aria-hidden="true"
+                            >
+                              <g>
+                                <animateTransform
+                                  attributeName="transform"
+                                  type="translate"
+                                  values="0 0; 0 -4; 0 0"
+                                  dur="1.8s"
+                                  repeatCount="indefinite"
+                                />
+                                <path
+                                  d="M24 42H96V86C96 91.5228 91.5228 96 86 96H34C28.4772 96 24 91.5228 24 86V42Z"
+                                  stroke="rgba(0,0,0,0.8)"
+                                  strokeWidth="4"
+                                  fill="rgba(176,38,255,0.10)"
+                                />
+                                <path
+                                  d="M24 46L60 70L96 46"
+                                  stroke="rgba(0,0,0,0.8)"
+                                  strokeWidth="4"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M26 88L50 70"
+                                  stroke="rgba(176,38,255,0.55)"
+                                  strokeWidth="4"
+                                  strokeLinecap="round"
+                                />
+                                <path
+                                  d="M94 88L70 70"
+                                  stroke="rgba(176,38,255,0.55)"
+                                  strokeWidth="4"
+                                  strokeLinecap="round"
+                                />
+                                <path
+                                  d="M86 30C92 30 96 34 96 40"
+                                  stroke="rgba(176,38,255,0.85)"
+                                  strokeWidth="4"
+                                  strokeLinecap="round"
+                                />
+                                <path
+                                  d="M18 62C12 62 8 58 8 52"
+                                  stroke="rgba(176,38,255,0.85)"
+                                  strokeWidth="4"
+                                  strokeLinecap="round"
+                                />
+                              </g>
+                            </svg>
+                          </div>
+
+                          <div style={{ marginBottom: 10 }}>
+                            Thanks again for helping our research!
+                          </div>
+
+                          <div style={{ marginBottom: 10 }}>
+                            We&apos;ve sent a <strong>full breakdown</strong> of your results to your email, together with an <strong>overview of the other personas</strong>.
+                          </div>
+
+                          <div style={{ marginBottom: 8 }}>
+                            If you don&apos;t see it:
+                          </div>
+
+                          <ul style={{ margin: "0 0 10px", paddingLeft: 18 }}>
+                            <li>Check your <strong>Spam</strong> (or Promotions) folder.</li>
+                            <li>
+                              If it&apos;s there, please mark it as <strong>Not spam</strong> so future research reach-outs arrive.
+                            </li>
+                          </ul>
+
+                          <div>
+                            You can close this popup now to view your shareable result here in your browser.
+                          </div>
+                        </div>
+
+                        <div className={styles.resultGateButtons}>
+                          <button
+                            type="button"
+                            className={styles.button}
+                            onClick={() => {
+                              try {
+                                window.localStorage.setItem("dpq_email_unlocked", "1");
+                                window.localStorage.setItem("dpq_email", email.trim());
+                              } catch {
+                                // ignore
+                              }
+                              setIsUnlocked(true);
+                              setEmailSent(false);
+                            }}
+                            disabled={isSendingEmail}
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        <div className={styles.resultGateCopy}>
+                          Thank you for taking the quiz and helping us in our research! Enter your email to reveal the rest of your result and get a full breakdown of all Digital Parent persona types.
+                        </div>
 
                     <div className={styles.resultGateRow}>
                       <div className={styles.resultGateLabel}>
@@ -1521,6 +1659,8 @@ export default function DigitalParentQuizPage() {
                         {isSendingEmail ? "Sending…" : "Reveal result"}
                       </button>
                     </div>
+                      </>
+                    )}
                   </div>
                 </div>
               </div>
