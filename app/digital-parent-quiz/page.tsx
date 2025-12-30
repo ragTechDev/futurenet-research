@@ -1317,7 +1317,7 @@ export default function DigitalParentQuizPage() {
                 <div className={styles.subtle} style={{ marginBottom: 10 }}>
                   Check your email for a <strong>full breakdown</strong> of your results, plus an overview of the other personas. 
                   <br/>
-                  <i>If you don't see it, it could be in Spam - help us by marking it as &apos;Not Spam&apos; so we can reach out to you in the future for further research!</i>
+                  <i>If you don&apos;t see it, it could be in Spam - help us by marking it as &apos;Not Spam&apos; so we can reach out to you in the future for further research!</i>
                 </div>
                 <div className={styles.subtle} style={{ marginBottom: 10 }}>
                   Help our research by sharing this on your social media — together, we can shape a safer and healthier digital landscape for our next generation!

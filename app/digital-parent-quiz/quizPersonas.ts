@@ -67,7 +67,7 @@ export const PERSONAS: QuizPersona[] = [
     summary:
       "You focus on emotional literacy, transitions, and low-stimulation cues—teaching kids to notice and manage their own attention.",
     strengths: ["Self-regulation coaching", "Low-stimulation habits", "Co-use and creation"],
-    watchOutFor: ["Being too optimistic about self-stopping", "Not having a hard boundary for sticky content"],
+    watchOutFor: ["Being too optimistic about self-stopping", "Not having a hard boundary for hard-to-stop content"],
     nextQuest: ["Use a ‘pause + name the feeling’ step", "Add a transition ritual", "Prefer creation over consumption"],
   },
   {
@@ -99,7 +99,7 @@ export const PERSONAS: QuizPersona[] = [
     tagline: "I just want it to be safe without watching every second.",
     summary:
       "You’re protective and tired: loopholes and bypasses have made screen time feel like constant vigilance. You need a system that carries the load.",
-    strengths: ["Deep protective care", "Consistency when supported", "Strong intuition for ‘sticky’ content"],
+    strengths: ["Deep protective care", "Consistency when supported", "Strong intuition for hard-to-stop content"],
     watchOutFor: ["Burnout", "Trust spirals when policing becomes constant"],
     nextQuest: ["Shift to browser-level safety", "Use short safe sessions", "Add honesty rituals + predictable transitions"],
   },
