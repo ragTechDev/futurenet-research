@@ -8,6 +8,7 @@
 | School Level | Working professional parent of preschooler (child aged 4, turning 5) |
 | Tech Proficiency | Medium (comfortable with iPad, subscriptions, basic controls; not reliant on heavy parental control tooling) |
 | Location / Community | Singapore; navigating childcare/preschool systems; frequent public transport + family meals out |
+| Source interview notes | [P08](docs/research/stakeholders/interview-notes/P08-sg-younger-mum-kid-4-notes.md) |
 
 ---
 

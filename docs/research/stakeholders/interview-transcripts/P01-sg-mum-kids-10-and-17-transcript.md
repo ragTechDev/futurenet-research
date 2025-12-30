@@ -1,3 +1,15 @@
+# Interview Transcript – P01
+
+## Participant Info
+| Field | Notes |
+|-------|--------|
+| Stakeholder type | Parent (Mum) of children aged 10 and 17 |
+| Ethnic Background | Indian, migrated to SG due to spouse's work, currently also working in SG tech |
+| Age group | 35-45 |
+| Interview date | 3 Dec 2024 |
+| Interviewer | Natasha |
+| Consent status | Yes |
+
 # Parents Gateway
 - By MOE, not be specific school
 - Can have multiple kids registered to the app
