@@ -103,6 +103,56 @@ export default function DigitalParentQuizPage() {
     }
   }, []);
 
+  useEffect(() => {
+    try {
+      if (typeof window === "undefined") return;
+
+      const params = new URLSearchParams(window.location.search);
+      const shareParam = params.get("share");
+      if (!shareParam) return;
+
+      const decoded = shareParam ? decodeURIComponent(shareParam) : "";
+      const text = decoded || `Take FutureNet's Digital Parent Quiz: ${quizUrl}`;
+
+      const cleanup = () => {
+        try {
+          params.delete("share");
+          const qs = params.toString();
+          const nextUrl = `${window.location.pathname}${qs ? `?${qs}` : ""}${window.location.hash ?? ""}`;
+          window.history.replaceState({}, "", nextUrl);
+        } catch {
+          // ignore
+        }
+      };
+
+      const run = async () => {
+        try {
+          if (typeof navigator !== "undefined" && typeof navigator.share === "function") {
+            await navigator.share({ text, url: quizUrl });
+            cleanup();
+            return;
+          }
+
+          const fallback = `${text}\n${quizUrl}`;
+          if (typeof navigator !== "undefined" && navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+            await navigator.clipboard.writeText(fallback);
+            setShareError("Link copied to clipboard.");
+          } else {
+            setShareError("Sharing is not supported on this device. Please copy the URL from the address bar.");
+          }
+          cleanup();
+        } catch {
+          setShareError("Sharing failed. You can copy the URL from the address bar.");
+          cleanup();
+        }
+      };
+
+      void run();
+    } catch {
+      // ignore
+    }
+  }, [quizUrl]);
+
   const currentQuestion = QUESTIONS[questionIndex] ?? null;
   const totalQuestions = QUESTIONS.length;
 
