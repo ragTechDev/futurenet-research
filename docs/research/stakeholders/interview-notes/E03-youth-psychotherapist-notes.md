@@ -35,7 +35,7 @@
 - Also see pressure from school, money, expectations of what is needed to be "ok" in life
 
 ## What She Suggests to Clients
-- Her age group (17-24) already has awareness that social media isn't accurate
+- The age group (17-24) already has awareness that social media isn't accurate
 - But children might not be aware of this
 - She reminds them that this content is not accurate
 - Encourages looking at stories from less advantaged lifestyles
