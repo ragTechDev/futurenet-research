@@ -4,6 +4,10 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import styles from "./page.module.css";
 
+import countries from "../data/countries.json";
+
+import MultiSelectDropdown from "../../components/MultiSelectDropdown";
+
 import type { PersonaId, QuizOption } from "./quizTypes";
 import { PERSONAS, PHONE_IMAGE_URLS } from "./quizPersonas";
 import { QUESTIONS, QUIZ_VERSION } from "./quizQuestions";
@@ -88,11 +92,54 @@ export default function DigitalParentQuizPage() {
   const [respondentType, setRespondentType] = useState<"parent" | "expecting" | "considering" | "na" | null>(null);
   const [researchOptIn, setResearchOptIn] = useState(false);
   const [birthYear, setBirthYear] = useState("");
+  const [nationalities, setNationalities] = useState<string[]>([]);
+  const [ethnicities, setEthnicities] = useState<string[]>([]);
   const [gender, setGender] = useState<"m" | "w" | "na" | null>(null);
   const [kidsAgeBands, setKidsAgeBands] = useState<string[]>([]);
   const [isSharingStory, setIsSharingStory] = useState(false);
   const [shareError, setShareError] = useState<string | null>(null);
   const [emailSent, setEmailSent] = useState(false);
+
+  const nationalityOptions = useMemo(() => {
+    const normalized = (countries as Array<{ alpha2: string; name: string }>).map((c) => ({
+      value: c.alpha2,
+      label: c.name,
+    }));
+
+    normalized.sort((a, b) => a.label.localeCompare(b.label));
+    return [{ value: "na", label: "Prefer not to say" }, ...normalized];
+  }, []);
+
+  const kidsAgeOptions = useMemo(
+    () =>
+      [
+        { value: "na", label: "Prefer not to say" },
+        { value: "0-2", label: "0-2" },
+        { value: "3-5", label: "3-5" },
+        { value: "6-9", label: "6-9" },
+        { value: "10-12", label: "10-12" },
+        { value: "13-17", label: "13-17" },
+        { value: "18+", label: "18+" },
+      ] as const,
+    []
+  );
+
+  const ethnicityOptions = useMemo(
+    () =>
+      [
+        { value: "na", label: "Prefer not to say" },
+        { value: "chinese", label: "Chinese" },
+        { value: "malay", label: "Malay" },
+        { value: "indian", label: "Indian" },
+        { value: "white", label: "White" },
+        { value: "black", label: "Black" },
+        { value: "hispanic_latino", label: "Hispanic / Latino" },
+        { value: "arab", label: "Arab" },
+        { value: "indigenous", label: "Indigenous" },
+        { value: "other", label: "Other" },
+      ] as const,
+    []
+  );
 
   const quizUrl = useMemo(() => {
     try {
@@ -1138,6 +1185,8 @@ export default function DigitalParentQuizPage() {
             type: respondentType,
             researchOptIn,
             birthYear: researchOptIn && birthYear.trim() ? Number(birthYear.trim()) : null,
+            nationality: researchOptIn && nationalities.length ? nationalities : null,
+            ethnicity: researchOptIn && ethnicities.length ? ethnicities : null,
             gender: researchOptIn ? gender : null,
             kidsAges: respondentType === "parent" && researchOptIn && kidsAgeBands.length ? kidsAgeBands : null,
           },
@@ -1219,7 +1268,6 @@ export default function DigitalParentQuizPage() {
         files: [file],
       };
 
-      // Some browsers require canShare() for file sharing.
       const canShareFiles = typeof navigator.canShare === "function" ? navigator.canShare({ files: [file] }) : true;
       if (!canShareFiles) {
         await downloadStoryImage();
@@ -1228,7 +1276,6 @@ export default function DigitalParentQuizPage() {
 
       await navigator.share(data);
     } catch (err) {
-      // User cancel is common; avoid scary messaging.
       const msg = err instanceof Error ? err.message : String(err);
       if (msg && !/abort/i.test(msg) && !/cancel/i.test(msg)) {
         setShareError("Sharing failed. You can download the image instead.");
@@ -1628,6 +1675,42 @@ export default function DigitalParentQuizPage() {
 
                         <div style={{ borderTop: "1px solid rgba(0,0,0,0.12)", margin: "10px 0" }} />
 
+                        <div className={styles.subtle} style={{ margin: "0 0 10px" }}>
+                          Select all that apply (you can choose more than one) — useful for dual nationality / mixed ethnicity.
+                        </div>
+
+                        <div className={styles.resultGateRow}>
+                          <div className={styles.resultGateLabel}>
+                            Nationality (country)
+                          </div>
+                          <MultiSelectDropdown
+                            id="dpq-nationality"
+                            placeholder="Select country / nationality (optional)"
+                            searchPlaceholder="Type to filter countries…"
+                            options={nationalityOptions}
+                            selected={nationalities}
+                            onChange={setNationalities}
+                            disabled={isSendingEmail}
+                          />
+                        </div>
+
+                        <div className={styles.resultGateRow}>
+                          <div className={styles.resultGateLabel}>
+                            Ethnicity
+                          </div>
+                          <MultiSelectDropdown
+                            id="dpq-ethnicity"
+                            placeholder="Select ethnicity (optional)"
+                            searchPlaceholder="Type to filter ethnicities…"
+                            options={ethnicityOptions}
+                            selected={ethnicities}
+                            onChange={setEthnicities}
+                            disabled={isSendingEmail}
+                          />
+                        </div>
+
+                        <div style={{ borderTop: "1px solid rgba(0,0,0,0.12)", margin: "10px 0" }} />
+
                         <div className={styles.resultGateRow}>
                           <div className={styles.resultGateLabel}>Gender</div>
                           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
@@ -1667,31 +1750,16 @@ export default function DigitalParentQuizPage() {
                           <div className={styles.resultGateRow}>
                             <div className={styles.resultGateLabel}>
                               Kid age(s)
-                              <div className={styles.subtle} style={{ marginTop: 6 }}>
-                                Select all that apply (you can choose more than one)
-                              </div>
                             </div>
-                            <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
-                              {["0-2", "3-5", "6-9", "10-12", "13-17", "18+"].map((band) => {
-                                const selected = kidsAgeBands.includes(band);
-                                return (
-                                  <button
-                                    key={band}
-                                    type="button"
-                                    className={`${styles.button} ${styles.optionButton} ${selected ? styles.optionSelected : ""}`}
-                                    onClick={() => {
-                                      setKidsAgeBands((prev) =>
-                                        prev.includes(band) ? prev.filter((b) => b !== band) : [...prev, band]
-                                      );
-                                    }}
-                                    disabled={isSendingEmail}
-                                    style={optionButtonStyle}
-                                  >
-                                    {band}
-                                  </button>
-                                );
-                              })}
-                            </div>
+                            <MultiSelectDropdown
+                              id="dpq-kids-ages"
+                              placeholder="Select kid age(s) (optional)"
+                              searchPlaceholder="Type to filter ages…"
+                              options={kidsAgeOptions}
+                              selected={kidsAgeBands}
+                              onChange={setKidsAgeBands}
+                              disabled={isSendingEmail}
+                            />
                           </div>
                         ) : null}
                       </>
