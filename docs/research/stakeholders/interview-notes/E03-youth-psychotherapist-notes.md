@@ -33,6 +33,7 @@
 ## Self-Esteem Issues in Practice
 - Self-esteem is one of the common issues clients present with
 - Also see pressure from school, money, expectations of what is needed to be "ok" in life
+- Screen time may not be the no.1 contributor to self-esteem issues
 
 ## What She Suggests to Clients
 - The age group (17-24) already has awareness that social media isn't accurate
@@ -41,6 +42,7 @@
 - Encourages looking at stories from less advantaged lifestyles
 - Look at real life a little bit
 - But acknowledges it can be so addictive
+- Children should be taught to stop looking at content that makes them feel bad
 
 ## FOMO & Engagement Pressures
 - Fear of Missing Out (FOMO)
@@ -74,6 +76,8 @@
 
 ## Kindle Books vs iPad Videos
 - Kindle books are definitely better than videos
+- Video watching is passive
+- Books (even picture books) take more cognitive effort
 
 ## Social Comparison Solutions
 - Instead of viewing curated content, go out
