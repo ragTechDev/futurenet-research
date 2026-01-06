@@ -1,0 +1,257 @@
+.page {
+  min-height: 100svh;
+  padding: 72px 20px;
+  background: #f7f7f2;
+  color: #141414;
+}
+
+.container {
+  width: min(980px, 100%);
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.1;
+}
+
+.headerActions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.section {
+  margin-top: 22px;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  font-weight: 900;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  border: 1px solid rgba(26, 26, 26, 0.35);
+  text-decoration: none;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+@media (max-width: 720px) {
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+}
+
+.metricCard {
+  border: 1px solid rgba(26, 26, 26, 0.28);
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.metricLabel {
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.metricValue {
+  margin-top: 6px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.grid {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+@media (max-width: 920px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  border: 1px solid rgba(26, 26, 26, 0.28);
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.cardTitle {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.optInGrid {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+@media (max-width: 720px) {
+  .optInGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.optInItem {
+  border: 1px solid rgba(26, 26, 26, 0.18);
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 13px;
+}
+
+.answersList {
+  margin-top: 14px;
+  display: grid;
+  gap: 14px;
+}
+
+
+.answerViz {
+  margin-top: 12px;
+}
+
+.legend {
+  display: grid;
+  gap: 8px;
+}
+
+.legendItem {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  gap: 10px;
+  align-items: start;
+}
+
+.legendSwatch {
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgba(26, 26, 26, 0.35);
+  margin-top: 2px;
+}
+
+.legendLabel {
+  font-size: 13px;
+  line-height: 1.35;
+  opacity: 0.9;
+}
+
+.stackList {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.stackRow {
+  display: grid;
+  grid-template-columns: 140px 1fr 44px;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .stackRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+.stackLabel {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.stackBar {
+  height: 16px;
+  border: 1px solid rgba(26, 26, 26, 0.18);
+  background: rgba(26, 26, 26, 0.06);
+  display: flex;
+  overflow: hidden;
+}
+
+.stackSeg {
+  height: 100%;
+}
+
+.stackTotal {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.75;
+  font-size: 13px;
+}
+
+.chart {
+  margin-top: 12px;
+  display: grid;
+  gap: 8px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 180px 1fr 44px;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
+
+.label {
+  font-size: 13px;
+  opacity: 0.9;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.barWrap {
+  height: 12px;
+  background: rgba(26, 26, 26, 0.12);
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: rgba(26, 26, 26, 0.65);
+}
+
+.value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.85;
+}
+
+.muted {
+  opacity: 0.75;
+  font-size: 13px;
+  line-height: 1.45;
+}

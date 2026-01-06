@@ -433,6 +433,9 @@ export default function DigitalParentQuizPage() {
         <div className={styles.header}>
           <h1 className={styles.title}>Digital Parent Quiz</h1>
           <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
+            <Link href="/digital-parent-quiz/analytics" className={`${styles.button} ${styles.buttonSecondary}`}>
+              Analytics
+            </Link>
             <Link href="/" className={`${styles.button} ${styles.buttonSecondary}`}>
               Back to FutureNet
             </Link>
