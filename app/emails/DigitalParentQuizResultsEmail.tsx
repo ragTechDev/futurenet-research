@@ -583,7 +583,7 @@ export default function DigitalParentQuizResultsEmail(props: DigitalParentQuizRe
               {/* Metadata Block */}
               <div style={{ marginBottom: "16px" }}>
                 <Text style={{ margin: "0 0 8px", fontSize: "14px", fontWeight: "600", color: "#1a1a1a" }}>
-                  Participant Metadata:
+                  Quiz Results:
                 </Text>
                 <div style={{ 
                   backgroundColor: "#f8f8f8", 
@@ -610,33 +610,12 @@ export default function DigitalParentQuizResultsEmail(props: DigitalParentQuizRe
                   ethnicity: payload?.respondent?.ethnicity ?? null,
                   gender: payload?.respondent?.gender ?? null,
                   kids_ages: payload?.respondent?.kidsAges ?? null,
+                  answers: payload?.answers?.map((q) => ({
+                    question_id: q.questionId,
+                    selected_option: q.optionId,
+                    chapter: q.chapter
+                  })) || [],
                   })}
-                  </span>
-                </div>
-              </div>
-
-              {/* Question Responses Block */}
-              <div>
-                <Text style={{ margin: "0 0 8px", fontSize: "14px", fontWeight: "600", color: "#1a1a1a" }}>
-                  Question Responses:
-                </Text>
-                <div style={{ 
-                  backgroundColor: "#f8f8f8", 
-                  border: "2px solid #e0e0e0", 
-                  borderRadius: "0px", 
-                  padding: "12px", 
-                  fontFamily: "'Courier New', monospace", 
-                  fontSize: "11px", 
-                  lineHeight: "1.2",
-                  color: "#333",
-                  wordBreak: "break-all"
-                }}>
-                  <span style={{ fontFamily: "'Courier New', monospace", fontSize: "11px" }}>
-                  {JSON.stringify(payload?.answers?.map((q) => ({
-                  question_id: q.questionId,
-                  selected_option: q.optionId,
-                  chapter: q.chapter
-                  })) || [])}
                   </span>
                 </div>
               </div>
