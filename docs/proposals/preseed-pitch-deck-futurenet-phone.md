@@ -8,7 +8,7 @@
 
 **FutureNet Phone**
 
-The school-approved smartphone for Singapore families
+The smartphone that grows with your child — age-appropriate boundaries that update automatically every year
 
 Pre-seed deck — January 2026
 
@@ -16,23 +16,30 @@ Pre-seed deck — January 2026
 
 ## Slide 2 — Problem
 
-Singapore parents face an impossible choice:
+Singapore parents face an exhausting dilemma:
 
-> "I want my child to be reachable, but I don't want to hand them the entire internet."  
+> "I want my child to be reachable, but I don't want to hand them the entire internet. And I don't want to spend hours every year updating parental controls as they grow."  
 > — Parent of 13-year-old, Sec 1
 
-**The dilemma**:
+**The problem**:
 
-- Schools ban smartphones (distraction, social media, academic integrity)
-- But parents need to reach their kids (logistics, safety, emergencies)
-- Existing solutions fail:
-  - **Mainstream phones + Screen Time**: bypassable, high parent effort, not school-verifiable
-  - **Watches/trackers**: don't meet teen expectations for a "real phone"
-  - **International "healthy phones"**: not available in Singapore, not aligned to local school policies
+- **Kids need phones** (logistics, safety, emergencies)
+- **But digital boundaries must evolve** as kids mature (13-year-old ≠ 16-year-old)
+- **Parents are exhausted** managing this:
+  - Reviewing and updating Screen Time settings every year
+  - Deciding which apps are age-appropriate
+  - Constant negotiations: "Why can't I have Instagram? My friend has it!"
+  - Guessing what's developmentally appropriate
+
+**Existing solutions fail**:
+- **Mainstream phones + Screen Time**: High parent effort, bypassable, no expert guidance on age-appropriateness
+- **"Healthy phones"**: Static policies (same rules at 13 and 16), no graduated access
+- **Watches/trackers**: Don't meet teen expectations for a "real phone"
 
 **Result**: Parents either:
-1. Give in and buy a smartphone (school non-compliance, distraction risk)
-2. Hold out with no device (safety concerns, logistics friction)
+1. Give in and hand over a full smartphone (distraction risk, too much too soon)
+2. Stress over manual parental control updates every year (exhausting, guesswork)
+3. Hold out with no device (safety concerns, logistics friction)
 
 ---
 
@@ -51,34 +58,56 @@ We interviewed 20+ Singapore parents. Three recurring personas:
 - Pain: Watches don't feel like "real phones" to teens; adoption resistance
 
 **The Gradualist** (25%)
-- "I want to teach digital responsibility step-by-step, not all-or-nothing."
-- Wants: graduated access (start with calls/SMS, add apps over time)
-- Pain: No product supports phased autonomy; it's either full smartphone or nothing
+- "I want to teach digital responsibility step-by-step, not all-or-nothing. But I don't know what's appropriate at each age."
+- Wants: graduated access (start with calls/SMS, add apps over time) with expert guidance
+- Pain: No product supports phased autonomy; it's either full smartphone or nothing. And no guidance on what's age-appropriate.
 
 ---
 
 ## Slide 4 — Solution
 
-**FutureNet Phone**: A parent-owned, school-compliant smartphone for Singapore teens.
+**FutureNet Phone**: The smartphone that grows with your child — age-appropriate boundaries that update automatically every year.
+
+**Core value proposition**:
+
+**"Set it once, and we'll update it as your child grows."**
+
+- **Age 13**: Calls/SMS only, no browser, no social media, School Mode during school hours
+- **Age 14**: Add messaging apps (parent-approved), basic productivity apps
+- **Age 15**: Add educational social media (YouTube with restrictions), maps, music
+- **Age 16**: Add broader app access, graduated browser access (safe search enforced)
+- **Age 17**: Near-full smartphone experience, preparing for independence
+
+**Every age template is**:
+- ✅ **Reviewed by child development experts** (psychologists, digital wellness researchers)
+- ✅ **Approved by educators** (teachers, school counselors)
+- ✅ **Updated automatically** (no parent effort required)
+- ✅ **Customizable** (parents can adjust if needed, but defaults are expert-backed)
 
 **Core features**:
 
-1. **School Mode** (auto-activates during school hours)
+1. **Graduated Access System** (the hero feature)
+   - Age-appropriate boundaries that update automatically start of a new school year
+   - Expert-reviewed templates for ages 13–17
+   - Parents don't need to guess what's developmentally appropriate
+   - Reduces parent stress and family conflict
+
+2. **School Mode** (auto-activates during school hours)
    - Locks device to calls/SMS only (whitelisted contacts)
    - No browser, no social media, no games
    - Optional educator override (teacher can unlock for approved use)
 
-2. **Parent-managed device** (Android Enterprise Device Owner)
+3. **Parent-managed device** (Android Enterprise Device Owner)
    - Strong enforcement (not bypassable via VPN, hidden apps, or factory reset)
-   - Parent portal for policy management
-   - Graduated access (add apps as child matures)
+   - Parent portal to review and customize age templates
+   - Override controls if needed (but defaults are expert-backed)
 
-3. **School compliance verifier**
+4. **School compliance verifier** (supporting feature)
    - Schools can verify device is policy-compliant (one-click check)
    - School templates for common policies
    - Institutional-grade credibility
 
-4. **SIM-unlocked, parent-owned**
+5. **SIM-unlocked, parent-owned**
    - Not tied to telco contracts
    - Parents choose carrier and plan
    - Device ownership stays with family
@@ -97,7 +126,8 @@ We interviewed 20+ Singapore parents. Three recurring personas:
    - WisePhone (US): $500K+ Kickstarter, subscription model works
    - Sage (UK): Managed iPhone model, strong parent adoption
    - Kiwi Plus (Korea): Telco-integrated kids phone, 100K+ users
-   - **Gap**: No Singapore-localized, school-first solution
+   - **Gap 1**: No Singapore-localized, school-first solution
+   - **Gap 2**: No competitor offers automated graduated access (all have static policies or require manual parent updates)
 
 3. **Singapore government pushing digital literacy + device subsidies**
    - MOE Personal Learning Device (PLD) program: Edusave-funded devices for students
@@ -106,20 +136,87 @@ We interviewed 20+ Singapore parents. Three recurring personas:
 
 ---
 
+## Slide 5a — Expert & Educator Partnerships (Building Trust in Age Templates)
+
+**Our age-appropriate templates are not guesswork — they're backed by experts and educators.**
+
+### Partnership ecosystem
+
+```mermaid
+graph TB
+    FutureNet[FutureNet Phone<br/>Age Templates 13-17]
+    
+    subgraph "Child Development Experts"
+        Cyberlite[Cyberlite<br/>Child Cybersafety Organisation<br/>Current Partner]
+        Psychiatrist[Dr. Adrian Loh<br/>Child & Adolescent Psychiatrist<br/>Promises Healthcare<br/>In Discussion]
+    end
+    
+    subgraph "Youth Mental Health"
+        IASH[IASH<br/>It All Starts Hear<br/>Youth Mental Health Programs<br/>In Discussion]
+    end
+    
+    subgraph "Educators"
+        MOE[MOE Teachers<br/>School Counselors<br/>In Discussion via MOE]
+    end
+    
+    FutureNet --> Cyberlite
+    FutureNet --> Psychiatrist
+    FutureNet --> IASH
+    FutureNet --> MOE
+    
+    Cyberlite -.->|Review age templates| FutureNet
+    Psychiatrist -.->|Validate developmental appropriateness| FutureNet
+    IASH -.->|Youth mental health guidance| FutureNet
+    MOE -.->|Educator approval & school alignment| FutureNet
+    
+    style FutureNet fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style Cyberlite fill:#52C41A,stroke:#389E0D,stroke-width:2px
+    style Psychiatrist fill:#FFA940,stroke:#D46B08,stroke-width:2px
+    style IASH fill:#FFA940,stroke:#D46B08,stroke-width:2px
+    style MOE fill:#FFA940,stroke:#D46B08,stroke-width:2px
+```
+
+### Why this matters
+
+**1. Expert-reviewed age templates (not parent guesswork)**
+- **Cyberlite** (current partner): Child cybersafety experts review age-appropriate boundaries
+- **Dr. Adrian Loh** (child & adolescent psychiatrist): Validates developmental appropriateness of access progression
+- **IASH** (youth mental health): Ensures templates support healthy digital development
+
+**2. Educator-approved (school alignment)**
+- **MOE teachers & school counselors**: Validate that age templates align with school policies and educational goals
+- Ensures FutureNet devices are school-compliant by design
+
+**3. Continuous improvement**
+- Partners review templates annually based on:
+  - Latest child development research
+  - Emerging digital risks (new apps, platforms, bypass tactics)
+  - Anonymized usage data from FutureNet devices
+
+### Value proposition
+
+**For parents**: "You're not guessing what's age-appropriate — experts and educators have already figured it out."
+
+**For schools**: "Our age templates are validated by child development experts and approved by educators."
+
+**For investors**: "We're building an expert network moat that competitors can't easily replicate."
+
+---
+
 ## Slide 6 — Competitor landscape
 
-| Product | SG available today | School Mode concept | Verifiable compliance for schools | Browser-free by design | No WhatsApp (v1 stance) | Strong parent admin | Location + safe zones | Notes |
-|---|---|---|---|---|---|---|---|---|
-| **FutureNet Phone (proposed)** | **Yes (launch in SG)** | ✅ | ✅ | ✅ | ✅ | ✅ | (optional/SOS-first) | Built for a government/MOE-first country; school templates + compliance verifier. |
-| WisePhone (US) | ❌ | ⚠️ | ❌ | ✅ | ⚠️ | ✅ | ⚠️ | DTC healthy smartphone; not SG-localized; not designed as a school-verifiable compliance device. |
-| Sage (UK) | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ✅ | ⚠️ | Managed iPhone model; app catalog includes WhatsApp; not positioned around SG school compliance. |
-| Karri (UK) | ❌ | ⚠️ | ❌ | ✅ | ✅ | ⚠️ | ✅ | Screen-free comms + GPS; doesn't meet teen expectations of a phone experience. |
-| BoT Talk (US) | ❌ | ⚠️ | ❌ | ✅ | ✅ | ⚠️ | ✅ | Screen-free GPS + voice; not a school-compliant smartphone alternative for teens. |
-| Docomo Kids Keitai (JP) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Strong telco-integrated kids line; Japan-specific distribution/regulatory context. |
-| KDDI mamorino (JP) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Kids watch/phone model; Japan-specific distribution/regulatory context. |
-| Kiwi Plus / LG U+ Kids Phone (KR) | ❌ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | Telco kids smartphone + guardian app + character UX; Korea telco distribution model. |
+| Product | SG available today | **Automated Graduated Access** | School Mode concept | Verifiable compliance for schools | Browser-free by design | No WhatsApp (v1 stance) | Strong parent admin | Location + safe zones | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| **FutureNet Phone (proposed)** | **Yes (launch in SG)** | **✅ (age 13–17 templates, auto-update)** | ✅ | ✅ | ✅ | ✅ | ✅ | (optional/SOS-first) | **Only solution with automated age-appropriate boundary updates.** Expert-reviewed, educator-approved templates. |
+| WisePhone (US) | ❌ | ❌ (static policy) | ⚠️ | ❌ | ✅ | ⚠️ | ✅ | ⚠️ | DTC healthy smartphone; static policies (same rules at 13 and 16); parents must manually adjust. |
+| Sage (UK) | ❌ | ❌ (manual parent updates) | ⚠️ | ⚠️ | ❌ | ❌ | ✅ | ⚠️ | Managed iPhone model; parents manually add/remove apps as child grows; no age templates. |
+| Karri (UK) | ❌ | ❌ (no smartphone path) | ⚠️ | ❌ | ✅ | ✅ | ⚠️ | ✅ | Screen-free comms + GPS; doesn't graduate to smartphone experience. |
+| BoT Talk (US) | ❌ | ❌ (no smartphone path) | ⚠️ | ❌ | ✅ | ✅ | ⚠️ | ✅ | Screen-free GPS + voice; doesn't graduate to smartphone experience. |
+| Docomo Kids Keitai (JP) | ❌ | ⚠️ (age-based tiers, but manual upgrade) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Strong telco-integrated kids line; parents manually upgrade to next tier; not automatic. |
+| KDDI mamorino (JP) | ❌ | ⚠️ (age-based tiers, but manual upgrade) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Kids watch/phone model; parents manually upgrade to next tier; not automatic. |
+| Kiwi Plus / LG U+ Kids Phone (KR) | ❌ | ❌ (static policy) | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | Telco kids smartphone; static policies; parents manually adjust as child grows. |
 
-**Key insight**: International competitors have proven demand, but none are Singapore-available or school-compliance-first.
+**Key insight**: International competitors have proven demand, but **none offer automated graduated access**. All require manual parent updates or have static policies (same rules at 13 and 16). FutureNet is the only solution with expert-reviewed, educator-approved age templates that update automatically.
 
 ---
 
@@ -258,9 +355,10 @@ We pursue a **dual-track approach**: B2C Kickstarter + School Pilot
 
 **Objective**: Validate consumer demand and fund device inventory
 
-**Positioning**: "The school-friendly phone Singapore parents have been asking for"
-- Emphasize parent control, graduated autonomy, safe communication
-- Soft mention of school compliance (not hero feature yet)
+**Positioning**: "The phone that grows with your child — set it once, we'll update it as they grow"
+- Emphasize graduated access with expert-reviewed age templates
+- Reduce parent stress (no annual parental control updates)
+- School compliance as supporting feature (not hero feature)
 
 **Target**:
 - 100–200 backers
@@ -282,9 +380,10 @@ We pursue a **dual-track approach**: B2C Kickstarter + School Pilot
 
 **Objective**: Build school partnerships and validate compliance model
 
-**Positioning**: "We have 200 parents using FutureNet; now we want your school's input"
+**Positioning**: "We have 200 parents using FutureNet's graduated access system; now we want your school's input on age-appropriate boundaries"
 - Leverage Kickstarter backers as proof of parent demand
-- Co-design school compliance features with 1–2 partner schools
+- Co-design age templates with educators and school counselors
+- Validate that expert-reviewed boundaries align with school policies
 - Offer free pilot devices and dedicated support
 
 **Pilot cohort**:
@@ -307,8 +406,9 @@ We pursue a **dual-track approach**: B2C Kickstarter + School Pilot
 
 **Objective**: Scale with differentiated positioning (school-approved)
 
-**Positioning upgrade**: "Now officially endorsed by [School Name] and [School Name]"
-- Hero feature: School compliance + verification
+**Positioning upgrade**: "Age templates reviewed by child development experts and approved by [School Name] and [School Name] educators"
+- Hero feature: Graduated access with expert-reviewed, educator-approved age templates
+- School compliance verifier as proof point (not hero feature)
 - Launch Edusave-eligible pricing tier
 - Target mainstream parents (not just early adopters)
 
@@ -346,9 +446,9 @@ We pursue a **dual-track approach**: B2C Kickstarter + School Pilot
    - Positions for seed round with multiple growth paths
 
 5. **Maintains differentiation**
-   - Phase 1: "School-friendly" (soft positioning)
-   - Phase 3: "School-approved" (hard positioning after pilot)
-   - Best of both worlds: consumer traction + institutional moat
+   - Phase 1: "Graduated access with expert-reviewed age templates" (core value prop)
+   - Phase 3: "Expert-reviewed + educator-approved" (adds institutional credibility)
+   - Best of both worlds: consumer traction (reduces parent stress) + institutional moat (expert/educator backing)
 
 ---
 
@@ -357,33 +457,40 @@ We pursue a **dual-track approach**: B2C Kickstarter + School Pilot
 **Alternatives today**:
 
 - **Mainstream smartphones + Screen Time / Family Link**
-  - Often bypassable; high parent effort; not school-verifiable
+  - High parent effort: Parents must manually update settings every year
+  - No expert guidance: Parents guess what's age-appropriate
+  - Bypassable: Kids find workarounds
   
 - **"Healthy smartphone" products (US/UK)**
-  - WisePhone, Sage: Proven demand, but not SG-available or school-compliance-first
-  - Limited availability in Singapore; not aligned to SG school policy wedge
+  - WisePhone, Sage: Static policies (same rules at 13 and 16)
+  - No graduated access: All-or-nothing approach
+  - Not SG-available; no expert-reviewed age templates
   
 - **Trackers / watches**
   - Don't solve teen needs for a real phone (calls, logistics)
+  - No path to smartphone independence
 
 **Our differentiator**:
-- **Phase 1–2**: Singapore-first, Android-based, parent-owned, strong enforcement
-- **Phase 3**: Only school-approved, Edusave-eligible device in Singapore market
+- **Core**: Only phone with **automatic age-appropriate boundary updates** (expert-reviewed, educator-approved)
+- **Supporting**: School compliance verifier, Edusave-eligible, Singapore-first
+- **Result**: Parents set it once; we handle the rest as kids grow
 
 ---
 
 ## Slide 14 — Defensibility (moat)
 
 **Near-term moat**:
-- **Distribution wedge**: School compliance + verifier + templates
+- **Expert network moat**: Relationships with child development experts and educators (hard to replicate)
+- **Content moat**: Age-appropriate templates (13–17) reviewed by experts, approved by educators
 - **Operational moat**: Provisioning + policy hardening + support playbooks
 - **Community moat**: Kickstarter backers become advocates and school pilot participants
 
 **Long-term moat**:
-- **Institutional moat**: School partnerships (hard for competitors to replicate)
-- **Data moat**: Anonymized compliance + exception patterns to improve School Mode design
+- **Product moat**: "Graduated access" system across ages (13–17) with expert-backed defaults
+- **Data moat**: Anonymized usage patterns inform age template improvements (what works at each age)
+- **Institutional moat**: School/educator partnerships validate age-appropriateness
 - **Financial moat**: Edusave integration (competitors can't easily access)
-- **Product moat**: "Graduated access" system across ages + approved-app ecosystem governance
+- **Network effects**: More experts + educators + parents → better age templates → more adoption
 
 ---
 
