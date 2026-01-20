@@ -250,7 +250,7 @@
 - [ ] **Week 2**: Draft school outreach materials
   - Email template for school principals/HODs
   - School pilot proposal (free devices, dedicated support, co-design opportunity)
-  - Compliance verifier demo (show how schools can verify device policies)
+  - Demo School Mode and age templates for school alignment
 
 **Workstream 3: Knox Development Continues** (Lead: Victoria, 20-30 hours part-time)
 - [ ] **Week 2**: Implement Age 15 template
@@ -283,7 +283,7 @@
   - Follow up with phone calls
   - Schedule exploratory meetings with 3-5 schools
 - [ ] **Week 4**: School meetings
-  - Present school pilot proposal (free devices, co-design, compliance verifier)
+  - Present school pilot proposal (free devices, co-design, School Mode demo)
   - Address concerns (data privacy, support load, policy flexibility)
   - Identify 1-2 schools willing to pilot in April-May
 
@@ -417,7 +417,7 @@
 **Workstream 3: School Liaison & Educator Feedback** (Lead: Software Engineer 2, 40 hours/week)
 - [ ] **Week 1-2**: School coordination
   - Meet with school principals, teachers weekly
-  - Collect educator feedback on compliance verifier
+  - Collect educator feedback on age templates and School Mode
   - Observe School Mode in action (visit schools, observe classrooms)
   - Identify policy adjustments needed (e.g., allow calculator app during math class)
 
@@ -447,10 +447,10 @@
   - Improve support automation (self-service troubleshooting, chatbot)
 
 **Workstream 3: School Endorsement Preparation** (Lead: Software Engineer 2, 40 hours/week)
-- [ ] **Week 3-4**: Compliance documentation
-  - Document pilot results (compliance rates, support load, parent NPS)
-  - Prepare school endorsement request (1-page summary for principals)
-  - Draft compliance verifier user guide for schools
+- [ ] **Week 3-4**: Pilot documentation
+  - Document pilot results (School Mode effectiveness, support load, parent NPS)
+  - Prepare educator endorsement request (1-page summary for teachers)
+  - Draft age template documentation for educators
   - Prepare case study (anonymized pilot data, parent testimonials)
 
 **Total effort: ~120 hours/week (all 3 full-time)**
@@ -513,7 +513,7 @@
 
 **Workstream 3: Product Roadmap** (Lead: Software Engineer 1, 40 hours/week)
 - [ ] **Week 3-4**: Roadmap planning
-  - Prioritize features for relaunch (compliance verifier, Edusave integration, Age 15-17 templates)
+  - Prioritize features for relaunch (Age 15-17 templates, parent portal enhancements, content marketing)
   - Plan technical debt reduction (code refactoring, test coverage)
   - Prepare for scale (infrastructure, support automation, device procurement)
 
@@ -533,16 +533,16 @@
   - Prepare email campaign (to Kickstarter backers + email list)
   - Run Facebook/Instagram ads (S$2K-3K budget)
   - Reach out to SG media (TechInAsia, e27, The Straits Times) for relaunch coverage
-- [ ] **Week 3-4**: School partnership expansion
+- [ ] **Week 3-4**: Educator partnership expansion
   - Reach out to 10-15 additional schools
-  - Offer compliance verifier for free (no device pilot required)
-  - Target: 5-10 schools using compliance verifier by end of July
+  - Offer educator review of age templates (collaboration opportunity)
+  - Target: 5-10 schools providing educator feedback by end of July
 
 **Workstream 2: Product Development** (Lead: Software Engineer 1, 40 hours/week)
-- [ ] **Week 1-2**: Compliance verifier development
-  - Build school-facing compliance verifier (web app)
-  - Allow schools to verify device policies (one-click check)
-  - Integrate with Knox Configure (read device policy status)
+- [ ] **Week 1-2**: Parent portal enhancements
+  - Build parent-facing dashboard improvements
+  - Add age template preview and customization features
+  - Improve onboarding flow for new parents
 - [ ] **Week 3-4**: Age template auto-update feature
   - Implement automatic age template updates (on student birthday or start of school year)
   - Test graduated access transitions (Age 13 → 14 → 15 → 16 → 17)

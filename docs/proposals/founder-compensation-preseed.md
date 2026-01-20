@@ -113,8 +113,8 @@ Based on S$350K raise with S$2.5K/month per founder:
 - 3 founders × S$2.5K/month × 9 months = **S$67.5K**
 
 ### Product Development (35% / ~S$122.5K)
-- Android launcher + School Mode + parent portal: S$80K–S$90K
-- Compliance verifier + school templates: S$20K–S$25K
+- Android launcher + School Mode + parent portal: S$90K–S$95K
+- Age template system + expert review workflow: S$10K–S$12.5K
 - Backend (enrollment, policy management, SOS): S$22.5K
 
 ### Pilot Inventory + Operations (30% / ~S$105K)

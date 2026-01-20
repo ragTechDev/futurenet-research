@@ -140,8 +140,8 @@ This document outlines three device sourcing strategies for the pilot phase, com
 - 3 founders × S$2.5K/month × 9 months = S$67.5K
 
 **Product Development (40% / S$120K)**
-- Android launcher + School Mode + parent portal: S$80K
-- Compliance verifier + school templates: S$20K
+- Android launcher + School Mode + parent portal: S$90K
+- Age template system + expert review workflow: S$10K
 - Backend (enrollment, policy management, SOS): S$20K
 
 **Pilot Inventory + Operations (20% / S$60K)** *(reduced from 30%)*
@@ -176,8 +176,8 @@ This document outlines three device sourcing strategies for the pilot phase, com
 - 3 founders × S$2.5K/month × 9 months = S$67.5K
 
 **Product Development (43% / S$120K)**
-- Android launcher + School Mode + parent portal: S$80K
-- Compliance verifier + school templates: S$20K
+- Android launcher + School Mode + parent portal: S$90K
+- Age template system + expert review workflow: S$10K
 - Backend (enrollment, policy management, SOS): S$20K
 
 **Pilot Inventory + Operations (18% / S$50K)** *(reduced from 30%)*

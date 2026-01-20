@@ -50,6 +50,8 @@
   margin: 18px auto 0;
   display: flex;
   justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
   visibility: hidden;
   opacity: 0;
   transform: translateY(6px);
