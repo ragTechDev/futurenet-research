@@ -1,0 +1,614 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #fdfbf7 0%, #f8f4ed 100%);
+}
+
+.hero {
+  padding: 4rem 2rem 3rem;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.heroContent {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease;
+  margin-bottom: 2rem;
+}
+
+.backButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateX(-4px);
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  opacity: 0.95;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.solutionSection {
+  background: linear-gradient(to bottom, #f0f9ff 0%, #e0f2fe 100%);
+}
+
+.partnersSection {
+  background: linear-gradient(to bottom, #fef3c7 0%, #fde68a 100%);
+}
+
+.ctaSection {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #1e293b;
+}
+
+.solutionSection .sectionTitle {
+  color: #0c4a6e;
+}
+
+.partnersSection .sectionTitle {
+  color: #78350f;
+}
+
+.ctaSection .sectionTitle {
+  color: white;
+}
+
+.problemBox {
+  background: white;
+  border-left: 4px solid #667eea;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.quote {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  font-style: italic;
+  color: #334155;
+  margin: 0;
+}
+
+.quote cite {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-style: normal;
+  color: #64748b;
+}
+
+.problemList {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.problemItem h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.problemItem p {
+  font-size: 1.125rem;
+  color: #475569;
+  line-height: 1.7;
+}
+
+.problemItem ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.problemItem li {
+  font-size: 1.125rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
+}
+
+.problemHighlight {
+  font-weight: 600;
+  color: #1e293b;
+  margin-top: 1rem;
+}
+
+.speechBubbles {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.speechBubble {
+  background: white;
+  padding: 1rem 1.25rem;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #334155;
+  border: 2px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.speechBubble:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-color: #cbd5e1;
+}
+
+.speechBubble::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: -8px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #e2e8f0;
+}
+
+.speechBubble::after {
+  content: '';
+  position: absolute;
+  left: 22px;
+  top: -5px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+}
+
+.existingSolutions {
+  margin-top: 3rem;
+}
+
+.existingSolutions h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+}
+
+.solutionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.solutionCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-top: 3px solid #ef4444;
+}
+
+.solutionCard h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.solutionCard p {
+  font-size: 1rem;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.valueProposition {
+  margin-bottom: 3rem;
+}
+
+.vpTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #0c4a6e;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ageTimeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.ageCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #667eea;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ageCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.2);
+}
+
+.ageNumber {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 0.5rem;
+}
+
+.ageCard h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.ageCard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ageCard li {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.ageCard li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: 600;
+}
+
+.expertBacking {
+  margin-top: 3rem;
+}
+
+.expertBacking h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #0c4a6e;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.expertGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.expertCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.checkmark {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.expertCard h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.expertCard p {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.featuresList {
+  display: grid;
+  gap: 2rem;
+}
+
+.featureCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #667eea;
+}
+
+.featureCard h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.featureTag {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #667eea;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.featureCard ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.featureCard li {
+  font-size: 1.125rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
+}
+
+.partnersIntro {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #78350f;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partnersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.partnerCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.partnerCard h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #78350f;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #fde68a;
+  padding-bottom: 0.5rem;
+}
+
+.partnerCard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.partnerCard li {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.partnerCard strong {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.valueProps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.valuePropCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-top: 3px solid #fbbf24;
+}
+
+.valuePropCard h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #78350f;
+  margin-bottom: 0.75rem;
+}
+
+.valuePropCard p {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.differentiatorGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.differentiatorCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #10b981;
+}
+
+.differentiatorCard h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.differentiatorCard p {
+  font-size: 1.125rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.differentiatorCard strong {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.ctaTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ctaText {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: white;
+  color: #667eea;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ctaButtonSecondary {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: transparent;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.ctaButtonSecondary:hover {
+  background: white;
+  color: #667eea;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .ageTimeline {
+    grid-template-columns: 1fr;
+  }
+
+  .solutionGrid,
+  .expertGrid,
+  .partnersGrid,
+  .valueProps,
+  .differentiatorGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+  }
+
+  .ctaButton,
+  .ctaButtonSecondary {
+    width: 100%;
+    text-align: center;
+  }
+}

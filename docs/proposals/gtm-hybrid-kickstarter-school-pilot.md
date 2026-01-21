@@ -113,12 +113,12 @@ This approach delivers faster revenue validation, reduces VC dilution, and creat
 1. **Target schools**: 2–3 secondary schools with progressive tech policies
 2. **Outreach**: Principal/VP meetings, emphasize parent demand (Kickstarter proof)
 3. **Value prop for schools**:
-   - Help parents comply with school phone policies
-   - Reduce classroom distractions and enforcement burden
-   - Co-design compliance verifier for school's specific policies
+   - Help parents provide age-appropriate devices for their children
+   - Reduce classroom distractions with School Mode
+   - Collaborate on age template review with educators
 4. **Pilot offer**:
    - 30–50 free pilot devices for interested families
-   - Free compliance verifier and school templates
+   - Educator input on age templates
    - Dedicated support channel for teachers and parents
 
 **Pilot cohort**:
@@ -147,22 +147,23 @@ This approach delivers faster revenue validation, reduces VC dilution, and creat
 **Objective**: Scale with differentiated positioning (school-approved)
 
 **Timeline**:
-- **Month 6**: Announce school endorsements
-- **Month 7**: Relaunch marketing with school-approved positioning
+- **Month 6**: Announce expert endorsements
+- **Month 7**: Relaunch marketing with expert-reviewed age templates
 - **Month 7–9**: Expand to 5–10 schools
 - **Month 9**: Prepare seed round with dual traction metrics
 
-**Positioning upgrade**: "Now officially endorsed by [School Name] and [School Name]"
-- Hero feature: School compliance + verification
-- Launch Edusave-eligible pricing tier
+**Positioning upgrade**: "Age templates reviewed by child development experts and approved by educators"
+- Hero feature: Graduated access with expert-reviewed, educator-approved age templates
+- Expert network as credibility moat
+- Launch affordable pricing tier (S$270)
 - Target mainstream parents (not just early adopters)
 
 **Go-to-market channels**:
-- **School partnerships**: Distribute compliance verifier to 5–10 schools
-- **DTC**: Continue online sales with school endorsement as trust signal
-- **Edusave pathway**: Work with MOE to enable Edusave payments
+- **DTC**: Online sales with expert endorsements as trust signal
+- **Parent communities**: Parenting forums, Facebook groups, influencer partnerships
+- **Content marketing**: Educational content on age-appropriate digital boundaries
 
-**Pricing tiers** (updated with school endorsement):
+**Pricing tiers** (updated with expert endorsement):
 - **Tier 1 (Full retail)**: S$349 device + S$10/month subscription
 - **Tier 2 (Edusave-eligible)**: S$299 device (Edusave-funded) + S$10/month
 - **Tier 3 (Subsidized)**: S$200 device (MOE FAS) + S$5/month
@@ -199,8 +200,8 @@ This approach delivers faster revenue validation, reduces VC dilution, and creat
 - 3 founders × S$3K/month × 9 months = S$81K
 
 **Product Development (36% / S$120K)** — Funded by VC
-- Android launcher + School Mode + parent portal: S$80K
-- Compliance verifier + school templates: S$20K
+- Android launcher + School Mode + parent portal: S$90K
+- Age template system + expert review workflow: S$10K
 - Backend (enrollment, policy management, SOS): S$20K
 
 **Kickstarter Campaign (7% / S$25K)** — Funded by VC
@@ -269,7 +270,7 @@ This approach delivers faster revenue validation, reduces VC dilution, and creat
 **Product**:
 - [ ] Dogfooding with 5–10 beta testers
 - [ ] Bug fixes and UX improvements
-- [ ] Compliance verifier prototype (for school pilot prep)
+- [ ] Parent portal enhancements (age template preview, customization)
 
 **School pilot prep**:
 - [ ] Identify 3–5 target schools
@@ -291,13 +292,13 @@ This approach delivers faster revenue validation, reduces VC dilution, and creat
 **School pilot**:
 - [ ] Secure commitment from 1–2 partner schools
 - [ ] Recruit 30–50 pilot families (20–30 from Kickstarter, 10–20 new)
-- [ ] Workshop with teachers to define school mode requirements
-- [ ] Finalize compliance verifier design
+- [ ] Workshop with teachers to review age templates
+- [ ] Finalize age template documentation for educators
 
 **Product**:
 - [ ] Iterate based on Kickstarter backer feedback
-- [ ] Build compliance verifier (school policy templates)
-- [ ] Implement educator override feature
+- [ ] Refine age templates based on educator feedback
+- [ ] Implement educator override feature (optional School Mode unlock)
 
 **Milestone**: 50–100 Kickstarter backers using FutureNet; 1–2 schools committed to pilot
 
@@ -312,14 +313,14 @@ This approach delivers faster revenue validation, reduces VC dilution, and creat
 
 **School pilot**:
 - [ ] Deploy pilot devices to 30–50 families
-- [ ] Train parents and students on School Mode
-- [ ] Train teachers on compliance verifier and educator override
-- [ ] Begin compliance monitoring (>95% target)
+- [ ] Train parents and students on School Mode and age templates
+- [ ] Train teachers on educator override (optional School Mode unlock)
+- [ ] Begin School Mode effectiveness monitoring (>95% target)
 
 **Product**:
 - [ ] School Mode reliability improvements
-- [ ] Compliance verifier dashboard for schools
 - [ ] Parent portal enhancements based on feedback
+- [ ] Age template refinements based on pilot data
 
 **Milestone**: 100–200 Kickstarter backers fully onboarded; 30–50 school pilot families deployed
 
@@ -370,10 +371,10 @@ This approach delivers faster revenue validation, reduces VC dilution, and creat
 
 ### Months 7–9: Scale with School Endorsement
 
-**School expansion**:
-- [ ] Onboard 3–5 additional schools (total 5–10 schools)
-- [ ] Distribute compliance verifier to all partner schools
-- [ ] Launch Edusave-eligible pricing tier
+**Educator partnerships**:
+- [ ] Onboard 3–5 additional schools for educator feedback (total 5–10 schools)
+- [ ] Collect educator endorsements for age templates
+- [ ] Explore Edusave-eligible pricing tier (if applicable)
 
 **DTC growth**:
 - [ ] Continue online sales with school endorsement as trust signal

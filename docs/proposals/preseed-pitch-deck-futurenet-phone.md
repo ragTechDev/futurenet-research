@@ -49,8 +49,8 @@ We interviewed 20+ Singapore parents. Three recurring personas:
 
 **The Pragmatist** (40%)
 - "I need to reach my child after school, but I don't want them scrolling TikTok in class."
-- Wants: reachability + school compliance
-- Pain: Screen Time is bypassable; schools won't endorse mainstream phones
+- Wants: reachability + age-appropriate boundaries
+- Pain: Screen Time is bypassable; no expert guidance on what's appropriate
 
 **The Safety-First Parent** (35%)
 - "What if there's an emergency and I can't reach them?"
@@ -102,12 +102,7 @@ We interviewed 20+ Singapore parents. Three recurring personas:
    - Parent portal to review and customize age templates
    - Override controls if needed (but defaults are expert-backed)
 
-4. **School compliance verifier** (supporting feature)
-   - Schools can verify device is policy-compliant (one-click check)
-   - School templates for common policies
-   - Institutional-grade credibility
-
-5. **SIM-unlocked, parent-owned**
+4. **SIM-unlocked, parent-owned**
    - Not tied to telco contracts
    - Parents choose carrier and plan
    - Device ownership stays with family
@@ -118,9 +113,10 @@ We interviewed 20+ Singapore parents. Three recurring personas:
 
 **Convergence of three trends**:
 
-1. **Singapore schools tightening phone policies** (2023–2024)
-   - More schools banning smartphones outright
-   - Parents asking: "What's the compliant alternative?"
+1. **Parent exhaustion with manual parental controls** (2023–2024)
+   - Parents spending hours updating Screen Time settings as kids grow
+   - No expert guidance on age-appropriate boundaries
+   - Constant family conflict over app access
 
 2. **Proven international demand** (US, UK, Japan, Korea)
    - WisePhone (US): $500K+ Kickstarter, subscription model works
@@ -406,16 +402,16 @@ We pursue a **dual-track approach**: B2C Kickstarter + School Pilot
 
 **Objective**: Scale with differentiated positioning (school-approved)
 
-**Positioning upgrade**: "Age templates reviewed by child development experts and approved by [School Name] and [School Name] educators"
+**Positioning upgrade**: "Age templates reviewed by child development experts and approved by educators"
 - Hero feature: Graduated access with expert-reviewed, educator-approved age templates
-- School compliance verifier as proof point (not hero feature)
-- Launch Edusave-eligible pricing tier
+- Expert network as credibility moat
+- Launch affordable pricing tier (S$270)
 - Target mainstream parents (not just early adopters)
 
 **Go-to-market channels**:
-- **School partnerships**: Distribute compliance verifier to 5–10 schools
-- **DTC**: Continue online sales with school endorsement as trust signal
-- **Edusave pathway**: Work with MOE to enable Edusave payments
+- **DTC**: Online sales with expert endorsements as trust signal
+- **Parent communities**: Parenting forums, Facebook groups, influencer partnerships
+- **Content marketing**: Educational content on age-appropriate digital boundaries
 
 **Target**:
 - 500–1,000 devices deployed by Month 9
@@ -472,7 +468,7 @@ We pursue a **dual-track approach**: B2C Kickstarter + School Pilot
 
 **Our differentiator**:
 - **Core**: Only phone with **automatic age-appropriate boundary updates** (expert-reviewed, educator-approved)
-- **Supporting**: School compliance verifier, Edusave-eligible, Singapore-first
+- **Supporting**: Expert network moat, affordable pricing (S$270), Singapore-first
 - **Result**: Parents set it once; we handle the rest as kids grow
 
 ---
@@ -543,8 +539,8 @@ We are a Singapore-based team of 3 co-founders:
 - 3 founders × S$3K/month × 9 months = S$81K
 
 **Product Development (36% / S$120K)** — Funded by VC
-- Android launcher + School Mode + parent portal: S$80K
-- Compliance verifier + school templates: S$20K
+- Android launcher + School Mode + parent portal: S$90K
+- Age template system + expert review workflow: S$10K
 - Backend (enrollment, policy management, SOS): S$20K
 
 **Kickstarter Campaign (7% / S$25K)** — Funded by VC
