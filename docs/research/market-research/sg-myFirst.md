@@ -58,3 +58,14 @@ To his surprise, the market offered no suitable solution. It was from this reali
 It was not long after the launch of myFirst Camera that myFirst became the #1 Kid’s Camera Brand in South Korea. Driven by a larger vision to be the first touchpoint for tech products in children’s lives, myFirst has since diversified its offerings. With nearly 10 device categories, including watchphones, cameras, earbuds, 3D pens, sketch boards, and headphones, myFirst products are now available in over 36 countries.
 
 Since, G-Jay and our team of “Super Dads” continue to embrace the entrepreneurial spirit, coupled with a commitment to enhancing children’s interaction with technology, which has propelled myFirst into a global phenomenon. The need for their kids to engage more with new technology as the world is developing is more apparent than ever. The brand continues to thrive, connecting with families around the world and creating innovative, kid-friendly tech experiences for the next generation.
+
+## Manufacturing
+**Singapore-based manufacaturing**
+Fu Yu, which specialises in high-precision plastic products, will manufacture $15 million worth of myFirst’s products for the first year.
+
+Mass production of myFirst’s products will commence at Fu Yu’s factory in Tuas in April, while component production will also be done across the manufacturer’s six facilities located across Singapore, Malaysia and China, depending on myFirst’s requirements.
+
+## Funding
+-  myFirst has raised $2.57M over 3 rounds in funding from EduSpaze. Its first funding round was on Aug 12, 2021.
+- Two seed rounds (Aug 12 2021 and Feb 10 2023), and one grant (prize money) from K-Startup Grand (Nov 14, 2022)
+- Valuation: US$20 million (S$27.2 million) as of 2024. See [Straits Times](https://www.straitstimes.com/business/companies-markets/s-pore-tech-start-up-myfirst-eyes-us-ipo-after-partnership-with-sgx-listed-fu-yu)
