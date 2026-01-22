@@ -1,6 +1,6 @@
-# FutureNet Phone — Pre-Seed Investor Pitch Deck (UPDATED)
+# FutureNet Phone — Pre-Seed Investor Pitch Deck
 
-**Hybrid Kickstarter + School Pilot Strategy**
+**The First Smartphone That Grows With Your Teen**
 
 ---
 
@@ -8,133 +8,352 @@
 
 **FutureNet Phone**
 
-The smartphone that grows with your child — age-appropriate boundaries that update automatically every year
+The smartphone that grows with your child — expert-backed boundaries that update automatically as they mature
 
 Pre-seed deck — January 2026
 
 ---
 
-## Slide 2 — Problem
+## Slide 2 — Problem: Parents Are Exhausted and Alone
 
-Singapore parents face an exhausting dilemma:
+**The first smartphone decision is overwhelming for parents:**
 
-> "I want my child to be reachable, but I don't want to hand them the entire internet. And I don't want to spend hours every year updating parental controls as they grow."  
-> — Parent of 13-year-old, Sec 1
+> "I want my 13-year-old to have a phone for safety and coordination, but I don't want to hand them the entire internet. And I have no idea what's actually appropriate at each age."  
+> — Parent seeking first phone for teenager, Reddit
 
-**The problem**:
+**Three painful realities**:
 
-- **Kids need phones** (logistics, safety, emergencies)
-- **But digital boundaries must evolve** as kids mature (13-year-old ≠ 16-year-old)
-- **Parents are exhausted** managing this:
-  - Reviewing and updating Screen Time settings every year
-  - Deciding which apps are age-appropriate
-  - Constant negotiations: "Why can't I have Instagram? My friend has it!"
-  - Guessing what's developmentally appropriate
+### 1. Parents are guessing what's age-appropriate
+- "Should my 13-year-old have Instagram? YouTube? WhatsApp?"
+- "How much screen time is too much at 14 vs. 16?"
+- No expert guidance — parents are figuring it out alone
+- Constant family conflict: "Why can't I have TikTok? My friend has it!"
 
-**Existing solutions fail**:
-- **Mainstream phones + Screen Time**: High parent effort, bypassable, no expert guidance on age-appropriateness
-- **"Healthy phones"**: Static policies (same rules at 13 and 16), no graduated access
-- **Watches/trackers**: Don't meet teen expectations for a "real phone"
+### 2. Parental controls require constant manual updates
+- Screen Time / Family Link settings must be reviewed and updated every year as kids mature
+- Parents spend hours researching, configuring, and negotiating
+- What worked at 13 doesn't work at 15 — but who decides what changes?
+
+### 3. Existing solutions fail the "good enough" test
+
+**Mainstream phones** (Samsung, iPhone + Screen Time):
+- ❌ High parent effort: Manual updates every year
+- ❌ Easily bypassed: VPNs, factory resets, alternate accounts
+- ❌ No expert guidance: Parents guess what's developmentally appropriate
+- ❌ All-or-nothing: Either full smartphone or constant restrictions
+
+**"Safe phones"** (Bark, Gabb, WisePhone):
+- ❌ Static policies: Same rules at 13 and 16 (no graduated access)
+- ❌ Too restrictive: Teens reject "baby phones" that isolate them from peers
+- ❌ Expensive subscriptions: $15-30/month ongoing costs
+- ❌ Not available in Singapore
+
+**Watches/trackers** (myFirst, Karri):
+- ❌ Don't meet teen expectations for a "real phone"
+- ❌ No path to smartphone independence
+
+### 4. Parents are already familiar with managed devices (PLDs)
+
+**Personal Learning Devices (PLDs) in Singapore schools**:
+- Every secondary school student has a school-issued laptop or tablet
+- Managed by schools for in-school learning and teaching
+- Parents understand the concept of managed devices for specific purposes
+
+**But PLDs don't solve the personal communication device problem**:
+- ❌ **PLDs are for learning, not communication**: Laptops/tablets for schoolwork, not for staying in touch with family
+- ❌ **PLDs are school-managed for school hours**: Focus on in-school use, not holistic child development
+- ❌ **PLDs are not smartphones**: Can't replace the need for a personal phone for coordination and safety
+
+**The gap**: Parents still need to buy their child a **personal smartphone** for communication, coordination, and safety — and they're on their own figuring out what's appropriate.
 
 **Result**: Parents either:
-1. Give in and hand over a full smartphone (distraction risk, too much too soon)
-2. Stress over manual parental control updates every year (exhausting, guesswork)
-3. Hold out with no device (safety concerns, logistics friction)
+1. ✋ **Give in** → Hand over full smartphone (too much too soon, distraction risk)
+2. 😰 **Stress out** → Spend hours managing parental controls every year (exhausting guesswork)
+3. ⏸️ **Hold out** → No device (safety concerns, logistics friction, teen resentment)
 
 ---
 
-## Slide 3 — Parent personas (from Singapore research)
+## Slide 3 — Parent personas (from research + Reddit discussions)
 
-We interviewed 20+ Singapore parents. Three recurring personas:
+We interviewed 20+ Singapore parents and analyzed parent discussions on Reddit. Three recurring personas:
 
-**The Pragmatist** (40%)
-- "I need to reach my child after school, but I don't want them scrolling TikTok in class."
-- Wants: reachability + age-appropriate boundaries
-- Pain: Screen Time is bypassable; no expert guidance on what's appropriate
+**The Overwhelmed First-Timer** (45%)
+- "My 13-year-old is getting their first phone. I have no idea what's appropriate."
+- Currently using: Nokia 105 dumb phone or hand-me-down with heavy restrictions
+- **Pain points**:
+  - No expert guidance on age-appropriate boundaries
+  - Paralyzed by choices: "Should they have Instagram? YouTube? How much screen time?"
+  - Afraid of giving too much too soon
+  - Don't want to repeat mistakes they see other parents making
+- **What they want**: "Just tell me what's appropriate for a 13-year-old, backed by experts"
+- **PLD context**: "My child has a school laptop for learning. Now I need a personal phone for communication — but I don't know how to manage it."
 
-**The Safety-First Parent** (35%)
-- "What if there's an emergency and I can't reach them?"
-- Wants: SOS button, location (opt-in), reliable calls/SMS
-- Pain: Watches don't feel like "real phones" to teens; adoption resistance
+**The Exhausted Manager** (35%)
+- "I'm tired of being the full-time parental control admin."
+- Currently using: Mainstream phone with Screen Time / Family Link
+- **Pain points**:
+  - Spending hours every year updating parental controls as child matures
+  - Constant negotiations: "Why can't I have this app? My friend has it!"
+  - Controls are easily bypassed (VPNs, factory resets, workarounds)
+  - No guidance on when to loosen restrictions
+- **What they want**: "Set it once, and have it update automatically as my child grows"
+- **PLD context**: "The school manages the laptop for learning. I wish someone could manage the phone for overall development — not just school hours."
 
-**The Gradualist** (25%)
-- "I want to teach digital responsibility step-by-step, not all-or-nothing. But I don't know what's appropriate at each age."
-- Wants: graduated access (start with calls/SMS, add apps over time) with expert guidance
-- Pain: No product supports phased autonomy; it's either full smartphone or nothing. And no guidance on what's age-appropriate.
+**The Holistic Parent** (20%)
+- "I want a phone that supports my child's development across their whole day, not just school hours."
+- Currently using: Mainstream phone with manual controls, trying to balance different contexts
+- **Pain points**:
+  - PLDs focus on school hours and learning, but phones are used all day
+  - Need to consider homework time, family time, sleep, social development
+  - Want expert guidance on healthy digital habits beyond just "screen time limits"
+  - Looking for developmental appropriateness, not just restrictions
+- **What they want**: "A phone managed holistically by experts who understand child development, not just school compliance"
 
 ---
 
-## Slide 4 — Solution
+## Slide 4 — Solution: Expert-Backed Boundaries That Grow With Your Teen
 
-**FutureNet Phone**: The smartphone that grows with your child — age-appropriate boundaries that update automatically every year.
+**FutureNet Phone**: The first smartphone with **automatic age-appropriate boundaries** — backed by child development experts, not parent guesswork.
 
 **Core value proposition**:
 
-**"Set it once, and we'll update it as your child grows."**
+**"Set it once. We'll update it as your child grows — backed by experts."**
 
-- **Age 13**: Calls/SMS only, no browser, no social media, School Mode during school hours
-- **Age 14**: Add messaging apps (parent-approved), basic productivity apps
-- **Age 15**: Add educational social media (YouTube with restrictions), maps, music
-- **Age 16**: Add broader app access, graduated browser access (safe search enforced)
-- **Age 17**: Near-full smartphone experience, preparing for independence
+### How it works: Graduated Access System
+
+**Age 13** (First phone):
+- Calls/SMS with parent-approved contacts
+- No browser, no social media
+- Basic utilities (calculator, calendar, clock)
+- Location sharing (parent opt-in)
+- **Why**: Establish communication and safety without distraction
+
+**Age 14** (Building trust):
+- Add messaging apps (WhatsApp, parent-approved contacts)
+- Educational apps (Khan Academy, Duolingo)
+- Music streaming (Spotify with explicit content filter)
+- **Why**: Support school coordination and productive use
+
+**Age 15** (Expanding horizons):
+- Add YouTube (restricted mode enforced)
+- Maps and navigation
+- Photo sharing (within approved contacts)
+- **Why**: Enable independence while maintaining guardrails
+
+**Age 16** (Preparing for independence):
+- Add broader app access (parent-approved app store)
+- Graduated browser access (safe search enforced, time limits)
+- Social media (Instagram, with time limits and monitoring)
+- **Why**: Practice responsible use before full independence
+
+**Age 17** (Near-adult):
+- Near-full smartphone experience
+- Reduced restrictions, increased autonomy
+- Preparing for transition to adult device
+- **Why**: Final year of scaffolded independence
+
+### Why this works
 
 **Every age template is**:
 - ✅ **Reviewed by child development experts** (psychologists, digital wellness researchers)
-- ✅ **Approved by educators** (teachers, school counselors)
-- ✅ **Updated automatically** (no parent effort required)
+- ✅ **Validated by youth mental health professionals** (IASH, child psychiatrists)
+- ✅ **Updated automatically** at the start of each school year (no parent effort)
 - ✅ **Customizable** (parents can adjust if needed, but defaults are expert-backed)
 
-**Core features**:
+**Result**: Parents get **expert guidance** instead of guesswork, and **automatic updates** instead of annual stress.
 
-1. **Graduated Access System** (the hero feature)
-   - Age-appropriate boundaries that update automatically start of a new school year
-   - Expert-reviewed templates for ages 13–17
-   - Parents don't need to guess what's developmentally appropriate
-   - Reduces parent stress and family conflict
+---
 
-2. **School Mode** (auto-activates during school hours)
-   - Locks device to calls/SMS only (whitelisted contacts)
-   - No browser, no social media, no games
-   - Optional educator override (teacher can unlock for approved use)
+### Core features
 
-3. **Parent-managed device** (Android Enterprise Device Owner)
-   - Strong enforcement (not bypassable via VPN, hidden apps, or factory reset)
-   - Parent portal to review and customize age templates
-   - Override controls if needed (but defaults are expert-backed)
+**1. Graduated Access System** (the hero feature)
+- Age-appropriate boundaries that update automatically
+- Expert-reviewed templates for ages 13–17
+- Parents don't need to guess what's developmentally appropriate
+- Reduces parent stress and family conflict
+- **No installation required**: Phone comes pre-configured out of the box — parents don't need to install apps, configure settings, or troubleshoot technical issues
+- **Differentiator**: Only phone with automatic age progression, ready to use immediately
 
-4. **SIM-unlocked, parent-owned**
-   - Not tied to telco contracts
-   - Parents choose carrier and plan
-   - Device ownership stays with family
+**2. Holistic Management (Beyond School Hours)**
+- **Different from PLDs**: PLDs are school-managed for in-school learning; FutureNet is parent-managed for holistic child development
+- **All-day context**: Considers how a child uses their phone across the entire day — school hours, homework time, family time, sleep, social development
+- **Expert-backed for development**: Managed by child & adolescent psychiatrists and cybersafety experts who look beyond just learning/teaching to overall child development
+- **Parent-owned & controlled**: Parents own the device and customize based on their family values
+- **Differentiator**: Holistic child development focus, not just school compliance
+
+**3. Focus Mode** (optional, parent-configured)
+- Parents can set "focus hours" (e.g., during school, homework time, bedtime)
+- Locks device to calls/SMS only during focus hours
+- Parent-configured, not school-mandated
+- **Differentiator**: Parent choice, not institutional requirement
+
+**4. SIM-Unlocked, No Lock-In**
+- Not tied to telco contracts
+- Parents choose carrier and plan
+- Device ownership stays with family
+- Works with any SG carrier (Singtel, StarHub, M1, Gomo, etc.)
+- **Differentiator**: True ownership, no vendor lock-in
 
 ---
 
 ## Slide 5 — Why now?
 
-**Convergence of three trends**:
+**Convergence of four trends creates perfect timing**:
 
-1. **Parent exhaustion with manual parental controls** (2023–2024)
-   - Parents spending hours updating Screen Time settings as kids grow
-   - No expert guidance on age-appropriate boundaries
-   - Constant family conflict over app access
+### 1. Parents are already familiar with managed devices through PLDs (2020-present)
 
-2. **Proven international demand** (US, UK, Japan, Korea)
-   - WisePhone (US): $500K+ Kickstarter, subscription model works
-   - Sage (UK): Managed iPhone model, strong parent adoption
-   - Kiwi Plus (Korea): Telco-integrated kids phone, 100K+ users
-   - **Gap 1**: No Singapore-localized, school-first solution
-   - **Gap 2**: No competitor offers automated graduated access (all have static policies or require manual parent updates)
+**Personal Learning Devices (PLDs) program**:
+- Every secondary school student has a school-issued laptop or tablet
+- Managed by schools for in-school learning and teaching
+- Parents understand the concept of managed devices for specific purposes
+- Managed using Device Management Applications (DMAs) like Jamf, Lightspeed Systems
 
-3. **Singapore government pushing digital literacy + device subsidies**
-   - MOE Personal Learning Device (PLD) program: Edusave-funded devices for students
-   - Precedent for school-approved, subsidized devices
-   - Opportunity: Position FutureNet as Edusave-eligible "communication device"
+**What parents learned from PLDs**:
+- Managed devices can work when they have a clear, focused purpose (learning)
+- Parents are comfortable with the concept of expert-managed boundaries
+- But PLDs are for **learning**, not **communication** — and they're laptops/tablets, not smartphones
+
+**The gap parents now recognize**:
+- "My child has a managed laptop for school. But I still need to buy them a **personal smartphone** for communication, coordination, and safety."
+- "The school manages the laptop for learning. Who helps me manage the phone for **holistic child development**?"
+- **Opportunity**: Parents are ready for a **personal communication device** with expert-backed management — different from PLDs, but building on familiar concepts
+
+### 2. Parent exhaustion with manual parental controls (2023–2024)
+
+**Reddit discussions show consistent pain points**:
+- Parents spending hours every year updating Screen Time / Family Link settings
+- No expert guidance: "I have no idea what's appropriate for a 13-year-old"
+- Constant family conflict: "Why can't I have TikTok? My friend has it!"
+- Guesswork and stress: "What worked at 13 doesn't work at 15 — but who decides?"
+
+**What parents are asking for**:
+- "Easy parental control setup" — set it and forget it
+- "Bypass-resistant controls" — can't be easily circumvented
+- "Graduated access" — unlock features as teen matures
+- "Expert guidance" — stop guessing what's age-appropriate
+
+**Gap**: No mainstream solution offers this. Parents are exhausted and alone.
+
+### 3. Proven international demand (US, UK, Japan, Korea)
+
+**DTC "safe phone" models work**:
+- WisePhone (US): $500K+ Kickstarter, subscription model validated
+- Sage (UK): Managed iPhone model, strong parent adoption
+- Bark Phone (US): AI monitoring + Samsung hardware, popular in parenting communities
+- Kiwi Plus (Korea): Telco-integrated kids phone, 100K+ users
+
+**Critical gaps in existing solutions**:
+- ❌ **No automated graduated access**: All have static policies or require manual parent updates
+- ❌ **Not available in Singapore**: WisePhone, Sage, Bark are US/UK only
+- ❌ **Expensive subscriptions**: $15-30/month ongoing costs
+- ❌ **Too restrictive or too open**: No middle ground that grows with teens
+
+**Opportunity**: FutureNet is the **first phone with automated age-appropriate boundaries** — and the **first available in Singapore**.
+
+### 4. Age 13 is the critical decision point
+
+**Parent behavior patterns**:
+- Ages 7-10: Basic phone or smartwatch (Nokia 105, GPS tracker)
+- Ages 11-12: Feature phone or very restricted smartphone
+- **Age 13**: First "real" smartphone (minimum age for social media, secondary school transition)
+
+**Market timing**:
+- ~70,000 Sec 1-2 students in Singapore (ages 13-14)
+- Parents making first smartphone decision at this age
+- High willingness to pay for "getting it right" the first time
+- **Opportunity**: Capture parents at the critical decision moment
 
 ---
 
-## Slide 5a — Expert & Educator Partnerships (Building Trust in Age Templates)
+## Slide 5a — Singapore Market Validation: Proven Success in Child Safety Tech
 
-**Our age-appropriate templates are not guesswork — they're backed by experts and educators.**
+**Singapore-based companies are winning globally in child safety and KidsTech — demonstrating strong market potential.**
+
+### k-ID: Child Safety Compliance Platform
+
+**Company**: KIDENTIFY PTE. LTD (Singapore)  
+**Founded**: April 2023  
+**Mission**: Age assurance and compliance platform for games, apps, and platforms globally
+
+**What they do**:
+- B2B platform providing age verification, parental consent, and compliance tools
+- Serves 200+ markets with jurisdiction-specific regulatory compliance
+- Enables platforms to create age-appropriate experiences for kids and teens
+
+**Traction & Funding**:
+- **$51M total raised** (Pre-seed, Seed, Series A)
+- **Series A (June 2024)**: $45M USD led by Andreessen Horowitz and Lightspeed Venture Partners
+- Backed by: a16z, Lightspeed, Okta, Z Venture Capital (SoftBank/Naver JV), Konvoy Ventures, TIRTA Ventures
+- **Global reach**: Serving platforms worldwide with compliance infrastructure
+
+**Why this matters for FutureNet**:
+- Validates **massive investor appetite** for child safety tech from Singapore
+- Demonstrates **global scalability** of Singapore-based child safety solutions
+- Shows **B2B and B2C models** both work in this space
+- **Potential partnership**: k-ID's compliance expertise could validate FutureNet's age-appropriate templates
+
+---
+
+### myFirst: KidsTech Ecosystem
+
+**Company**: myFirst (Singapore)  
+**Founded**: 2017  
+**Mission**: World's first KidsTech ecosystem — safe tech products for children
+
+**What they do**:
+- Consumer hardware for kids: smartwatches, cameras, earbuds, 3D pens, headphones
+- **myFirst Fone S4** smartwatch ($199 USD): GPS tracking, parent-managed contacts, Class Mode, habit trackers
+- Available in **36 countries**, #1 kids camera brand in South Korea
+
+**Traction & Funding**:
+- **$2.57M raised** over 3 rounds (EduSpaze investor)
+- **Valuation**: $20M USD (S$27.2M) as of 2024
+- **Manufacturing**: Singapore-based production with Fu Yu ($15M first-year contract)
+- **IPO plans**: Eyeing US IPO after partnership with SGX-listed Fu Yu
+
+**Why this matters for FutureNet**:
+- Proves **strong consumer demand** for parent-managed kids devices in Singapore and globally
+- Demonstrates **premium pricing works** ($199 for smartwatch shows willingness to pay)
+- Shows **Singapore manufacturing** is viable for hardware startups
+- **Similar features**: Parent-managed contacts, Class Mode, GPS — validates FutureNet's feature set
+- **Different segment**: myFirst targets ages 7-12 (smartwatches); FutureNet targets ages 13-17 (smartphones) — complementary, not competitive
+
+---
+
+### Key Takeaways for Investors
+
+**1. Singapore is a proven launchpad for child safety tech**
+- k-ID: $51M raised, global B2B platform
+- myFirst: $20M valuation, 36 countries, IPO-bound
+- Both companies demonstrate **global scalability** from Singapore base
+
+**2. Investors are betting big on this space**
+- a16z, Lightspeed, Okta backing k-ID
+- EduSpaze backing myFirst
+- **Child safety tech is a hot sector** with strong investor interest
+
+**3. Multiple business models work**
+- k-ID: B2B SaaS (compliance platform)
+- myFirst: DTC hardware (consumer devices)
+- FutureNet: DTC hardware + subscription (managed smartphones)
+- **Opportunity**: FutureNet combines best of both — consumer hardware with expert-backed software
+
+**4. Premium pricing is validated**
+- myFirst Fone S4: $199 USD
+- FutureNet: S$270 (~$200 USD) + S$10/month subscription
+- Parents **will pay premium** for child safety and development-focused products
+
+**5. Singapore → Global is the proven path**
+- Both companies started in Singapore, scaled globally
+- FutureNet follows same playbook: Singapore first, then Malaysia, Hong Kong, regional expansion
+
+**Market signal**: If Singapore can produce a $51M child safety platform (k-ID) and a $20M KidsTech brand (myFirst), there's clear room for a **teen smartphone company** focused on holistic child development.
+
+---
+
+## Slide 5b — Expert Partnerships (Building Parent Trust in Age Templates)
+
+**Our age-appropriate templates are not guesswork — they're backed by child development experts.**
 
 ### Partnership ecosystem
 
@@ -151,68 +370,78 @@ graph TB
         IASH[IASH<br/>It All Starts Hear<br/>Youth Mental Health Programs<br/>In Discussion]
     end
     
-    subgraph "Educators"
-        MOE[MOE Teachers<br/>School Counselors<br/>In Discussion via MOE]
+    subgraph "Parent Community"
+        Parents[Parent Advisory Board<br/>20+ Singapore Parents<br/>Ongoing Feedback]
     end
     
     FutureNet --> Cyberlite
     FutureNet --> Psychiatrist
     FutureNet --> IASH
-    FutureNet --> MOE
+    FutureNet --> Parents
     
     Cyberlite -.->|Review age templates| FutureNet
     Psychiatrist -.->|Validate developmental appropriateness| FutureNet
     IASH -.->|Youth mental health guidance| FutureNet
-    MOE -.->|Educator approval & school alignment| FutureNet
+    Parents -.->|Real-world feedback & validation| FutureNet
     
     style FutureNet fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
     style Cyberlite fill:#52C41A,stroke:#389E0D,stroke-width:2px
     style Psychiatrist fill:#FFA940,stroke:#D46B08,stroke-width:2px
     style IASH fill:#FFA940,stroke:#D46B08,stroke-width:2px
-    style MOE fill:#FFA940,stroke:#D46B08,stroke-width:2px
+    style Parents fill:#FFA940,stroke:#D46B08,stroke-width:2px
 ```
 
-### Why this matters
+### Why this matters: Replacing parent guesswork with expert guidance
 
-**1. Expert-reviewed age templates (not parent guesswork)**
+**1. Expert-reviewed age templates**
 - **Cyberlite** (current partner): Child cybersafety experts review age-appropriate boundaries
 - **Dr. Adrian Loh** (child & adolescent psychiatrist): Validates developmental appropriateness of access progression
 - **IASH** (youth mental health): Ensures templates support healthy digital development
 
-**2. Educator-approved (school alignment)**
-- **MOE teachers & school counselors**: Validate that age templates align with school policies and educational goals
-- Ensures FutureNet devices are school-compliant by design
+**What this solves**: Parents no longer guess "Is Instagram appropriate for my 14-year-old?" — experts have already made evidence-based recommendations.
+
+**2. Parent advisory board (real-world validation)**
+- 20+ Singapore parents provide ongoing feedback on age templates
+- Validate that expert recommendations work in real family contexts
+- Help refine templates based on actual teen behavior and parent needs
+
+**What this solves**: Templates aren't just theoretical — they're validated by parents who've used them with their own teens.
 
 **3. Continuous improvement**
 - Partners review templates annually based on:
   - Latest child development research
   - Emerging digital risks (new apps, platforms, bypass tactics)
   - Anonymized usage data from FutureNet devices
+  - Parent feedback from advisory board
+
+**What this solves**: Templates stay current as technology and teen behavior evolves.
 
 ### Value proposition
 
-**For parents**: "You're not guessing what's age-appropriate — experts and educators have already figured it out."
+**For parents**: "You're not guessing what's age-appropriate — child development experts have already figured it out, and other parents have validated it works."
 
-**For schools**: "Our age templates are validated by child development experts and approved by educators."
-
-**For investors**: "We're building an expert network moat that competitors can't easily replicate."
+**For investors**: "We're building an expert network moat that competitors can't easily replicate. Parents trust experts more than they trust their own guesswork."
 
 ---
 
 ## Slide 6 — Competitor landscape
 
-| Product | SG available today | **Automated Graduated Access** | School Mode concept | Verifiable compliance for schools | Browser-free by design | No WhatsApp (v1 stance) | Strong parent admin | Location + safe zones | Notes |
-|---|---|---|---|---|---|---|---|---|---|
-| **FutureNet Phone (proposed)** | **Yes (launch in SG)** | **✅ (age 13–17 templates, auto-update)** | ✅ | ✅ | ✅ | ✅ | ✅ | (optional/SOS-first) | **Only solution with automated age-appropriate boundary updates.** Expert-reviewed, educator-approved templates. |
-| WisePhone (US) | ❌ | ❌ (static policy) | ⚠️ | ❌ | ✅ | ⚠️ | ✅ | ⚠️ | DTC healthy smartphone; static policies (same rules at 13 and 16); parents must manually adjust. |
-| Sage (UK) | ❌ | ❌ (manual parent updates) | ⚠️ | ⚠️ | ❌ | ❌ | ✅ | ⚠️ | Managed iPhone model; parents manually add/remove apps as child grows; no age templates. |
-| Karri (UK) | ❌ | ❌ (no smartphone path) | ⚠️ | ❌ | ✅ | ✅ | ⚠️ | ✅ | Screen-free comms + GPS; doesn't graduate to smartphone experience. |
-| BoT Talk (US) | ❌ | ❌ (no smartphone path) | ⚠️ | ❌ | ✅ | ✅ | ⚠️ | ✅ | Screen-free GPS + voice; doesn't graduate to smartphone experience. |
-| Docomo Kids Keitai (JP) | ❌ | ⚠️ (age-based tiers, but manual upgrade) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Strong telco-integrated kids line; parents manually upgrade to next tier; not automatic. |
-| KDDI mamorino (JP) | ❌ | ⚠️ (age-based tiers, but manual upgrade) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Kids watch/phone model; parents manually upgrade to next tier; not automatic. |
-| Kiwi Plus / LG U+ Kids Phone (KR) | ❌ | ❌ (static policy) | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | Telco kids smartphone; static policies; parents manually adjust as child grows. |
+| Product | SG available | **Automated Graduated Access** | **Expert-backed templates** | Parent-owned & controlled | Bypass-resistant | Price point | Notes |
+|---|---|---|---|---|---|---|---|
+| **FutureNet Phone** | **✅ Yes** | **✅ Ages 13–17, auto-update** | **✅ Expert-reviewed** | **✅ Parent-owned** | **✅ Strong enforcement** | **S$270 + S$10/mo** | **Only solution with automated age-appropriate boundaries.** Expert-backed, not parent guesswork. |
+| **Mainstream phones** (Samsung + Family Link, iPhone + Screen Time) | ✅ Yes | ❌ Manual updates | ❌ No guidance | ⚠️ Parent-configured | ❌ Easily bypassed | S$300-800 | High parent effort; easily bypassed; no expert guidance; all-or-nothing approach. |
+| **WisePhone** (US) | ❌ No | ❌ Static policy | ❌ No | ✅ Parent-owned | ✅ Strong | $399 + $25/mo | DTC healthy smartphone; static policies (same at 13 and 16); expensive subscription. |
+| **Sage Mobile** (UK) | ❌ No | ❌ Manual updates | ❌ No | ✅ Parent-owned | ⚠️ Moderate | £29/mo (24mo) | Managed iPhone; parents manually adjust; no age templates; UK only. |
+| **Bark Phone** (US) | ❌ No | ❌ Static policy | ⚠️ AI monitoring | ✅ Parent-owned | ✅ Strong | $99 + $15/mo | AI content monitoring; static policies; expensive subscription; US only. |
+| **Gabb Phone** (US) | ❌ No | ❌ No smartphone path | ❌ No | ✅ Parent-owned | ✅ Strong | $149 + $20/mo | Too restrictive; no path to smartphone; teens reject it; US only. |
+| **Watches/trackers** (myFirst, Karri) | ✅ Yes | ❌ No smartphone path | ❌ No | ✅ Parent-owned | N/A | S$200-300 | Screen-free; don't meet teen expectations for "real phone"; no graduation path. |
 
-**Key insight**: International competitors have proven demand, but **none offer automated graduated access**. All require manual parent updates or have static policies (same rules at 13 and 16). FutureNet is the only solution with expert-reviewed, educator-approved age templates that update automatically.
+**Key insights**:
+
+1. **No competitor offers automated graduated access**: All require manual parent updates or have static policies (same rules at 13 and 16)
+2. **No competitor offers expert-backed templates**: Parents are left to guess what's age-appropriate
+3. **International solutions aren't available in Singapore**: WisePhone, Sage, Bark, Gabb are US/UK only
+4. **FutureNet is the only solution that solves parent exhaustion**: Set it once, expert-backed boundaries update automatically as teens grow
 
 ---
 
@@ -256,42 +485,45 @@ We leverage **proven enterprise device management** (not custom hardware/OS):
 
 ---
 
-## Slide 9 — Business model (hybrid funding strategy)
+## Slide 9 — Business model (DTC-first strategy)
 
 We combine **VC funding + Kickstarter revenue** to reduce dilution and validate demand early.
 
 ### Funding sources
 
-**1. Pre-seed VC: S$250K** (this raise)
-- Funds product development, Kickstarter campaign, school pilot, founder salaries
+**1. Pre-seed VC: S$200K** (this raise)
+- Funds product development, Kickstarter campaign, founder salaries
 
-**2. Kickstarter: S$80K–S$120K** (Month 3)
-- Funds device inventory for B2C cohort
+**2. Kickstarter: S$100K–S$150K** (Month 3)
+- Funds device inventory for initial cohort
 - Validates consumer willingness to pay
+- Builds parent community and word-of-mouth
 
-**Total capital**: S$330K–S$370K
+**Total capital**: S$300K–S$350K
 
 ### Revenue model
 
 **Upfront device sale** (covers hardware + initial provisioning)
-- Tier 1 (Full retail): **S$270** (competitive with budget smartphones)
-- Tier 2 (Edusave-eligible): **S$220–S$250** (Edusave-subsidized)
-- Tier 3 (Subsidized): **S$150–S$180** (MOE FAS)
+- **Retail price**: **S$270** (competitive with mid-range smartphones)
+- **Kickstarter early bird**: **S$249** (limited quantity, campaign only)
 
 **Why S$270 works**:
-- **Competitive positioning**: Comparable to budget Android phones (Samsung A-series ~S$300–S$400)
-- **Easy parent decision**: Lower than mainstream smartphones, but delivers school compliance
-- **Edusave makes it compelling**: With Edusave subsidy, out-of-pocket cost drops to S$0–S$50 for most families
-- **No-brainer vs. alternatives**: Mainstream phone (S$400+) + ongoing enforcement hassle vs. FutureNet (S$270) + peace of mind
+- **Competitive positioning**: Lower than mainstream smartphones (Samsung A35 ~S$350, iPhone SE ~S$450)
+- **Easy parent decision**: Similar price to budget phones, but solves the "what's appropriate?" problem
+- **Value proposition**: Mainstream phone (S$350+) + hours of annual parental control updates vs. FutureNet (S$270) + automatic expert-backed updates
+- **No-brainer for overwhelmed parents**: "I'd pay S$270 to not have to figure this out myself"
 
 **Recurring subscription** (covers MDM licensing, support, policy updates, warranty)
-- S$10–S$12/month (or S$100–S$120/year)
+- **S$10/month** (or S$100/year prepaid)
+- Lower than competitors (Bark $15/mo, WisePhone $25/mo, Sage £29/mo)
 
-**Why this works**:
-- **Edusave compatibility** positions us alongside approved school devices (calculators, PLDs)
-- **Kickstarter** validates B2C demand without waiting for schools
-- **School partnerships** build institutional moat for long-term defensibility
-- Device is **SIM-unlocked** (no telco lock-in; parents choose carrier)
+**Why subscription works**:
+- **Ongoing value**: Expert-reviewed templates updated annually as research evolves
+- **Support included**: Parent support, device troubleshooting, warranty coverage
+- **Lower than alternatives**: Half the cost of international competitors
+- **Predictable revenue**: Recurring revenue builds defensible business
+
+**Device is SIM-unlocked** (no telco lock-in; parents choose carrier)
 
 ---
 
@@ -336,115 +568,138 @@ We combine **VC funding + Kickstarter revenue** to reduce dilution and validate 
 
 ### Path to profitability
 
-- **Kickstarter phase** (100–200 devices): Use refurbished devices (S$80 COGS) to minimize capital lock-up
-- **School pilot** (30–50 devices): Mix of refurbished + donated devices
-- **Commercial launch** (500+ devices): Transition to new devices (S$150 COGS) for quality consistency
+- **Kickstarter phase** (150–250 devices): Use refurbished devices (S$80 COGS) to minimize capital lock-up
+- **Post-Kickstarter growth** (250–500 devices): Continue DTC sales, refine based on feedback
+- **Scale phase** (500+ devices): Transition to new devices (S$150 COGS) for quality consistency
 - **Target**: Break-even at ~500 devices; profitable at 1,000+ devices
 
 ---
 
-## Slide 11 — Go-to-market (hybrid strategy)
+## Slide 11 — Go-to-market (DTC-first strategy)
 
-We pursue a **dual-track approach**: B2C Kickstarter + School Pilot
+We pursue a **direct-to-consumer approach** focused on parent communities and word-of-mouth.
 
-### Phase 1: B2C Kickstarter Launch (Months 1–3)
+### Phase 1: Kickstarter Launch (Months 1–4)
 
-**Objective**: Validate consumer demand and fund device inventory
+**Objective**: Validate consumer demand, fund inventory, build parent community
 
-**Positioning**: "The phone that grows with your child — set it once, we'll update it as they grow"
-- Emphasize graduated access with expert-reviewed age templates
-- Reduce parent stress (no annual parental control updates)
-- School compliance as supporting feature (not hero feature)
+**Positioning**: "The first phone that grows with your teen — expert-backed boundaries that update automatically"
+- **Hero message**: Stop guessing what's age-appropriate — experts have figured it out
+- **Core benefit**: Set it once, we'll update it as your child grows
+- **Trust signal**: Reviewed by child development experts, validated by parents
+- **Parent-owned**: No school dependencies, no institutional failures
 
 **Target**:
-- 100–200 backers
-- S$70K–S$110K in pre-orders
+- 150–250 backers
+- S$100K–S$150K in pre-orders
 - **Kickstarter pricing**:
-  - **Early Bird** (50 units): S$299 (device + 6-month subscription) — 11% discount
-  - **Standard** (100 units): S$349 (device + 1-year subscription) — S$270 device + S$79 value
-  - **Premium** (50 units): S$449 (device + 2-year subscription + premium case) — best value
+  - **Super Early Bird** (50 units): S$249 (device only) — 8% discount
+  - **Early Bird** (100 units): S$329 (device + 6-month subscription) — best value
+  - **Standard** (100 units): S$389 (device + 1-year subscription) — S$270 device + S$119 value
 
-**Why Kickstarter first**:
-- Proven playbook (WisePhone raised $500K+; Sage launched DTC successfully)
-- Fast revenue validation (3–4 months vs. 6–9 months for school partnerships)
-- Builds parent community for school pilot recruitment
-- Funds device inventory (reduces VC dilution)
+**Why Kickstarter works**:
+- Proven playbook: WisePhone raised $500K+, Bark Phone successful DTC launch
+- Fast validation: 3–4 months to revenue vs. 9–12 months for traditional channels
+- Builds parent community: Early adopters become advocates and provide feedback
+- Funds inventory: Reduces VC dilution, extends runway
+- Word-of-mouth engine: Parents share with other parents in their networks
 
----
-
-### Phase 2: School Pilot Program (Months 3–6, parallel to Kickstarter fulfillment)
-
-**Objective**: Build school partnerships and validate compliance model
-
-**Positioning**: "We have 200 parents using FutureNet's graduated access system; now we want your school's input on age-appropriate boundaries"
-- Leverage Kickstarter backers as proof of parent demand
-- Co-design age templates with educators and school counselors
-- Validate that expert-reviewed boundaries align with school policies
-- Offer free pilot devices and dedicated support
-
-**Pilot cohort**:
-- **Kickstarter backers** (20–30 families): Already using FutureNet, opt-in to school pilot
-- **New families** (10–20 families): Recruited through school, receive free pilot devices
-
-**Success metrics**:
-- >95% devices remain policy-compliant during school hours
-- >98% school-days School Mode activates as expected
-- School endorsement letter: "We recognize FutureNet Phone as compliant with our device policy"
-
-**Why school pilot second**:
-- Schools see existing parent demand (de-risks their endorsement)
-- Can iterate on school features without delaying B2C launch
-- Kickstarter backers become school pilot participants (dual validation)
+**Marketing channels**:
+- **Pre-launch email list**: 500–1,000 subscribers (parenting forums, Facebook groups)
+- **Parent influencers**: Partner with Singapore parenting bloggers/YouTubers
+- **Reddit/forums**: r/SingaporeParents, HardwareZone parenting forums
+- **Facebook groups**: Singapore parenting groups (100K+ members)
+- **Content marketing**: "What's age-appropriate for teens?" guides, expert interviews
 
 ---
 
-### Phase 3: Relaunch with School Endorsement (Months 6–9)
+### Phase 2: Post-Kickstarter Growth (Months 4–9)
 
-**Objective**: Scale with differentiated positioning (school-approved)
+**Objective**: Scale DTC sales, refine product based on feedback, build parent advisory board
 
-**Positioning upgrade**: "Age templates reviewed by child development experts and approved by educators"
-- Hero feature: Graduated access with expert-reviewed, educator-approved age templates
-- Expert network as credibility moat
-- Launch affordable pricing tier (S$270)
-- Target mainstream parents (not just early adopters)
+**Positioning**: "Trusted by 200+ Singapore parents — expert-backed phone that grows with your teen"
+- Leverage Kickstarter success as social proof
+- Feature parent testimonials and case studies
+- Highlight expert partnerships (Cyberlite, Dr. Adrian Loh, IASH)
+- Emphasize "parent-owned, parent-controlled" vs. school-managed systems
 
 **Go-to-market channels**:
-- **DTC**: Online sales with expert endorsements as trust signal
-- **Parent communities**: Parenting forums, Facebook groups, influencer partnerships
-- **Content marketing**: Educational content on age-appropriate digital boundaries
+- **DTC website**: Direct sales at S$270 retail price
+- **Parent communities**: Expand to more parenting forums, Facebook groups
+- **Word-of-mouth**: Referral program (S$20 credit for referrer + referee)
+- **Content marketing**: Educational blog posts, expert Q&As, parent guides
+- **PR**: Local media coverage (Straits Times, CNA, parenting magazines)
+
+**Parent advisory board**:
+- Recruit 20–30 Kickstarter backers for ongoing feedback
+- Monthly check-ins on age template effectiveness
+- Co-design future features based on real parent needs
+- Validate that expert recommendations work in practice
 
 **Target**:
-- 500–1,000 devices deployed by Month 9
-- 5–10 school partnerships
-- S$200K–S$400K revenue run-rate
+- 250–500 total devices deployed by Month 9
+- S$150K–S$300K revenue run-rate
+- 50+ parent testimonials and case studies
+- NPS >50 from early adopters
 
 ---
 
-## Slide 12 — Why hybrid works (dual validation)
+### Phase 3: Scale & Expand (Months 9–18)
 
-**Advantages of hybrid approach**:
+**Objective**: Reach 1,000+ devices, expand to regional markets, build sustainable growth engine
+
+**Positioning**: "Singapore's trusted phone for teens — 500+ families using FutureNet"
+- Established brand in Singapore parent community
+- Strong social proof and testimonials
+- Expert-backed credibility
+- Clear differentiation vs. mainstream phones
+
+**Growth channels**:
+- **Paid acquisition**: Facebook/Instagram ads targeting Singapore parents
+- **Partnerships**: Parenting organizations, family service centers
+- **Retail exploration**: Pop-up stores, electronics retailers (Challenger, Courts)
+- **Regional expansion**: Malaysia, Hong Kong (similar parent pain points)
+
+**Target**:
+- 1,000+ total devices deployed by Month 18
+- S$400K–S$600K revenue run-rate
+- Profitable at unit economics level
+- Ready for seed round (S$1M–S$2M) to scale nationally
+
+---
+
+## Slide 12 — Why DTC-first works
+
+**Advantages of DTC-first approach**:
 
 1. **Faster revenue validation**
    - Kickstarter: 3–4 months to first revenue
-   - School-only: 6–9 months to first revenue
+   - School partnerships: 9–12 months to first revenue (slow, bureaucratic)
+   - **Result**: Validate demand quickly, extend runway
 
 2. **Reduced VC dilution**
-   - Hybrid: S$250K VC + S$100K Kickstarter = S$350K total capital
-   - School-only: S$350K VC (higher dilution)
+   - DTC: S$200K VC + S$125K Kickstarter = S$325K total capital
+   - School-first: S$350K+ VC (higher dilution, longer time to revenue)
+   - **Result**: More capital-efficient path to traction
 
-3. **Dual validation de-risks both channels**
-   - B2C (Kickstarter): Validates consumer willingness to pay
-   - B2B2C (Schools): Validates institutional endorsement and compliance model
-   - If one channel underperforms, the other provides fallback
+3. **Parents understand managed devices (thanks to PLDs)**
+   - PLDs have familiarized parents with the concept of managed devices
+   - Parents see the value of expert-managed boundaries for specific purposes
+   - FutureNet extends this concept to **personal communication devices** with **holistic child development** focus
+   - Word-of-mouth from other parents > institutional endorsement
+   - **Result**: Building on familiar concepts, not introducing foreign ideas
 
-4. **Stronger investor narrative**
-   - "We have 200 paying customers AND 2 school partnerships" = dual traction
-   - Positions for seed round with multiple growth paths
+4. **Faster product iteration**
+   - Direct parent feedback loop (no school bureaucracy)
+   - Can iterate on age templates based on real usage across full day (not just school hours)
+   - Parent advisory board provides ongoing validation
+   - **Result**: Better product-market fit for holistic child development, faster
 
-5. **Maintains differentiation**
-   - Phase 1: "Graduated access with expert-reviewed age templates" (core value prop)
-   - Phase 3: "Expert-reviewed + educator-approved" (adds institutional credibility)
-   - Best of both worlds: consumer traction (reduces parent stress) + institutional moat (expert/educator backing)
+5. **Stronger investor narrative**
+   - "We have 250 paying customers with 50+ testimonials" = clear demand signal
+   - "Different from PLDs: personal communication device with holistic development focus" = clear differentiation
+   - "Expert-backed + parent-validated" = credibility from child development experts, not just school compliance
+   - **Result**: Clean traction story for seed round
 
 ---
 
@@ -515,17 +770,74 @@ We pursue a **dual-track approach**: B2C Kickstarter + School Pilot
 
 ---
 
-## Slide 16 — Team
+## Slide 16 — Team: The Right Founders at the Right Time
 
-We are a Singapore-based team of 3 co-founders:
+**We are three women software engineers** — a rare combination that gives us unique advantages in building FutureNet.
 
-- **2 Software Engineers**: Strong on secure systems, product engineering, and operational tooling
-- **1 Solutions Engineer**: Experience with enterprise device management and customer success
+### Who we are
 
-**Why we can execute**:
+**Three technical co-founders, all women software engineers**
+- Combined experience across **fintech, government, and startups**
+- Proven track record in building secure, scalable systems
+- **Fully technical team** — we build the product ourselves (capital-efficient)
+
+**Community leaders in Women Devs SG**
+- All three of us are **leads in Women Devs SG**, a women in tech community
+- Community consists of **many parents** — we hear parent pain points firsthand
+- Frequently create **events and conversations around parenthood and tech**
+- Deep understanding of how families navigate technology challenges
+
+**Established brand and trust in Singapore**
+- Co-hosts of **RagTech podcast** — already have a platform and audience
+- Built **brand identity and trust** in the tech community and wider Singapore community
+- Mission: **Making tech accessible** — aligns perfectly with FutureNet's values
+- Strong network for word-of-mouth and community-driven growth
+
+### Why we're uniquely positioned to execute
+
+**1. We deeply understand the problem (we're in the community)**
+- Women Devs SG community is full of parents navigating these exact challenges
+- We hear firsthand: "I don't know what's age-appropriate," "I'm exhausted managing parental controls," "I wish there was expert guidance"
+- **We're building for our community** — not guessing at parent needs
+
+**2. We have the technical chops to build it**
+- **Fintech experience**: Building secure, compliant systems with real-world consequences
+- **Government experience**: Understanding regulatory requirements, policy enforcement, and public trust
+- **Startup experience**: Moving fast, iterating, and building MVPs efficiently
+- **Combined skillset**: We can build the entire product in-house — Android launcher, MDM integration, parent portal, backend systems
+
+**3. We have built-in distribution and trust**
+- **Women Devs SG community**: 1,000+ members, many are parents — immediate early adopters
+- **RagTech podcast**: Established platform to share our story and mission
+- **Singapore tech community**: Strong network for word-of-mouth growth
+- **Trust and credibility**: Known for making tech accessible — parents will trust us
+
+**4. We're a unicorn team composition**
+- **Very few companies in the world can boast a full women, fully technical founding team**
+- In child development and parenting tech, this is a **massive advantage**:
+  - Parents (especially mothers) are the primary decision-makers for children's devices
+  - Women-led teams in parenting tech have higher trust and credibility with target audience
+  - We understand the nuances of parent concerns in ways male-dominated teams often miss
+- **Investors**: Backing a diverse, technical team in a market where representation matters
+
+### Why we can execute
+
+**Capital-efficient**:
+- Fully technical team — no need to outsource development
 - Leveraging proven enterprise device management primitives (not building hardware/OS from scratch)
-- Technical team can build product in-house (capital-efficient)
-- Singapore-based with local market knowledge and school network access
+- Community-driven growth reduces customer acquisition costs
+
+**Market access**:
+- Singapore-based with deep local market knowledge
+- Women Devs SG community provides immediate parent feedback loop
+- RagTech podcast provides built-in marketing channel
+
+**Mission-aligned**:
+- We're not just building a product — we're solving a problem we see in our own community
+- Making tech accessible for families aligns with our existing brand and mission
+- **This is personal** — we're building for the parents we know and care about
+
+**The bottom line**: We're three women software engineers who understand the problem deeply, have the technical skills to build the solution, and have built-in distribution through our community leadership. This is the **ideal team** to execute FutureNet.
 
 ---
 
