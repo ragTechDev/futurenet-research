@@ -24,7 +24,8 @@
 - Talks extensively with other parents about cybersecurity and smart devices
 
 ### Pain Points / Frustrations
-- **MDM bypass issues**: Sugirdha shared students in Singapore can bypass/disable MDM systems on school devices
+- **MDM bypass issues**: Sugirdha shared students in Singapore can bypass/disable MDM (Mobile Device Management Service - a component within the school's Device Management Application) systems on school devices
+  - *Note: This was a passing remark that Sugirdha heard from the kids and hasn't been verified, so credibility is uncertain*
 - **Network-only filtering limitations**: Traditional filters only work on school network, not at home
 - **VPN bypass**: Traditional firewalls (like Palo Alto) can be bypassed by VPNs
 - **Personal device gap**: Students' personal devices don't have web filters
@@ -63,7 +64,7 @@
 - **Active monitoring**: Try to monitor what child is watching, rarely alone
 
 ### Opportunities / Ideas
-- **Complement to MDM**: Cloudflare as extra security layer on top of existing school systems
+- **Complement to MDM**: Cloudflare as extra security layer on top of existing school MDM (Mobile Device Management Service) systems
 - **DNS filtering for personal devices**: When connected to school network
 - **Free base version**: Parents can use Cloudflare base version for free at home
 - **Sweeper management**: Comprehensive default filtering with granularity for custom rules
@@ -126,7 +127,7 @@
 
 ### Competitors
 - **Palo Alto Global Protect**: Can be bypassed by VPN, not user-friendly for schools, no own datacenters
-- **Traditional MDM**: Can be bypassed/disabled by students, network-layer only
+- **Traditional MDM (Mobile Device Management Service)**: Can be bypassed/disabled by students, network-layer only
 
 ---
 
