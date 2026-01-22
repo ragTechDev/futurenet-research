@@ -4,24 +4,75 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 1. Mobile Device Management (MDM)
+## 1. Device Management Application (DMA)
 
-**Definition:** Mobile Device Management (MDM) refers to software and policies used to remotely manage, configure, secure, and monitor devices such as smartphones and tablets.
+**Definition:** A Device Management Application (DMA) is a school-mandated application installed on learning devices. It is used on school-issued devices and may also be installed on student-owned devices with parental or guardian consent. Its stated purpose is to support classroom use of devices and to safeguard students' online behaviour.
 
-**Why it matters for us:** MDM allows schools or parents to enforce screen time limits, restrict apps, filter content, apply device‑wide settings, and manage devices at scale.
+**The DMA consists of three functional components:**
 
-**Key capabilities:**
-- App installation and blocking
-- Screen time enforcement
-- Content filtering
-- Location tracking (when legally permitted)
-- Remote lock and wipe
+1. **Mobile Device Management Service (MDM)**: A component within the DMA responsible for device and system management. It handles software and operating system updates, protects devices from malicious software, and applies filtering to block objectionable or non-educational internet content.
+
+2. **Classroom Management Service**: Used during lesson time to allow teachers to manage how students use their devices.
+
+3. **Usage Management Service**: Used to supervise and limit device use outside school hours (optional, decided by parents).
+
+**Why it matters for us:** The DMA provides comprehensive device management that spans classroom control, content filtering, and optional parental supervision outside school hours.
 
 **Learn more:** https://en.wikipedia.org/wiki/Mobile_device_management
 
 ---
 
-## 2. Device Profile (Management Profile)
+## 2. Mobile Device Management Service (MDM)
+
+**Definition:** Mobile Device Management (MDM) is a component within the Device Management Application (DMA) responsible for device and system management. More broadly, MDM refers to software and policies used to remotely manage, configure, secure, and monitor devices such as smartphones and tablets.
+
+**Why it matters for us:** MDM allows schools or parents to enforce screen time limits, restrict apps, filter content, apply device‑wide settings, and manage devices at scale.
+
+**Key capabilities:**
+- Software and operating system updates
+- Protection from malicious software
+- Content filtering to block objectionable or non-educational content
+- App installation and blocking
+- Screen time enforcement
+- Location tracking (when legally permitted)
+- Remote lock and wipe
+
+**Limitations:** Traditional MDM systems can sometimes be bypassed or disabled by tech-savvy students, and may only work at the network layer.
+
+**Learn more:** https://en.wikipedia.org/wiki/Mobile_device_management
+
+---
+
+## 3. Classroom Management Service
+
+**Definition:** A component of the Device Management Application (DMA) used during lesson time to allow teachers to manage how students use their devices.
+
+**Key capabilities:**
+- Real-time monitoring of student device activity
+- Ability to lock/unlock student devices
+- Screen sharing and broadcasting
+- App and website access control during class
+- Focus mode enforcement
+
+**Why it matters:** Enables teachers to maintain classroom control and ensure students stay on-task during lessons.
+
+---
+
+## 4. Usage Management Service
+
+**Definition:** A component of the Device Management Application (DMA) used to supervise and limit device use outside school hours. This service is optional and decided by parents or guardians.
+
+**Key capabilities:**
+- Screen time limits outside school hours
+- Bedtime and downtime scheduling
+- App usage monitoring and restrictions
+- Parental oversight of device activity
+
+**Why it matters:** Extends device management beyond school hours, giving parents control over their child's device usage at home while respecting parental choice.
+
+---
+
+## 5. Device Profile (Management Profile)
 
 **Definition:** A device profile is a configuration package — a set of rules and settings pushed to a device through an MDM system. Think of it as the "what" and "how" of device management.
 
@@ -42,7 +93,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 3. Enrolling a Device
+## 6. Enrolling a Device
 
 **Definition:** Device enrollment is the process of registering a phone or tablet into an MDM system so that profiles and policies can be applied.
 
@@ -55,7 +106,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 4. Samsung Knox
+## 7. Samsung Knox
 
 **Definition:** Samsung Knox is Samsung's enterprise‑grade security and device management platform built into Samsung devices at the hardware and OS level.
 
@@ -82,7 +133,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 5. Managed Profile / Work Profile
+## 8. Managed Profile / Work Profile
 
 **Definition:** A managed profile is a separate, isolated environment (container) on the device where managed apps and data live separately from personal apps. It creates a dual-environment setup on a single device.
 
@@ -107,7 +158,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 6. Screen Time Management
+## 9. Screen Time Management
 
 **Definition:** Screen time management refers to controlling how long and when a device or app can be used.
 
@@ -121,7 +172,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 7. App Whitelisting and Blacklisting
+## 10. App Whitelisting and Blacklisting
 
 **Whitelisting:** Only approved apps are allowed to be installed or used.
 
@@ -131,7 +182,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 8. Content Filtering
+## 11. Content Filtering
 
 **Definition:** Content filtering restricts access to inappropriate or harmful content based on categories, keywords, or ratings.
 
@@ -144,7 +195,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 9. Location Tracking
+## 12. Location Tracking
 
 **Definition:** The ability to view a device's approximate or real‑time location.
 
@@ -154,7 +205,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 10. Accessibility & Visual Comfort Settings
+## 13. Accessibility & Visual Comfort Settings
 
 **Examples:**
 - Reduced blue light
@@ -166,7 +217,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 11. Digital Wellbeing APIs
+## 14. Digital Wellbeing APIs
 
 **Definition:** Operating system APIs that provide data on app usage, screen time, and interaction patterns.
 
@@ -174,7 +225,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 12. Data Privacy & Compliance
+## 15. Data Privacy & Compliance
 
 **Key concepts:**
 - Data minimization
@@ -190,7 +241,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 13. Role‑Based Access Control (RBAC)
+## 16. Role‑Based Access Control (RBAC)
 
 **Definition:** RBAC restricts system access based on user roles.
 
@@ -202,7 +253,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 14. Zero‑Trust Security Model
+## 17. Zero‑Trust Security Model
 
 **Definition:** A security model that assumes no device or user is trusted by default.
 
@@ -210,7 +261,7 @@ A comprehensive guide to technical concepts, platforms, and terms for the Future
 
 ---
 
-## 15. Audit Logs and Monitoring
+## 18. Audit Logs and Monitoring
 
 **Definition:** Records of actions taken on a device or system.
 
