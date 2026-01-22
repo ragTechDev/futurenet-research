@@ -7,21 +7,22 @@
 - **Team**: 3 cofounders (2 software engineers, 1 solutions engineer), currently working professionals
 - **Sabbatical opportunity**: 1 cofounder has a month-long sabbatical in March 2026
 - **Current status**: Preparing to register business
-- **Goal**: Launch Kickstarter in Month 3, School Pilot in Month 4-6, Relaunch in Month 7-9
+- **Goal**: Launch Kickstarter in April-May (Months 4-5), DTC growth in Months 6-9
+- **Strategy**: DTC-first (no school pilot)
 
 ---
 
-## Timeline Overview (9 months: Jan 2026 - Sep 2026)
+## Timeline Overview (12 months: Jan 2026 - Dec 2026)
 
 ### Month 1: January 2026 (Foundation)
-### Month 2: February 2026 (Prototype & Pre-launch)
-### Month 3: March 2026 (Kickstarter Launch) ⭐ **Sabbatical month available**
-### Month 4: April 2026 (Kickstarter Fulfillment + School Recruitment)
-### Month 5: May 2026 (School Pilot Deployment)
-### Month 6: June 2026 (School Pilot Validation)
-### Month 7: July 2026 (Relaunch Preparation)
-### Month 8: August 2026 (Relaunch Execution)
-### Month 9: September 2026 (Scale & Seed Prep)
+### Month 2: February 2026 (Prototype Development)
+### Month 3: March 2026 (Pre-launch Marketing) ⭐ **Sabbatical month available**
+### Month 4: April 2026 (Kickstarter Campaign Launch)
+### Month 5: May 2026 (Kickstarter Fulfillment Begins)
+### Month 6: June 2026 (Complete Fulfillment + Product Iteration)
+### Month 7: July 2026 (DTC Launch)
+### Month 8-9: Aug-Sep 2026 (DTC Growth)
+### Month 10-12: Oct-Dec 2026 (Scale & Seed Prep)
 
 ---
 
@@ -183,134 +184,138 @@
 
 ---
 
-## Month 3: March 2026 (Kickstarter Launch) ⭐ **CRITICAL MONTH**
+## Month 3: March 2026 (Pre-launch Marketing) ⭐ **Sabbatical Month**
 
-**Status**: **1 cofounder full-time (sabbatical)**, 2 cofounders part-time ramping to full-time
+**Status**: **1 cofounder full-time** (sabbatical), 2 cofounders part-time (ramping to 30-40 hours/week)
 
-**Sabbatical allocation**: Use March sabbatical for cofounder leading Kickstarter (likely Software Engineer 2 or Solutions Engineer)
+**Critical month**: Build pre-launch momentum, email list, and community engagement for April Kickstarter launch.
 
-### Week 1 (Mar 1-7): Kickstarter Campaign Launch Prep
+### Week 1 (Mar 1-7): Pre-launch Email List Building Prep
 
 **Workstream 1: Campaign Page Finalization** (Lead: Saloni, 40 hours)
-- [ ] **Day 1-2**: Write campaign page copy
-  - Problem statement (parent exhaustion, no graduated access solutions)
-  - Solution (FutureNet Phone with expert-reviewed age templates)
-  - Product demo (video, screenshots, age template examples)
-  - Rewards tiers (Early Bird S$299, Standard S$349, Premium S$449)
-  - Team bio, timeline, risks & challenges
-- [ ] **Day 3-4**: Design campaign page
-  - Create graphics (age template infographic, expert partnership diagram)
-  - Upload video, images, GIFs
-  - Format for readability (short paragraphs, bullet points)
-- [ ] **Day 5-7**: Campaign review & optimization
-  - A/B test with focus group (10-15 parents)
-  - Incorporate feedback
-  - Submit for Kickstarter approval (2-3 day review)
+- [ ] **Day 1-3**: Build pre-launch landing page
+  - Problem statement (parent exhaustion, no expert guidance, different from PLDs)
+  - Solution teaser (expert-backed phone that grows with your teen)
+  - Email capture form ("Get notified when we launch")
+  - Early bird discount offer (S$20 off for email subscribers)
+- [ ] **Day 4-5**: Set up email marketing
+  - Email automation tool (Mailchimp, ConvertKit)
+  - Welcome email sequence (3-5 emails)
+  - Content: parent pain points, expert partnerships, product sneak peek
+- [ ] **Day 6-7**: Launch landing page
+  - Share on Women Devs SG community
+  - Post on personal social media
+  - Target: 200-300 email subscribers in Week 1
 
 **Workstream 2: Knox Prototype Polish** (Lead: Victoria, 20-30 hours part-time)
 - [ ] **Week 1**: Bug fixes from dogfood testing
-  - Fix critical bugs (School Mode activation, policy enforcement)
+  - Fix critical bugs (Focus Mode activation, policy enforcement)
   - Improve parent portal UX (simplify onboarding)
-  - Prepare demo devices for Kickstarter video/photos
+- [ ] **Week 1**: Expert interviews for age templates
+  - **Cyberlite** (2 hours): Review age 13-14 templates
+  - **Dr. Adrian Loh** (1.5 hours, if confirmed): Validate developmental appropriateness
+  - **IASH** (1.5 hours, if confirmed): Youth mental health perspective
+  - **MOE teachers** (2 hours): School policy alignment
+  - Prepare demo devices for campaign video/photos
 
-**Workstream 3: Pre-launch Marketing Blitz** (Lead: Natasha, 20-30 hours part-time)
-- [ ] **Week 1**: Influencer outreach
-  - Reach out to 10-15 SG parenting influencers (Instagram, TikTok, YouTube)
-  - Offer early bird discount codes for their audience
-  - Schedule launch day posts/stories
-- [ ] **Week 1**: Media outreach
-  - Send press release to SG tech media (TechInAsia, e27, Vulcan Post, The Straits Times)
-  - Pitch story angle: "SG startup tackles parent burnout with expert-backed phone"
-  - Schedule interviews for launch week
+**Workstream 3: Community Engagement** (Lead: Natasha, 20-30 hours part-time)
+- [ ] **Week 1**: Women Devs SG engagement
+  - Announce FutureNet project to community
+  - Share landing page in community channels
+  - Gather early feedback from parent members
+- [ ] **Week 1**: RagTech podcast prep
+  - Plan episode on FutureNet mission and journey
+  - Record episode (release in Week 2)
+  - Include landing page link in show notes
 
 **Total effort Week 1: ~80-100 hours (sabbatical cofounder full-time, others part-time)**
 
 ---
 
-### Week 2 (Mar 8-14): Kickstarter Campaign Launch 🚀
+### Week 2 (Mar 8-14): Content Marketing & Community Building
 
-**Workstream 1: Campaign Launch & Management** (Lead: Saloni, 50-60 hours)
-- [ ] **Day 1 (Launch day)**: Campaign goes live
-  - Announce to email list (500-1000 subscribers)
-  - Post on social media (Facebook, Instagram, LinkedIn)
-  - Activate influencer partnerships (launch day posts)
-  - Monitor campaign page, respond to comments/questions in real-time
-- [ ] **Day 2-7**: Daily campaign management
-  - Post daily updates (backer milestones, stretch goals, behind-the-scenes)
-  - Respond to backer questions within 2 hours
-  - Run Facebook/Instagram ads (S$1000-2000 budget for Week 2)
-  - Engage in SG parenting communities (Reddit, Facebook groups, forums)
-  - Track metrics: page views, conversion rate, backer demographics
+**Workstream 1: Content Marketing** (Lead: Saloni, 50-60 hours)
+- [ ] **Day 1-3**: Create educational content
+  - Blog post: "What's age-appropriate for teens? Experts weigh in"
+  - Blog post: "Why PLDs aren't enough: The personal phone gap"
+  - Parent guide: "5 signs your teen is ready for a smartphone"
+- [ ] **Day 4-7**: Distribute content
+  - Share on Women Devs SG, parenting forums, Facebook groups
+  - Post on personal LinkedIn, Instagram
+  - Engage in discussions on r/SingaporeParents
+  - Track metrics: landing page visits, email signups
+  - Target: 500-700 total email subscribers by end of Week 2
 
-**Workstream 2: School Pilot Recruitment Prep** (Lead: Natasha, 20-30 hours part-time)
-- [ ] **Week 2**: Identify target schools
-  - Research 5-10 SG secondary schools (Sec 1-2 focus)
-  - Identify warm introductions (parents, teachers, alumni)
-  - Prepare school partnership pitch deck (1-pager)
-- [ ] **Week 2**: Draft school outreach materials
-  - Email template for school principals/HODs
-  - School pilot proposal (free devices, dedicated support, co-design opportunity)
-  - Demo School Mode and age templates for school alignment
+**Workstream 2: Parent Influencer Outreach** (Lead: Natasha, 20-30 hours part-time)
+- [ ] **Week 2**: Identify parent influencers
+  - Research 10-15 SG parenting influencers (Instagram, TikTok, YouTube)
+  - Identify warm connections through Women Devs SG
+  - Prepare influencer partnership pitch
+- [ ] **Week 2**: Initial outreach
+  - Email influencers with early access offer
+  - Offer early bird discount codes for their audience
+  - Schedule April launch day posts/stories
 
-**Workstream 3: Knox Development Continues** (Lead: Victoria, 20-30 hours part-time)
-- [ ] **Week 2**: Implement Age 15 template
-  - Add educational social media (YouTube with restricted mode)
-  - Add maps (Google Maps), music (Spotify with parental controls)
-  - Test graduated access transition (Age 14 → Age 15)
+**Workstream 3: Kickstarter Campaign Prep** (Lead: Victoria, 20-30 hours part-time)
+- [ ] **Week 2**: Draft Kickstarter campaign page
+  - Write campaign copy (problem, solution, rewards)
+  - Create graphics (age template infographic, expert partnership diagram)
+  - Prepare video script and storyboard
 
 **Total effort Week 2: ~90-120 hours (sabbatical cofounder full-time, others part-time)**
 
 ---
 
-### Week 3-4 (Mar 15-31): Campaign Optimization & School Outreach
+### Week 3-4 (Mar 15-31): Kickstarter Video Production & Final Campaign Prep
 
-**Workstream 1: Kickstarter Campaign Optimization** (Lead: Saloni, 50-60 hours)
-- [ ] **Week 3-4**: Mid-campaign push
-  - Analyze campaign metrics (identify drop-off points)
-  - A/B test ad creatives (Facebook/Instagram)
-  - Launch stretch goals if >50% funded (e.g., "Unlock Age 16 template early")
-  - Host live Q&A session (Facebook Live, Instagram Live)
-  - Send email updates to subscribers (2-3 emails over 2 weeks)
-- [ ] **Week 4**: Final push (last 48 hours)
-  - "Last chance" email to subscribers
-  - Influencer reminder posts
-  - Social media countdown posts
-  - Monitor campaign until close
+**Workstream 1: Kickstarter Video Production** (Lead: Saloni, 50-60 hours)
+- [ ] **Week 3**: Video production
+  - Shoot video (parent testimonials, product demo, founder story)
+  - Highlight three women engineers building for their community
+  - Emphasize expert-backed, different from PLDs
+  - Edit video (3-5 minutes)
+- [ ] **Week 4**: Campaign page finalization
+  - Upload video to Kickstarter
+  - Finalize campaign copy and graphics
+  - Set rewards tiers (Super Early Bird S$249, Early Bird S$329, Standard S$389)
+  - Submit for Kickstarter approval (2-3 day review)
 
-**Workstream 2: School Outreach Begins** (Lead: Natasha, 30-40 hours part-time → **consider going full-time by Week 3**)
-- [ ] **Week 3**: Initial school outreach
-  - Email 5-10 schools with warm introductions
-  - Follow up with phone calls
-  - Schedule exploratory meetings with 3-5 schools
-- [ ] **Week 4**: School meetings
-  - Present school pilot proposal (free devices, co-design, School Mode demo)
-  - Address concerns (data privacy, support load, policy flexibility)
-  - Identify 1-2 schools willing to pilot in April-May
+**Workstream 2: PR & Media Outreach** (Lead: Natasha, 30-40 hours part-time)
+- [ ] **Week 3**: Prepare press materials
+  - Write press release: "Three women engineers launch expert-backed phone for teens"
+  - Prepare media kit (founder bios, product images, expert quotes)
+  - Identify target media (Straits Times, CNA, Mothership, TechInAsia, e27)
+- [ ] **Week 4**: Media outreach
+  - Send press release to SG tech and parenting media
+  - Pitch story angle: "Solving parent exhaustion with expert-backed tech"
+  - Schedule interviews for April launch week
 
-**Workstream 3: Kickstarter Fulfillment Prep** (Lead: Victoria, 20-30 hours part-time)
-- [ ] **Week 3-4**: Procurement planning
-  - Identify refurbished device supplier (100-200 units @ S$80)
-  - Negotiate pricing, lead time (target: 2-3 weeks)
-  - Prepare zero-touch enrollment workflow for bulk devices
-- [ ] **Week 3-4**: Fulfillment logistics
-  - Research fulfillment partners (SingPost, Ninja Van, self-fulfillment)
-  - Prepare packaging materials (boxes, inserts, user guides)
-  - Set up customer support infrastructure (email, ticketing system)
+**Workstream 3: Email List Growth Push** (Lead: Victoria, 20-30 hours part-time)
+- [ ] **Week 3-4**: Final email list push
+  - Share landing page in more parenting forums and Facebook groups
+  - Run small Facebook/Instagram ads (S$500-1000 budget)
+  - Engage Women Devs SG community for final push
+  - Send teaser emails to existing subscribers (campaign launching soon)
+  - Target: 800-1,000 total email subscribers by end of March
 
-**Total effort Week 3-4: ~100-130 hours (sabbatical cofounder full-time, Solutions Engineer ramping to full-time, SE1 part-time)**
+**Total effort Week 3-4: ~100-130 hours (sabbatical cofounder full-time, others part-time)**
 
-**Campaign closes**: End of March (30-day campaign)
-**Expected outcome**: 100-200 backers, S$70K-S$110K raised
+**End of March outcomes**:
+- 800-1,000 email subscribers ready for launch
+- Kickstarter campaign page approved and ready to launch
+- Video produced and uploaded
+- Media and influencer partnerships lined up
+- Women Devs SG community engaged and ready to support
 
-**⚠️ Decision point: By end of March, evaluate if 2nd cofounder (Solutions Engineer) should go full-time for school pilot in April.**
+**⚠️ Decision point: By end of March, evaluate if 1 cofounder should go full-time for April Kickstarter campaign.**
 
 ---
 
-## Month 4: April 2026 (Kickstarter Fulfillment + School Pilot Recruitment)
+## Month 4: April 2026 (Kickstarter Campaign Launch) 🚀
 
-**Status**: **2 cofounders full-time** (sabbatical ended, but 1 cofounder transitions to full-time), 1 cofounder part-time
+**Status**: **1 cofounder full-time** (transitioned after sabbatical), 2 cofounders part-time (ramping to 30-40 hours/week)
 
-### Week 1-2 (Apr 1-14): Kickstarter Fulfillment Begins
+### Week 1-2 (Apr 1-14): Kickstarter Campaign Launch & Management
 
 **Workstream 1: Device Procurement & Provisioning** (Lead: Saloni, 40 hours/week full-time)
 - [ ] **Week 1**: Order devices
