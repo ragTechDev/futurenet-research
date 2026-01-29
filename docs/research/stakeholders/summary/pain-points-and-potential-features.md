@@ -303,10 +303,144 @@
 - Target personas:
   - Inferred overwhelmed parent, P06
 
+### K) Authentic self-discovery and values-alignment tools (young adults)
+- Addresses:
+  - Pain point 10 (false personas)
+  - Pain point 12 (anxious optimization)
+- Feature ideas:
+  - Reflection prompts and workshops that help students discover authentic identity and values.
+  - CV/application builders that align with true self rather than AI-optimized versions.
+  - Career exploration frameworks that resist premature optimization and encourage risk appetite for discovery.
+  - "What are you optimizing for?" reflection exercises.
+- Target personas:
+  - University students (ages 18–26)
+  - Career guidance mentors
+
+### L) Face-to-face confidence and interpersonal skills development
+- Addresses:
+  - Pain point 11 (interpersonal skills erosion)
+- Feature ideas:
+  - Structured in-person interaction opportunities (mentoring, alumni connections, community events).
+  - "Touch Grass" style initiatives that encourage offline engagement.
+  - Friend-first mentoring approaches that model healthy relationship-building.
+  - Awareness-building about tech's impact on day-to-day personal interactions.
+- Target personas:
+  - University students (ages 18–26)
+  - Educational institutions
+
+### M) Skills-based assessment frameworks for authentic capability evaluation
+- Addresses:
+  - Pain point 10 (false personas)
+  - Pain point 11 (workplace readiness)
+- Feature ideas:
+  - In-person skills demonstrations and assessments.
+  - Portfolio-based evaluation that shows actual work rather than AI-polished descriptions.
+  - Interview formats that reveal authentic thinking and problem-solving.
+  - Emphasis on "shapeshifter" qualities: adaptability, relationship-building, using tech as tool not solution.
+- Target personas:
+  - Employers and hiring managers
+  - University career services
+
+### N) Contextual screen time guidance (not blanket rules)
+- Addresses:
+  - Pain point 2 (decision fatigue)
+  - Pain point 13 (enforcement difficulty)
+  - Pain point 14 (mental health exacerbation)
+- Feature ideas:
+  - Individualized recommendations based on child's specific needs and context.
+  - Recognition of benefits: autism spectrum online friendships, self-esteem building through games, necessary family communication.
+  - Balance guidance that considers "more online time means less time in physical world" tradeoffs.
+  - Avoid blanket restrictions that deprive social interaction opportunities.
+  - MOH guidelines integration with local context.
+- Target personas:
+  - All parent personas, especially P03, P08
+  - Parents of children with autism spectrum disorder
+
+### O) Parent modeling and "walk the talk" tools
+- Addresses:
+  - Pain point 13 (enforcement difficulty)
+  - Pain point 2 (conflict)
+  - Pain point 14 (mental health)
+- Feature ideas:
+  - Family-wide phone-free zones/times (e.g., dinner table) enforced for all members.
+  - Parent usage visibility to children (transparency).
+  - Family chat group behavior modeling tools.
+  - "No secrecy rule" templates established from young age.
+  - Reminders that children take after what parents do in both physical and digital worlds.
+- Target personas:
+  - All parent personas
+
+### P) Age-appropriate content enforcement with parental co-viewing support
+- Addresses:
+  - Pain point 15 (age-inappropriate content)
+  - Pain point 3 (content distrust)
+- Feature ideas:
+  - Strict age rating enforcement (follow show/game ratings).
+  - Alerts when child attempts to access above-age content.
+  - Co-viewing mode with discussion prompts for when parents allow above-age content.
+  - Content rating explanations in plain language.
+  - "Good reason" requirement framework for exceptions.
+- Target personas:
+  - P06, P07, primary school parents
+
+### Q) Cyberbullying detection and response tools
+- Addresses:
+  - Pain point 16 (cyberbullying/social exclusion)
+  - Pain point 5 (messaging safety)
+- Feature ideas:
+  - Detection of exclusion patterns (unfriending, group removal, being left on read).
+  - Instant response guidance for children (what to do when excluded).
+  - Parent alerts for serious incidents.
+  - Emotional check-ins after detected incidents.
+  - Education about instantness and one-sidedness of social media conflicts.
+- Target personas:
+  - P01, P06, P07, primary and secondary school parents
+
+### R) AI chatbot safety guardrails for mental health
+- Addresses:
+  - Pain point 17 (AI mental health risks)
+  - Pain point 8 (AI literacy)
+- Feature ideas:
+  - Parent visibility into AI chatbot conversations (if healthy/non-abusive home; "no secrecy rule").
+  - Warnings about over-reliance and AI limitations.
+  - Detection of negative emotion reinforcement loops (excessive validation).
+  - Crisis intervention triggers (suicide risk keywords) with professional resource connections.
+  - Education that AI can fail and give dangerous advice.
+  - Balance messaging: helpful tool but can't replace human support.
+- Target personas:
+  - Teen/young adult parents
+  - Parents of children with mental health concerns
+
+### S) Teen autonomy and self-awareness support
+- Addresses:
+  - Pain point 2 (conflict)
+  - Pain point 13 (enforcement difficulty)
+  - Pain point 14 (mental health)
+- Feature ideas:
+  - Teen-led usage reflection tools (Gen Z self-awareness).
+  - Recognition that "not always adults know best" - teen input into rules.
+  - Graduated autonomy with teen participation in decision-making.
+  - Self-regulation skill building rather than pure restriction.
+  - Respect for child/teen privacy balanced with supervision.
+  - General increase in autonomy across age groups.
+- Target personas:
+  - Teen transition parents
+  - Secondary school parents
+
 ---
 
 ## Open Questions / Follow-ups to Validate
 - What minimum "teen-safe" features are needed for the grade 4–6 transition (maps, limited internet, group chats)?
 - What is the acceptable boundary of monitoring for primary school ages vs. secondary (privacy expectations)?
 - Which school contexts will endorse/allow an alternative messaging system (MOE constraints, PTA appetite)?
-- What measurable signals define “healthier self-regulation” (transition time, reminder count, tantrum frequency)?
+- What measurable signals define "healthier self-regulation" (transition time, reminder count, tantrum frequency)?
+- How can authentic self-discovery be supported across the full age spectrum (primary → secondary → university)?
+- What interventions help young adults recognize and resist AI-driven false persona creation?
+- How do we measure and support "shapeshifter" qualities (adaptability, relationship-building) vs. pure technical skills?
+- What role should universities play in digital wellness and face-to-face confidence building?
+- What societal-level interventions can support parents beyond individual parental controls?
+- How can we measure and track rising anxiety trends in children and correlate with device usage patterns?
+- What are best practices for contextual screen time that balance benefits (autism friendships, self-esteem) with harms?
+- How should parents handle AI mental health chatbots - what level of visibility/access is appropriate?
+- What age-appropriate content rating systems exist in Singapore and how can they be better enforced?
+- How can we detect and intervene in cyberbullying (especially social exclusion) in real-time?
