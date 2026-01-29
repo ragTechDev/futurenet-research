@@ -14,7 +14,11 @@
 | E01 | Expert | NTT Docomo Kids Keitai product team; target ages 6–10 with transition in grades 4–6 |
 | E02 | Expert | Cyberlite (cybersafety education) founder; parent awareness gap; school-based education + AI literacy |
 | E03 | Expert | Youth psychotherapist (17–24 focus; SAF context); sees self-esteem/FOMO impacts; advocates balanced boundaries + co-use |
+<<<<<<< Updated upstream
+=======
 | E04 | Expert | NUS College Growth Mentor (ages 18–26); interdisciplinary education focus; sees AI-driven false personas, loss of interpersonal skills, Dunning-Kruger over-confidence |
+| E05 | Expert | Child and Adolescent Psychiatrist (Dr Adrian); 10 years practice; ages kindergarten–21; sees rising anxiety trends, device enforcement challenges, cyberbullying |
+>>>>>>> Stashed changes
 | R01 | Regulator | No notes captured yet |
 | T01 | Teacher | No notes captured yet |
 | S01 | Student 9–12 | No notes captured yet |
@@ -41,6 +45,8 @@
 | Co-use/co-play is a key safety strategy | Parents want to engage with kids in online activities, but need tools to facilitate this and reduce solo screen time. | (E03) |
 | Nature/offline alternatives are essential for balance | Parents want to encourage outdoor play, but need ideas and support for making this a sustainable part of family life. | (E03) |
 | Balanced approach to boundaries is crucial | Parents need to balance protection with autonomy, and want guidance on how to achieve this balance. | (E03) |
+<<<<<<< Updated upstream
+=======
 | AI tools enable false persona creation (young adults) | University students use AI to optimize CVs, LinkedIn profiles, and applications, creating representations that don't match who they are in person; causes disconnect in interviews and internships. | "Whatever students wrote in CV doesn't really represent who they are in person" (E04) |
 | Tech savviness ≠ workplace readiness | Being comfortable with technology doesn't equate to being ready for work; fundamental interpersonal skills, relationship-building, and adaptability ("shapeshifters") matter more. | "Tech savviness doesn't equate to readiness, see that there are other skills that are needed on how tech ready they are" (E04) |
 | Over-reliance on tech erodes face-to-face confidence | Young adults increasingly request video interviews over in-person, not just for convenience but from real insecurity; discomfort with cameras on in workshops; general avoidance of face-to-face interaction. | "Can we do a video interview instead?" - not just convenience, stems from a very real insecurity or lack of confidence to meet someone face to face" (E04) |
@@ -49,6 +55,16 @@
 | Employers adapting to combat AI-generated applications | Shift from CV/cover letter review to in-person skills-based assessments; preference for face-to-face interviews where AI coaching is harder; recognition that written materials no longer represent candidates accurately. | (E04) |
 | Self-discovery and authentic identity formation are critical | Young adults need help discovering who they are rather than what AI tells them to be; workshops focused on values clarification and alignment with authentic self are essential during identity formation years. | "Our job is to help you become aware of what's going on with you" (E04) |
 | Interdisciplinary skills + human connection trump pure tech skills | "Renaissance student" model values ability to work across domains, build relationships, and use tech as a tool (not a solution); over-concentration on tech skills misses fundamental capabilities that make graduates hireable. | "Those who know how to utilize software as a tool rather than as a solution, they are more versatile" (E04) |
+| Rising anxiety trends in children (clinical evidence) | Definite increase in anxiety over last 10-20 years; progresses from separation anxiety/OCD in primary school to anxiety attacks and depression in secondary; not directly attributed to devices but correlated with increased usage. | "Most colleagues agree anxiety has increased in the last 10 years" (E05) |
+| Parental device enforcement is a widespread societal challenge | Clinical validation that enforcing device rules is extremely difficult for parents; children find ways around parental controls and throw fits when devices removed; requires societal-level support beyond individual parental efforts. | "Very hard for parents — this is something they do express as a society" (E05) |
+| Device usage exacerbates existing mental health issues | Phones at home worsen anxiety/depression through sleep disruption (staying up late), isolation, and reduced physical world engagement; not necessarily causal but exacerbating factor. | "They are using phones a lot at home. Sleeping later. Exacerbating the overall issue" (E05) |
+| Age-inappropriate content exposure causes real harm | Primary schoolers watching content meant for older teens (e.g., Squid Games) leads to nightmares, disturbed sleep, increased need for parental presence; parents should follow age ratings and watch with children if allowing above-age content. | "Primary schoolers have watched it and I don't think it's healthy for them... more nightmares, disturbed sleep, need parents to be around them more" (E05) |
+| Cyberbullying is serious in Singapore | Unfriending, unfollowing, exclusion from groups; instantness of social media makes it very one-sided; anonymity/screen protection makes people meaner than face-to-face interactions. | "Unfriended, no longer followed, cyber bullying is a serious thing in Singapore" (E05) |
+| Screen time should be contextual, not blanket rules | Time on apps should be individualized to child's needs; benefits exist for autism spectrum (meaningful online friendships), self-esteem building through games; blanket restrictions can deprive social interaction opportunities. | "The time on apps should be contextualised to individual needs" (E05) |
+| AI mental health chatbots are double-edged tools | Can be helpful (24/7 availability, sensible advice, no appointment needed) but risks include over-validation of negative emotions, reinforcing negativity, becoming a dangerous crutch; parents should have access if healthy/non-abusive. | "They are pretty good actually — quite sensible... Must remind them that AI can fail and reinforces negative emotions" (E05) |
+| Modeling behavior is critical for digital citizenship | Parents must "walk the talk" in family chat groups and physical spaces; children take after what parents do in both physical and digital worlds; phone-free zones (e.g., dinner table) should be honored by everyone. | "Must walk the talk" (E05) |
+| Teen self-awareness about tech use is emerging | Gen Z showing awareness of their own phone usage patterns; not always adults who know best, sometimes teens understand what's best for themselves; balance needed between guidance and respecting teen autonomy. | "Not always adults know best, some times teens will also know what's best for them" (E05) |
+>>>>>>> Stashed changes
 
 ---
 

@@ -140,6 +140,54 @@
   - University/young adult transition (ages 18–26)
   - Career guidance stakeholders
 
+### 13) Parental device enforcement is extremely difficult and requires societal support
+- Evidence:
+  - E05: Parents express this as a societal challenge; children find ways around parental controls and throw fits when devices removed; "very hard for parents."
+  - E05: Clinical observation that enforcement difficulty is widespread across patient families.
+- Impact:
+  - Individual parental efforts insufficient; creates conflict and guilt; parents feel isolated in their struggles; inconsistent enforcement.
+- Primary personas:
+  - All parent personas, especially P04, P01, P07
+
+### 14) Device usage exacerbates mental health issues (anxiety/depression)
+- Evidence:
+  - E05: Clinical observation over 10-20 years showing rising anxiety trends; phones at home worsen issues through sleep disruption (staying up late), isolation, reduced physical world engagement.
+  - E05: Teenagers stopping school attendance but using phones heavily at home; anxiety progresses from separation anxiety/OCD in primary to anxiety attacks and depression in secondary.
+- Impact:
+  - Sleep problems, social isolation, worsening anxiety/depression symptoms; mental health deterioration.
+- Primary personas:
+  - Teen transition parent (inferred)
+  - Parents of anxious children
+  - All parent personas
+
+### 15) Age-inappropriate content exposure causes real psychological harm
+- Evidence:
+  - E05: Primary schoolers watching content meant for older teens (e.g., Squid Games); leads to nightmares, disturbed sleep, increased need for parental presence.
+  - E05: Parents should follow age ratings and watch with children if allowing above-age content.
+- Impact:
+  - Sleep disturbance, anxiety, developmental harm, normalization of violence/adult themes.
+- Primary personas:
+  - P06, P07, parents of primary schoolers
+
+### 16) Cyberbullying through social exclusion is serious in Singapore
+- Evidence:
+  - E05: Unfriending, unfollowing, group exclusion; instantness of social media makes it very one-sided; anonymity/screen protection makes people meaner than face-to-face.
+  - E05: "Cyber bullying is a serious thing in Singapore."
+- Impact:
+  - Social-emotional harm, anxiety, isolation, feeling excluded from peer groups.
+- Primary personas:
+  - P01, P06, P07, primary and secondary school parents
+
+### 17) AI mental health chatbots pose validation/dependency risks
+- Evidence:
+  - E05: While helpful (24/7 availability, sensible advice, no appointment needed), they over-validate emotions and reinforce negativity; can become dangerous crutch.
+  - E05: "Will validate your emotions a lot — more reasons to feel strongly about your negativity"; suicide risk considerations ("even 1 life is too many").
+- Impact:
+  - Over-reliance on AI for mental health support; reinforcement of negative thought patterns; potential harm; parents should have access if healthy/non-abusive home.
+- Primary personas:
+  - Teen/young adult parents
+  - Parents of children with mental health concerns
+
 ---
 
 ## Potential Features (Mapped to Pain Points)
@@ -255,52 +303,10 @@
 - Target personas:
   - Inferred overwhelmed parent, P06
 
-### K) Authentic self-discovery and values-alignment tools (young adults)
-- Addresses:
-  - Pain point 10 (false personas)
-  - Pain point 12 (anxious optimization)
-- Feature ideas:
-  - Reflection prompts and workshops that help students discover authentic identity and values.
-  - CV/application builders that align with true self rather than AI-optimized versions.
-  - Career exploration frameworks that resist premature optimization and encourage risk appetite for discovery.
-  - "What are you optimizing for?" reflection exercises.
-- Target personas:
-  - University students (ages 18–26)
-  - Career guidance mentors
-
-### L) Face-to-face confidence and interpersonal skills development
-- Addresses:
-  - Pain point 11 (interpersonal skills erosion)
-- Feature ideas:
-  - Structured in-person interaction opportunities (mentoring, alumni connections, community events).
-  - "Touch Grass" style initiatives that encourage offline engagement.
-  - Friend-first mentoring approaches that model healthy relationship-building.
-  - Awareness-building about tech's impact on day-to-day personal interactions.
-- Target personas:
-  - University students (ages 18–26)
-  - Educational institutions
-
-### M) Skills-based assessment frameworks for authentic capability evaluation
-- Addresses:
-  - Pain point 10 (false personas)
-  - Pain point 11 (workplace readiness)
-- Feature ideas:
-  - In-person skills demonstrations and assessments.
-  - Portfolio-based evaluation that shows actual work rather than AI-polished descriptions.
-  - Interview formats that reveal authentic thinking and problem-solving.
-  - Emphasis on "shapeshifter" qualities: adaptability, relationship-building, using tech as tool not solution.
-- Target personas:
-  - Employers and hiring managers
-  - University career services
-
 ---
 
 ## Open Questions / Follow-ups to Validate
 - What minimum "teen-safe" features are needed for the grade 4–6 transition (maps, limited internet, group chats)?
 - What is the acceptable boundary of monitoring for primary school ages vs. secondary (privacy expectations)?
 - Which school contexts will endorse/allow an alternative messaging system (MOE constraints, PTA appetite)?
-- What measurable signals define "healthier self-regulation" (transition time, reminder count, tantrum frequency)?
-- How can authentic self-discovery be supported across the full age spectrum (primary → secondary → university)?
-- What interventions help young adults recognize and resist AI-driven false persona creation?
-- How do we measure and support "shapeshifter" qualities (adaptability, relationship-building) vs. pure technical skills?
-- What role should universities play in digital wellness and face-to-face confidence building?
+- What measurable signals define “healthier self-regulation” (transition time, reminder count, tantrum frequency)?
