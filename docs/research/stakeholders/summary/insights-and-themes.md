@@ -14,6 +14,7 @@
 | E01 | Expert | NTT Docomo Kids Keitai product team; target ages 6–10 with transition in grades 4–6 |
 | E02 | Expert | Cyberlite (cybersafety education) founder; parent awareness gap; school-based education + AI literacy |
 | E03 | Expert | Youth psychotherapist (17–24 focus; SAF context); sees self-esteem/FOMO impacts; advocates balanced boundaries + co-use |
+| E04 | Expert | NUS College Growth Mentor (ages 18–26); interdisciplinary education focus; sees AI-driven false personas, loss of interpersonal skills, Dunning-Kruger over-confidence |
 | E05 | Expert | Child and Adolescent Psychiatrist (Dr Adrian); 10 years practice; ages kindergarten–21; sees rising anxiety trends, device enforcement challenges, cyberbullying |
 | R01 | Regulator | No notes captured yet |
 | T01 | Teacher | No notes captured yet |
