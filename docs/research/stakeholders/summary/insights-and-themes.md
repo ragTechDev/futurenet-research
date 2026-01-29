@@ -14,6 +14,7 @@
 | E01 | Expert | NTT Docomo Kids Keitai product team; target ages 6–10 with transition in grades 4–6 |
 | E02 | Expert | Cyberlite (cybersafety education) founder; parent awareness gap; school-based education + AI literacy |
 | E03 | Expert | Youth psychotherapist (17–24 focus; SAF context); sees self-esteem/FOMO impacts; advocates balanced boundaries + co-use |
+| E04 | Expert | NUS College Growth Mentor (ages 18–26); interdisciplinary education focus; sees AI-driven false personas, loss of interpersonal skills, Dunning-Kruger over-confidence |
 | R01 | Regulator | No notes captured yet |
 | T01 | Teacher | No notes captured yet |
 | S01 | Student 9–12 | No notes captured yet |
@@ -40,6 +41,14 @@
 | Co-use/co-play is a key safety strategy | Parents want to engage with kids in online activities, but need tools to facilitate this and reduce solo screen time. | (E03) |
 | Nature/offline alternatives are essential for balance | Parents want to encourage outdoor play, but need ideas and support for making this a sustainable part of family life. | (E03) |
 | Balanced approach to boundaries is crucial | Parents need to balance protection with autonomy, and want guidance on how to achieve this balance. | (E03) |
+| AI tools enable false persona creation (young adults) | University students use AI to optimize CVs, LinkedIn profiles, and applications, creating representations that don't match who they are in person; causes disconnect in interviews and internships. | "Whatever students wrote in CV doesn't really represent who they are in person" (E04) |
+| Tech savviness ≠ workplace readiness | Being comfortable with technology doesn't equate to being ready for work; fundamental interpersonal skills, relationship-building, and adaptability ("shapeshifters") matter more. | "Tech savviness doesn't equate to readiness, see that there are other skills that are needed on how tech ready they are" (E04) |
+| Over-reliance on tech erodes face-to-face confidence | Young adults increasingly request video interviews over in-person, not just for convenience but from real insecurity; discomfort with cameras on in workshops; general avoidance of face-to-face interaction. | "Can we do a video interview instead?" - not just convenience, stems from a very real insecurity or lack of confidence to meet someone face to face" (E04) |
+| Dunning-Kruger effect amplified by tech access | Young adults exhibit over-confidence about knowing "how things work" and their career paths, leading to premature optimization and closed-mindedness to exploration and learning. | "Think it is scary when too many are confident about what the future looks like - one of the most foolish mistakes" (E04) |
+| Social media comparison drives anxious optimization | Seeing peers' seemingly set career paths causes anxiety and rash decision-making; students try to optimize without knowing what they're optimizing for; "lemming effect" of following trends (e.g., adding data science majors). | "It begs the question on what are you trying to optimize" (E04) |
+| Employers adapting to combat AI-generated applications | Shift from CV/cover letter review to in-person skills-based assessments; preference for face-to-face interviews where AI coaching is harder; recognition that written materials no longer represent candidates accurately. | (E04) |
+| Self-discovery and authentic identity formation are critical | Young adults need help discovering who they are rather than what AI tells them to be; workshops focused on values clarification and alignment with authentic self are essential during identity formation years. | "Our job is to help you become aware of what's going on with you" (E04) |
+| Interdisciplinary skills + human connection trump pure tech skills | "Renaissance student" model values ability to work across domains, build relationships, and use tech as a tool (not a solution); over-concentration on tech skills misses fundamental capabilities that make graduates hireable. | "Those who know how to utilize software as a tool rather than as a solution, they are more versatile" (E04) |
 
 ---
 
@@ -56,3 +65,7 @@
 - Family co-use/co-play modes (shared sessions; discussion prompts; lightweight visibility into interactions)
 - Media mode guidance (active vs passive): book-first defaults, video caps, and parent-friendly framing
 - Offline alternative “swap” suggestions (nature/outdoor, low-stimulation activities) to reduce doomscrolling loops
+- Self-discovery and values-alignment tools for young adults (authentic CV building; reflection prompts; career exploration without premature optimization)
+- Face-to-face confidence building and digital wellness awareness (recognizing tech's impact on interpersonal skills; "Touch Grass" style initiatives)
+- Skills-based assessment frameworks that reveal authentic capabilities beyond AI-polished applications
+- Interdisciplinary learning platforms that emphasize human connection, relationship-building, and adaptability over pure technical skills

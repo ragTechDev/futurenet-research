@@ -110,6 +110,36 @@
   - Gaming kid/teen parent (inferred)
   - Tech-Savvy Safety-Pragmatic Parent (P06)
 
+### 10) AI-generated false personas undermine authentic development (young adults)
+- Evidence:
+  - E04: students use AI for CVs, LinkedIn, applications; creates disconnect between written materials and actual person.
+  - E04: employers shifting to in-person skills-based assessments because CVs no longer represent candidates.
+- Impact:
+  - Students lose touch with authentic identity; fail in interviews/internships; miss self-discovery opportunities during formative years.
+- Primary personas:
+  - University/young adult transition (ages 18–26)
+  - Career guidance stakeholders
+
+### 11) Over-reliance on tech erodes interpersonal and workplace readiness skills
+- Evidence:
+  - E04: students increasingly uncomfortable with face-to-face meetings; prefer video interviews; don't turn cameras on in workshops.
+  - E04: tech savviness doesn't equate to readiness; relationship-building and adaptability matter more.
+- Impact:
+  - Young adults enter workplace lacking fundamental interpersonal skills; become insular and inward-looking; struggle with collaboration.
+- Primary personas:
+  - University/young adult transition (ages 18–26)
+  - Employers and career mentors
+
+### 12) Social media comparison drives anxious optimization without self-knowledge
+- Evidence:
+  - E04: students see peers' set career paths, feel pressure to optimize quickly; "lemming effect" of following trends without understanding why.
+  - E04: Dunning-Kruger effect at peak; over-confidence about knowing "how things work" closes them off to exploration.
+- Impact:
+  - Premature career decisions; closed-mindedness; superiority/belittlement toward peers; anxiety about falling behind.
+- Primary personas:
+  - University/young adult transition (ages 18–26)
+  - Career guidance stakeholders
+
 ---
 
 ## Potential Features (Mapped to Pain Points)
@@ -225,10 +255,52 @@
 - Target personas:
   - Inferred overwhelmed parent, P06
 
+### K) Authentic self-discovery and values-alignment tools (young adults)
+- Addresses:
+  - Pain point 10 (false personas)
+  - Pain point 12 (anxious optimization)
+- Feature ideas:
+  - Reflection prompts and workshops that help students discover authentic identity and values.
+  - CV/application builders that align with true self rather than AI-optimized versions.
+  - Career exploration frameworks that resist premature optimization and encourage risk appetite for discovery.
+  - "What are you optimizing for?" reflection exercises.
+- Target personas:
+  - University students (ages 18–26)
+  - Career guidance mentors
+
+### L) Face-to-face confidence and interpersonal skills development
+- Addresses:
+  - Pain point 11 (interpersonal skills erosion)
+- Feature ideas:
+  - Structured in-person interaction opportunities (mentoring, alumni connections, community events).
+  - "Touch Grass" style initiatives that encourage offline engagement.
+  - Friend-first mentoring approaches that model healthy relationship-building.
+  - Awareness-building about tech's impact on day-to-day personal interactions.
+- Target personas:
+  - University students (ages 18–26)
+  - Educational institutions
+
+### M) Skills-based assessment frameworks for authentic capability evaluation
+- Addresses:
+  - Pain point 10 (false personas)
+  - Pain point 11 (workplace readiness)
+- Feature ideas:
+  - In-person skills demonstrations and assessments.
+  - Portfolio-based evaluation that shows actual work rather than AI-polished descriptions.
+  - Interview formats that reveal authentic thinking and problem-solving.
+  - Emphasis on "shapeshifter" qualities: adaptability, relationship-building, using tech as tool not solution.
+- Target personas:
+  - Employers and hiring managers
+  - University career services
+
 ---
 
 ## Open Questions / Follow-ups to Validate
-- What minimum “teen-safe” features are needed for the grade 4–6 transition (maps, limited internet, group chats)?
+- What minimum "teen-safe" features are needed for the grade 4–6 transition (maps, limited internet, group chats)?
 - What is the acceptable boundary of monitoring for primary school ages vs. secondary (privacy expectations)?
 - Which school contexts will endorse/allow an alternative messaging system (MOE constraints, PTA appetite)?
-- What measurable signals define “healthier self-regulation” (transition time, reminder count, tantrum frequency)?
+- What measurable signals define "healthier self-regulation" (transition time, reminder count, tantrum frequency)?
+- How can authentic self-discovery be supported across the full age spectrum (primary → secondary → university)?
+- What interventions help young adults recognize and resist AI-driven false persona creation?
+- How do we measure and support "shapeshifter" qualities (adaptability, relationship-building) vs. pure technical skills?
+- What role should universities play in digital wellness and face-to-face confidence building?
