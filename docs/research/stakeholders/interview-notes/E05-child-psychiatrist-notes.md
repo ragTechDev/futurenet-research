@@ -23,7 +23,7 @@
   - Primary school: separation anxiety, habitual anxiety disorder, OCD with intrusive thoughts
   - Secondary/teenage: anxiety attacks (presenting as abdominal pain), depressive emotions become predominant
 - **Device Usage Patterns**: 
-  - Teenagers stopping school attendance but using phones heavily at home, sleeping later
+  - Teenagers stopping use of device in school due to ban but using phones heavily at home, sleeping later
   - Even kindergarteners showing device issues at young age
   - Parents find it very hard to enforce rules and take phones away
   - Children find ways around parental controls and throw fits when devices removed
@@ -120,6 +120,6 @@
 ---
 
 ## Follow-Ups
-- MOH screen time guidelines - review specific recommendations (See [IMDA Film Classification](https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/films) and take note of who is on [Films Consultative Panel](https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/consultation-with-committees#41e90a2a-4280-4e3f-9569-031d914761b6))
+- MOH screen time guidelines - review specific recommendations (See [IMDA Film Classification](https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/films) and take note of who is on [Films Consultative Panel](https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/consultation-with-committees#41e90a2a-4280-4e3f-9569-031d914761b6)) [See sg-film-ratings.md](sg-film-ratings.md)
 - Research on correlation between device usage and anxiety in Singapore context
 - Best practices for parental controls that balance supervision and respect
