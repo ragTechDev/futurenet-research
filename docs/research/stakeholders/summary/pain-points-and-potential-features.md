@@ -140,6 +140,65 @@
   - University/young adult transition (ages 18–26)
   - Career guidance stakeholders
 
+### 13) Parental device enforcement is extremely difficult and requires societal support
+- Evidence:
+  - E05: Parents express this as a societal challenge; children find ways around parental controls and throw fits when devices removed; "very hard for parents."
+  - E05: Clinical observation that enforcement difficulty is widespread across patient families.
+- Impact:
+  - Individual parental efforts insufficient; creates conflict and guilt; parents feel isolated in their struggles; inconsistent enforcement.
+- Primary personas:
+  - All parent personas, especially P04, P01, P07
+
+### 14) Device usage exacerbates mental health issues (anxiety/depression)
+- Evidence:
+  - E05: Clinical observation over 10-20 years showing rising anxiety trends; phones at home worsen issues through sleep disruption (staying up late), isolation, reduced physical world engagement.
+  - E05: Teenagers stopping school attendance but using phones heavily at home; anxiety progresses from separation anxiety/OCD in primary to anxiety attacks and depression in secondary.
+- Impact:
+  - Sleep problems, social isolation, worsening anxiety/depression symptoms; mental health deterioration.
+- Primary personas:
+  - Teen transition parent (inferred)
+  - Parents of anxious children
+  - All parent personas
+
+### 15) Age-inappropriate content exposure causes real psychological harm
+- Evidence:
+  - E05: Primary schoolers watching content meant for older teens (e.g., Squid Games); leads to nightmares, disturbed sleep, increased need for parental presence.
+  - E05: Parents should follow age ratings and watch with children if allowing above-age content.
+- Impact:
+  - Sleep disturbance, anxiety, developmental harm, normalization of violence/adult themes.
+- Primary personas:
+  - P06, P07, parents of primary schoolers
+
+### 16) Cyberbullying through social exclusion is serious in Singapore
+- Evidence:
+  - E05: Unfriending, unfollowing, group exclusion; instantness of social media makes it very one-sided; anonymity/screen protection makes people meaner than face-to-face.
+  - E05: "Cyber bullying is a serious thing in Singapore."
+- Impact:
+  - Social-emotional harm, anxiety, isolation, feeling excluded from peer groups.
+- Primary personas:
+  - P01, P06, P07, primary and secondary school parents
+
+### 17) AI mental health chatbots pose validation/dependency risks
+- Evidence:
+  - E05: While helpful (24/7 availability, sensible advice, no appointment needed), they over-validate emotions and reinforce negativity; can become dangerous crutch.
+  - E05: "Will validate your emotions a lot — more reasons to feel strongly about your negativity"; suicide risk considerations ("even 1 life is too many").
+- Impact:
+  - Over-reliance on AI for mental health support; reinforcement of negative thought patterns; potential harm; parents should have access if healthy/non-abusive home.
+- Primary personas:
+  - Teen/young adult parents
+  - Parents of children with mental health concerns
+
+### 18) Broad age brackets don't align with developmental stages requiring different approaches
+- Evidence:
+  - E05: Child psychiatrists treat each age group very differently with distinct approaches every few years (similar to parenthood stages); broad classifications include kindergarten (up to 6), primary school, secondary school.
+  - E05: Environmental factors driving segmentation include changing school environments (kindergarten → formal primary → high-pressure secondary), different legal requirements, varying family involvement, and developmental stages requiring fundamentally different therapeutic approaches.
+  - E05: "It's very broad and very different approaches. Every few years we have to change the approach, just like parenthood."
+- Impact:
+  - One-size-fits-all age brackets (e.g., "13+") miss critical developmental transitions; controls appropriate for 6-year-old kindergartener are vastly different from 12-year-old in high-pressure secondary school; parents lack granular tools aligned with actual developmental needs.
+- Primary personas:
+  - All parent personas across age groups
+  - Educational institutions
+
 ---
 
 ## Potential Features (Mapped to Pain Points)
@@ -167,15 +226,18 @@
 - Target personas:
   - P04, P02, inferred overwhelmed parent
 
-### C) Graduated access (“level up”) system with trust rituals
+### C) Graduated access ("level up") system with trust rituals
 - Addresses:
   - Pain point 4 (peer/school reality)
   - Pain point 2 (conflict)
   - Pain point 5 (comms need)
+  - Pain point 18 (broad age brackets vs developmental stages)
 - Feature ideas:
   - Tiered capabilities: calls-only -> calls+SMS -> limited messaging -> broader.
-  - “Trust contract” templates + scheduled check-ins.
+  - Granular age-based presets aligned with developmental stages (kindergarten/primary/secondary) and environmental transitions (school pressure changes, legal requirements, family involvement levels).
+  - "Trust contract" templates + scheduled check-ins.
   - School-time automation: disable messaging/social features during school hours.
+  - Developmental milestone-based transitions rather than just age numbers (e.g., "entering secondary school" vs "turning 13").
 - Target personas:
   - P01, P06, P07, P05
 
@@ -293,6 +355,92 @@
   - Employers and hiring managers
   - University career services
 
+### N) Contextual screen time guidance (not blanket rules)
+- Addresses:
+  - Pain point 2 (decision fatigue)
+  - Pain point 13 (enforcement difficulty)
+  - Pain point 14 (mental health exacerbation)
+- Feature ideas:
+  - Individualized recommendations based on child's specific needs and context.
+  - Recognition of benefits: autism spectrum online friendships, self-esteem building through games, necessary family communication.
+  - Balance guidance that considers "more online time means less time in physical world" tradeoffs.
+  - Avoid blanket restrictions that deprive social interaction opportunities.
+  - MOH guidelines integration with local context.
+- Target personas:
+  - All parent personas, especially P03, P08
+  - Parents of children with autism spectrum disorder
+
+### O) Parent modeling and "walk the talk" tools
+- Addresses:
+  - Pain point 13 (enforcement difficulty)
+  - Pain point 2 (conflict)
+  - Pain point 14 (mental health)
+- Feature ideas:
+  - Family-wide phone-free zones/times (e.g., dinner table) enforced for all members.
+  - Parent usage visibility to children (transparency).
+  - Family chat group behavior modeling tools.
+  - "No secrecy rule" templates established from young age.
+  - Reminders that children take after what parents do in both physical and digital worlds.
+- Target personas:
+  - All parent personas
+
+### P) Age-appropriate content enforcement with parental co-viewing support
+- Addresses:
+  - Pain point 15 (age-inappropriate content)
+  - Pain point 3 (content distrust)
+- Feature ideas:
+  - Strict age rating enforcement (follow show/game ratings).
+  - Alerts when child attempts to access above-age content.
+  - Co-viewing mode with discussion prompts for when parents allow above-age content.
+  - Content rating explanations in plain language.
+  - "Good reason" requirement framework for exceptions.
+- Target personas:
+  - P06, P07, primary school parents
+
+### Q) Cyberbullying detection and response tools
+- Addresses:
+  - Pain point 16 (cyberbullying/social exclusion)
+  - Pain point 5 (messaging safety)
+- Feature ideas:
+  - Detection of exclusion patterns (unfriending, group removal, being left on read).
+  - Instant response guidance for children (what to do when excluded).
+  - Parent alerts for serious incidents.
+  - Emotional check-ins after detected incidents.
+  - Education about instantness and one-sidedness of social media conflicts.
+- Target personas:
+  - P01, P06, P07, primary and secondary school parents
+
+### R) AI chatbot safety guardrails for mental health
+- Addresses:
+  - Pain point 17 (AI mental health risks)
+  - Pain point 8 (AI literacy)
+- Feature ideas:
+  - Parent visibility into AI chatbot conversations (if healthy/non-abusive home; "no secrecy rule").
+  - Warnings about over-reliance and AI limitations.
+  - Detection of negative emotion reinforcement loops (excessive validation).
+  - Crisis intervention triggers (suicide risk keywords) with professional resource connections.
+  - Education that AI can fail and give dangerous advice.
+  - Balance messaging: helpful tool but can't replace human support.
+- Target personas:
+  - Teen/young adult parents
+  - Parents of children with mental health concerns
+
+### S) Teen autonomy and self-awareness support
+- Addresses:
+  - Pain point 2 (conflict)
+  - Pain point 13 (enforcement difficulty)
+  - Pain point 14 (mental health)
+- Feature ideas:
+  - Teen-led usage reflection tools (Gen Z self-awareness).
+  - Recognition that "not always adults know best" - teen input into rules.
+  - Graduated autonomy with teen participation in decision-making.
+  - Self-regulation skill building rather than pure restriction.
+  - Respect for child/teen privacy balanced with supervision.
+  - General increase in autonomy across age groups.
+- Target personas:
+  - Teen transition parents
+  - Secondary school parents
+
 ---
 
 ## Open Questions / Follow-ups to Validate
@@ -304,3 +452,9 @@
 - What interventions help young adults recognize and resist AI-driven false persona creation?
 - How do we measure and support "shapeshifter" qualities (adaptability, relationship-building) vs. pure technical skills?
 - What role should universities play in digital wellness and face-to-face confidence building?
+- What societal-level interventions can support parents beyond individual parental controls?
+- How can we measure and track rising anxiety trends in children and correlate with device usage patterns?
+- What are best practices for contextual screen time that balance benefits (autism friendships, self-esteem) with harms?
+- How should parents handle AI mental health chatbots - what level of visibility/access is appropriate?
+- What age-appropriate content rating systems exist in Singapore and how can they be better enforced?
+- How can we detect and intervene in cyberbullying (especially social exclusion) in real-time?
