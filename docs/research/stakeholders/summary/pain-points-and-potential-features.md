@@ -188,6 +188,17 @@
   - Teen/young adult parents
   - Parents of children with mental health concerns
 
+### 18) Broad age brackets don't align with developmental stages requiring different approaches
+- Evidence:
+  - E05: Child psychiatrists treat each age group very differently with distinct approaches every few years (similar to parenthood stages); broad classifications include kindergarten (up to 6), primary school, secondary school.
+  - E05: Environmental factors driving segmentation include changing school environments (kindergarten → formal primary → high-pressure secondary), different legal requirements, varying family involvement, and developmental stages requiring fundamentally different therapeutic approaches.
+  - E05: "It's very broad and very different approaches. Every few years we have to change the approach, just like parenthood."
+- Impact:
+  - One-size-fits-all age brackets (e.g., "13+") miss critical developmental transitions; controls appropriate for 6-year-old kindergartener are vastly different from 12-year-old in high-pressure secondary school; parents lack granular tools aligned with actual developmental needs.
+- Primary personas:
+  - All parent personas across age groups
+  - Educational institutions
+
 ---
 
 ## Potential Features (Mapped to Pain Points)
@@ -215,15 +226,18 @@
 - Target personas:
   - P04, P02, inferred overwhelmed parent
 
-### C) Graduated access (“level up”) system with trust rituals
+### C) Graduated access ("level up") system with trust rituals
 - Addresses:
   - Pain point 4 (peer/school reality)
   - Pain point 2 (conflict)
   - Pain point 5 (comms need)
+  - Pain point 18 (broad age brackets vs developmental stages)
 - Feature ideas:
   - Tiered capabilities: calls-only -> calls+SMS -> limited messaging -> broader.
-  - “Trust contract” templates + scheduled check-ins.
+  - Granular age-based presets aligned with developmental stages (kindergarten/primary/secondary) and environmental transitions (school pressure changes, legal requirements, family involvement levels).
+  - "Trust contract" templates + scheduled check-ins.
   - School-time automation: disable messaging/social features during school hours.
+  - Developmental milestone-based transitions rather than just age numbers (e.g., "entering secondary school" vs "turning 13").
 - Target personas:
   - P01, P06, P07, P05
 

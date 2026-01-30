@@ -15,7 +15,7 @@
 | E02 | Expert | Cyberlite (cybersafety education) founder; parent awareness gap; school-based education + AI literacy |
 | E03 | Expert | Youth psychotherapist (17–24 focus; SAF context); sees self-esteem/FOMO impacts; advocates balanced boundaries + co-use |
 | E04 | Expert | NUS College Growth Mentor (ages 18–26); interdisciplinary education focus; sees AI-driven false personas, loss of interpersonal skills, Dunning-Kruger over-confidence |
-| E05 | Expert | Child and Adolescent Psychiatrist (Dr Adrian); 10 years practice; ages kindergarten–21; sees rising anxiety trends, device enforcement challenges, cyberbullying |
+| E05 | Expert | Child and Adolescent Psychiatrist (Dr Adrian); 10 years practice; ages kindergarten–21; treats each age group differently based on developmental stages (kindergarten/primary/secondary); sees rising anxiety trends, device enforcement challenges, cyberbullying |
 | R01 | Regulator | No notes captured yet |
 | T01 | Teacher | No notes captured yet |
 | S01 | Student 9–12 | No notes captured yet |
@@ -59,6 +59,7 @@
 | AI mental health chatbots are double-edged tools | Can be helpful (24/7 availability, sensible advice, no appointment needed) but risks include over-validation of negative emotions, reinforcing negativity, becoming a dangerous crutch; parents should have access if healthy/non-abusive. | "They are pretty good actually — quite sensible... Must remind them that AI can fail and reinforces negative emotions" (E05) |
 | Modeling behavior is critical for digital citizenship | Parents must "walk the talk" in family chat groups and physical spaces; children take after what parents do in both physical and digital worlds; phone-free zones (e.g., dinner table) should be honored by everyone. | "Must walk the talk" (E05) |
 | Teen self-awareness about tech use is emerging | Gen Z showing awareness of their own phone usage patterns; not always adults who know best, sometimes teens understand what's best for themselves; balance needed between guidance and respecting teen autonomy. | "Not always adults know best, some times teens will also know what's best for them" (E05) |
+| Developmental stages require granular age-based approaches | Child psychiatrists treat each age group very differently (kindergarten/primary/secondary) based on changing environmental factors (school pressure, legal requirements, family involvement) and developmental stages; suggests need for digital solutions aligned with these granular age transitions rather than broad age brackets. | "It's very broad and very different approaches. Every few years we have to change the approach, just like parenthood" (E05) |
 
 ---
 

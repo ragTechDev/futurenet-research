@@ -5,10 +5,10 @@
 |-------|--------|
 | Stakeholder type | Expert (Child and Adolescent Psychiatrist) |
 | Name | Dr Adrian |
-| Ethnic Background | - |
+| Ethnic Background | Chinese |
 | Age group | Working with children (kindergarten) to young adults (up to 21 years) |
-| Interview date | - |
-| Interviewer | - |
+| Interview date | 23 Jan 2026 |
+| Interviewer | Natasha, Saloni |
 
 ---
 
@@ -16,6 +16,7 @@
 ### Current Behaviors
 - **Practice Background**: 10 years in child and adolescent psychiatry, fellowship from Canada (2014)
 - **Age Definitions**: Operationally based on schooling - primary school for child psychology, up to 21 for adolescent (though KKH transitions at 18)
+- **Granular Age Group Treatment**: Psychiatrists treat each age group very differently with distinct approaches every few years (similar to parenthood stages). Broad classifications include: **Kindergarten (up to 6 years)** - lower limit, related to developmental pediatrics with many milestones; **Primary school** - more formal environment, increased structure; **Secondary school** - more pressure on studying, exam stress. Environmental factors driving this segmentation include changing school environments (kindergarten → formal primary → high-pressure secondary), different legal requirements and provision of care at each stage, varying levels of family involvement, and developmental stages that require fundamentally different therapeutic approaches.
 - **Multi-disciplinary Approach**: Works closely with clinical psychologists, schools, tutors, sports coaches, and other caregivers
 - **School Involvement**: Schools play very important role; head teachers work closely with psychiatrists on accommodations (exam time limits, pressure management)
 - **Rising Anxiety Trends**: Definite increase in anxiety over last 10-20 years (since training started in 2008)
@@ -63,6 +64,7 @@
   - Suicide risk consideration (even 1 life is too many)
 
 ### Opportunities / Ideas
+- **Granular Age-Based Digital Access**: Given that psychiatrists treat each age group very differently with distinct approaches every few years, there is space for digital solutions that provide granular age-appropriate access controls aligned with developmental stages (kindergarten → primary → secondary) and changing environmental factors
 - **MOH Guidelines**: MOH released guidelines on screen time
 - **Balanced Approach**: Tech is neutral - it's about how you use it
 - **Positive Use Cases**: 
@@ -118,7 +120,6 @@
 ---
 
 ## Follow-Ups
-- MOH screen time guidelines - review specific recommendations
-- Board of censorship child experts in Singapore
+- MOH screen time guidelines - review specific recommendations (See [IMDA Film Classification](https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/films) and take note of who is on [Films Consultative Panel](https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/consultation-with-committees#41e90a2a-4280-4e3f-9569-031d914761b6))
 - Research on correlation between device usage and anxiety in Singapore context
 - Best practices for parental controls that balance supervision and respect
