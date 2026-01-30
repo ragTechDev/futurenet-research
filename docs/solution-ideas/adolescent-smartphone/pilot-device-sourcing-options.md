@@ -1,6 +1,5 @@
-# Pilot Device Sourcing Options for Pre-Seed Round
+# Pilot Device Sourcing Options
 
-**Document for**: FutureNet Phone Co-founders  
 **Date**: January 2026  
 **Context**: Cost optimization strategies for 100–150 device pilot
 

@@ -32,18 +32,21 @@ export default function Solution() {
 
           <div className={styles.problemList}>
             <div className={styles.problemItem}>
-              <h3>📱 Kids need phones for safety</h3>
-              <p>After-school pickups. Emergency contact. Peace of mind knowing you can reach them.</p>
-            </div>
-            <div className={styles.problemItem}>
-              <h3>⚠️ But one size doesn&rsquo;t fit all ages</h3>
+              <h3>📱 Parents are familiar with managed devices (PLDs)</h3>
               <p>
-                What&rsquo;s safe for a 13-year-old isn&rsquo;t right for a 16-year-old. 
-                Digital boundaries need to grow with your child — but who has time to research and update settings every year?
+                Every secondary school student has a school-issued laptop or tablet for learning. 
+                Parents understand managed devices work for specific purposes.
               </p>
             </div>
             <div className={styles.problemItem}>
-              <h3>😓 Parents are drowning in decisions</h3>
+              <h3>⚠️ But PLDs don&rsquo;t solve the personal phone problem</h3>
+              <p>
+                PLDs are for learning, not communication. They&rsquo;re laptops/tablets, not smartphones. 
+                Parents still need to buy their child a personal smartphone for communication, coordination, and safety — and they&rsquo;re on their own figuring out what&rsquo;s appropriate.
+              </p>
+            </div>
+            <div className={styles.problemItem}>
+              <h3>😓 Parents are exhausted with manual parental controls</h3>
               <p className={styles.problemHighlight}>Sound familiar?</p>
               <div className={styles.speechBubbles}>
                 <div className={styles.speechBubble}>
@@ -56,7 +59,7 @@ export default function Solution() {
                   &ldquo;Every birthday means re-researching what&rsquo;s age-appropriate. I&rsquo;m not a child psychologist!&rdquo;
                 </div>
                 <div className={styles.speechBubble}>
-                  &ldquo;The constant battles: &apos;But ALL my friends have TikTok!&apos;&rdquo;
+                  &ldquo;The school manages the laptop for learning. I wish someone could manage the phone for overall development — not just school hours.&rdquo;
                 </div>
               </div>
             </div>
@@ -67,19 +70,19 @@ export default function Solution() {
             <div className={styles.solutionGrid}>
               <div className={styles.solutionCard}>
                 <h4>Mainstream phones + Screen Time</h4>
-                <p>High parent effort, bypassable, no expert guidance on age-appropriateness</p>
+                <p>High parent effort, easily bypassed, no expert guidance on age-appropriateness</p>
               </div>
               <div className={styles.solutionCard}>
-                <h4>"Healthy phones"</h4>
-                <p>Static policies (same rules at 13 and 16), no graduated access</p>
+                <h4>&ldquo;Healthy phones&rdquo; (US/UK)</h4>
+                <p>Static policies (same rules at 13 and 16), expensive subscriptions, not available in Singapore</p>
               </div>
               <div className={styles.solutionCard}>
-                <h4>School PLDs (iPads/Chromebooks)</h4>
-                <p>Learning tools, not personal communication devices. WiFi-only, school-owned.</p>
+                <h4>School PLDs (laptops/tablets)</h4>
+                <p>For learning, not communication. School-managed for school hours, not holistic child development.</p>
               </div>
               <div className={styles.solutionCard}>
                 <h4>Watches/trackers</h4>
-                <p>Don't meet teen expectations for a "real phone"</p>
+                <p>Ages 7-12, not smartphones, no graduation path to independence</p>
               </div>
             </div>
           </div>
@@ -91,7 +94,7 @@ export default function Solution() {
           <h2 className={styles.sectionTitle}>Our Solution</h2>
           
           <div className={styles.valueProposition}>
-            <h3 className={styles.vpTitle}>"Set it once, and we'll update it as your child grows."</h3>
+            <h3 className={styles.vpTitle}>&ldquo;Set it once, and we&rsquo;ll update it as your child grows.&rdquo;</h3>
             
             <div className={styles.ageTimeline}>
               <div className={styles.ageCard}>
@@ -100,7 +103,7 @@ export default function Solution() {
                 <ul>
                   <li>Calls/SMS only</li>
                   <li>No browser, no social media</li>
-                  <li>School Mode during school hours</li>
+                  <li>Focus Mode during school hours</li>
                 </ul>
               </div>
               <div className={styles.ageCard}>
@@ -144,22 +147,22 @@ export default function Solution() {
               <div className={styles.expertCard}>
                 <span className={styles.checkmark}>✅</span>
                 <h4>Reviewed by child development experts</h4>
-                <p>Psychologists, digital wellness researchers</p>
+                <p>Child & adolescent psychiatrists, cybersafety experts</p>
               </div>
               <div className={styles.expertCard}>
                 <span className={styles.checkmark}>✅</span>
-                <h4>Approved by educators</h4>
-                <p>Teachers, school counselors</p>
+                <h4>Validated by parents</h4>
+                <p>Parent advisory board provides ongoing feedback</p>
               </div>
               <div className={styles.expertCard}>
                 <span className={styles.checkmark}>✅</span>
                 <h4>Updated automatically</h4>
-                <p>No parent effort required</p>
+                <p>No parent effort required — boundaries update as your child grows</p>
               </div>
               <div className={styles.expertCard}>
                 <span className={styles.checkmark}>✅</span>
                 <h4>Customizable</h4>
-                <p>Parents can adjust if needed, but defaults are expert-backed</p>
+                <p>Parents can adjust based on family values, but defaults are expert-backed</p>
               </div>
             </div>
           </div>
@@ -177,28 +180,30 @@ export default function Solution() {
               <ul>
                 <li>Age-appropriate boundaries that update automatically at start of new school year</li>
                 <li>Expert-reviewed templates for ages 13–17</li>
-                <li>Parents don't need to guess what's developmentally appropriate</li>
+                <li>Parents don&ldquo;t need to guess what&ldquo;s developmentally appropriate</li>
                 <li>Reduces parent stress and family conflict</li>
               </ul>
             </div>
 
             <div className={styles.featureCard}>
-              <h3>2. School Mode</h3>
-              <p className={styles.featureTag}>Auto-activates during school hours</p>
+              <h3>2. Holistic Management (Beyond School Hours)</h3>
+              <p className={styles.featureTag}>Different from PLDs</p>
               <ul>
-                <li>Locks device to calls/SMS only (whitelisted contacts)</li>
-                <li>No browser, no social media, no games</li>
-                <li>Optional educator override (teacher can unlock for approved use)</li>
+                <li>PLDs are school-managed for in-school learning; FutureNet is parent-managed for holistic child development</li>
+                <li>All-day context: school hours, homework time, family time, sleep, social development</li>
+                <li>Expert-backed by child & adolescent psychiatrists and cybersafety experts</li>
+                <li>Focus on overall development, not just school compliance</li>
               </ul>
             </div>
 
             <div className={styles.featureCard}>
-              <h3>3. Parent-Managed Device</h3>
-              <p className={styles.featureTag}>Android Enterprise Device Owner</p>
+              <h3>3. Focus Mode (Optional, Parent-Configured)</h3>
+              <p className={styles.featureTag}>Parent choice, not institutional requirement</p>
               <ul>
-                <li>Strong enforcement (not bypassable via VPN, hidden apps, or factory reset)</li>
-                <li>Parent portal to review and customize age templates</li>
-                <li>Override controls if needed (but defaults are expert-backed)</li>
+                <li>Parents can set &ldquo;focus hours&rdquo; (e.g., during school, homework time, bedtime)</li>
+                <li>Locks device to calls/SMS only during focus hours</li>
+                <li>Parent-configured, not school-mandated</li>
+                <li>Strong enforcement via Android Enterprise Device Owner mode</li>
               </ul>
             </div>
 
@@ -227,29 +232,34 @@ export default function Solution() {
 
       <section className={`${styles.section} ${styles.partnersSection}`}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Expert & Educator Partnerships</h2>
+          <h2 className={styles.sectionTitle}>Expert Partnerships & Parent Validation</h2>
           <p className={styles.partnersIntro}>
-            Our age-appropriate templates are not guesswork — they're backed by experts and educators.
+            Our age-appropriate templates are not guesswork — they&rsquo;re backed by child development experts and validated by parents.
           </p>
 
           <div className={styles.partnersGrid}>
             <div className={styles.partnerCard}>
-              <h3>Child Development Experts</h3>
+              <h3>Child Development & Cybersafety Experts</h3>
               <ul>
                 <li><strong>Cyberlite</strong> — Child Cybersafety Organisation (Current Partner)</li>
-                <li><strong>Dr. Adrian Loh</strong> — Child & Adolescent Psychiatrist, Promises Healthcare</li>
+                <li><strong>Child & Adolescent Psychiatrists</strong> — Developmental appropriateness</li>
+                <li><strong>Youth Mental Health Professionals</strong> — Healthy digital habits</li>
               </ul>
             </div>
             <div className={styles.partnerCard}>
-              <h3>Youth Mental Health</h3>
+              <h3>Parent Advisory Board</h3>
               <ul>
-                <li><strong>IASH</strong> — It All Starts Hear, Youth Mental Health Programs</li>
+                <li><strong>20-30 Parent Advisors</strong> — Ongoing feedback on age template effectiveness</li>
+                <li><strong>Real-world validation</strong> — Co-design features based on actual parent needs</li>
+                <li><strong>Community advocates</strong> — Building trust through parent-to-parent recommendations</li>
               </ul>
             </div>
             <div className={styles.partnerCard}>
-              <h3>Educators</h3>
+              <h3>Built by Community-centered Technologists</h3>
               <ul>
-                <li><strong>MOE Teachers & School Counselors</strong> — Validate age templates align with school policies</li>
+                <li><strong>Three women software engineers</strong> — Building for their own community</li>
+                <li><strong>Women Devs SG leaders</strong> — Community of 1,000+ members, many are parents</li>
+                <li><strong>RagTech podcast co-hosts</strong> — Making tech accessible for families</li>
               </ul>
             </div>
           </div>
@@ -257,15 +267,11 @@ export default function Solution() {
           <div className={styles.valueProps}>
             <div className={styles.valuePropCard}>
               <h4>For Parents</h4>
-              <p>"You're not guessing what's age-appropriate — experts and educators have already figured it out."</p>
-            </div>
-            <div className={styles.valuePropCard}>
-              <h4>For Schools</h4>
-              <p>"Our age templates are validated by child development experts and approved by educators."</p>
+              <p>&ldquo;You&rsquo;re not guessing what&rsquo;s age-appropriate — child development experts have already figured it out, and other parents have validated it works.&rdquo;</p>
             </div>
             <div className={styles.valuePropCard}>
               <h4>For Investors</h4>
-              <p>"We're building an expert network moat that competitors can't easily replicate."</p>
+              <p>&ldquo;We&rsquo;re building an expert network moat that competitors can&rsquo;t easily replicate. Parents trust experts more than they trust their own guesswork.&rdquo;</p>
             </div>
           </div>
         </div>
@@ -277,17 +283,22 @@ export default function Solution() {
           
           <div className={styles.differentiatorGrid}>
             <div className={styles.differentiatorCard}>
-              <h3>Complements School PLDs</h3>
-              <p><strong>School PLD</strong> (iPad/Chromebook): For learning, school-owned, WiFi-only</p>
-              <p><strong>FutureNet Phone</strong>: For communication, parent-owned, cellular, graduated access</p>
+              <h3>Different from PLDs</h3>
+              <p><strong>School PLD</strong> (laptop/tablet): For learning, school-managed for school hours</p>
+              <p><strong>FutureNet Phone</strong>: For communication, parent-managed for holistic child development across the whole day</p>
+              <p>PLDs focus on in-school learning. FutureNet focuses on overall development — school hours, homework time, family time, sleep, social development.</p>
             </div>
             <div className={styles.differentiatorCard}>
               <h3>Only Phone with Automated Graduated Access</h3>
-              <p>All competitors have static policies or require manual parent updates. FutureNet is the only solution with expert-reviewed, educator-approved age templates that update automatically.</p>
+              <p>All competitors have static policies or require manual parent updates. FutureNet is the only solution with expert-backed age templates that update automatically as your child grows.</p>
             </div>
             <div className={styles.differentiatorCard}>
-              <h3>Reduces Parent Stress</h3>
-              <p>No more annual parental control reviews. No more guessing what's age-appropriate. No more family conflicts over app access.</p>
+              <h3>No Installation Required</h3>
+              <p>Phone comes pre-configured out of the box. Parents don&rsquo;t need to install apps, configure settings, or troubleshoot technical issues. Just insert SIM card and turn on.</p>
+            </div>
+            <div className={styles.differentiatorCard}>
+              <h3>Reduces Parent Exhaustion</h3>
+              <p>No more annual parental control reviews. No more guessing what&rsquo;s age-appropriate. No more family conflicts over app access. Set it once, we handle the rest.</p>
             </div>
           </div>
         </div>
@@ -297,7 +308,7 @@ export default function Solution() {
         <div className={styles.container}>
           <h2 className={styles.ctaTitle}>Join Our Journey</h2>
           <p className={styles.ctaText}>
-            We're launching on Kickstarter in March 2026. Be the first to know when we go live.
+            We&rsquo;re launching on Kickstarter in April 2026. Be the first to know when we go live.
           </p>
           <div className={styles.ctaButtons}>
             <Link href="/contact" className={styles.ctaButton}>
