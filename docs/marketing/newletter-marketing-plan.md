@@ -1,8 +1,6 @@
-# Pre-Launch Marketing & Content Plan
-## Building Parent Community for FutureNet Phone Kickstarter
+Marketing & Content Plan
+## Building Parent Community for FutureNet
 
-**Campaign Period**: January - April 2026  
-**Kickstarter Launch**: April 2026  
 **Primary Goal**: Build 800-1,000 email subscribers and engaged parent community  
 **Channels**: Beehiiv newsletter/blog, RagTech podcast, social media (Instagram, TikTok)
 
@@ -10,7 +8,7 @@
 
 ## Executive Summary
 
-This plan outlines a 3-month content marketing strategy to build a parent community ahead of the April 2026 Kickstarter launch. The strategy leverages:
+This plan outlines a 3-month content marketing strategy to build a parent community ahead of a solution launch in April 2026. The strategy leverages:
 
 1. **Beehiiv newsletter/blog** as the primary content hub
 2. **RagTech podcast** integration for authentic storytelling

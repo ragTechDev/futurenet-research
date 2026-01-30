@@ -10,8 +10,6 @@
 
 The smartphone that grows with your child — expert-backed boundaries that update automatically as they mature
 
-Pre-seed deck — January 2026
-
 ---
 
 ## Slide 2 — Problem: Parents Are Exhausted and Alone
