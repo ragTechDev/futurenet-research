@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1350" fill="#f7f3ea"/>
+  <rect width="1080" height="1350" fill="rgba(0, 0, 0, 0.02)"/>
+  
+  <!-- Decorative doodles in corners -->
+  <g transform="translate(100, 100) scale(0.25) rotate(-3)" opacity="0.7">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="0" cy="0" r="50"/>
+      <path d="M -25 -10 L 25 -10 M 0 -35 L 0 15"/>
+    </g>
+  </g>
+  
+  <g transform="translate(980, 100) scale(0.25) rotate(3)" opacity="0.7">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 0 -30 L 20 10 L -20 10 Z"/>
+      <circle cx="0" cy="-40" r="8"/>
+    </g>
+  </g>
+  
+  <!-- Main content -->
+  <g>
+    <!-- Title -->
+    <text x="540" y="300" font-family="Literata, Georgia, serif" font-size="64" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+      Join Us
+    </text>
+    
+    <!-- Hand-drawn underline -->
+    <path d="M 340 320 C 380 310, 440 325, 500 315 S 600 320, 660 310 S 720 320, 740 315" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="3.5" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Follow section -->
+    <g transform="translate(540, 450)">
+      <!-- @ symbol doodle -->
+      <g transform="translate(-350, 0) scale(0.8)">
+        <circle cx="0" cy="0" r="45" fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="10" cy="0" r="20" fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="14"/>
+        <path d="M 30 0 L 30 35 C 30 45, 20 50, 0 45" fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      
+      <text x="0" y="10" font-family="Literata, Georgia, serif" font-size="48" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+        Follow @ragtechdev
+      </text>
+    </g>
+    
+    <!-- Content description -->
+    <text x="540" y="580" font-family="Literata, Georgia, serif" font-size="32" font-weight="400" fill="rgba(26, 26, 26, 0.85)" text-anchor="middle">
+      <tspan x="540" dy="0">Real life in tech + tech podcast</tspan>
+    </text>
+    
+    <!-- Highlight box for Wednesday posts -->
+    <rect x="200" y="640" width="680" height="55" fill="rgba(0, 0, 0, 0.18)" rx="6" opacity="0.8"/>
+    <text x="540" y="678" font-family="Literata, Georgia, serif" font-size="32" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+      FutureNet research every Wednesday
+    </text>
+    
+    <!-- Quiz section -->
+    <g transform="translate(540, 820)">
+      <!-- Phone doodle -->
+      <g transform="translate(-340, 0) scale(0.8)">
+        <rect x="-35" y="-60" width="70" height="120" rx="8" fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="0" cy="45" r="10" fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="14"/>
+        <rect x="-20" y="-40" width="40" height="60" rx="4" fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="10"/>
+      </g>
+      
+      <text x="0" y="10" font-family="Literata, Georgia, serif" font-size="42" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+        Take the Digital Parent Quiz
+      </text>
+    </g>
+    
+    <!-- URL -->
+    <text x="540" y="950" font-family="Literata, Georgia, serif" font-size="38" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+      futurenet.ragtechdev.com
+    </text>
+    
+    <!-- Hand-drawn underline under URL -->
+    <path d="M 200 970 C 280 960, 380 975, 480 965 S 620 970, 720 960 S 820 970, 880 965" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="3.5" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Bottom message -->
+    <text x="540" y="1080" font-family="Literata, Georgia, serif" font-size="32" font-weight="400" fill="rgba(26, 26, 26, 0.75)" text-anchor="middle">
+      <tspan x="540" dy="0">Discover your parenting persona</tspan>
+      <tspan x="540" dy="45">and help us build better solutions</tspan>
+    </text>
+  </g>
+  
+  <!-- Bottom corner doodles -->
+  <g transform="translate(100, 1250) scale(0.25) rotate(-2)" opacity="0.7">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -30 0 L 0 -30 L 30 0 L 0 30 Z"/>
+      <circle cx="0" cy="0" r="12" fill="rgba(85, 51, 51, 0.8)"/>
+    </g>
+  </g>
+  
+  <g transform="translate(980, 1250) scale(0.25) rotate(2)" opacity="0.7">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="0" cy="0" r="40"/>
+      <path d="M -20 -10 L -5 5 L 20 -20" stroke-width="14"/>
+    </g>
+  </g>
+</svg>

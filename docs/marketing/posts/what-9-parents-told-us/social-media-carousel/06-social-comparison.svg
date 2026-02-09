@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1350" fill="#f7f3ea"/>
+  <rect width="1080" height="1350" fill="rgba(0, 0, 0, 0.02)"/>
+  
+  <!-- Central doodle: Mirror/screen showing comparison -->
+  <g transform="translate(540, 420)">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Phone/mirror frame -->
+      <rect x="-140" y="-160" width="280" height="320" rx="20"/>
+      
+      <!-- Split screen showing comparison -->
+      <line x1="0" y1="-140" x2="0" y2="140" stroke-dasharray="12,8" opacity="0.5"/>
+      
+      <!-- Left side: Real person (sad) -->
+      <circle cx="-70" cy="-40" r="45"/>
+      <circle cx="-80" cy="-50" r="6" fill="rgba(26, 26, 26, 0.8)"/>
+      <circle cx="-60" cy="-50" r="6" fill="rgba(26, 26, 26, 0.8)"/>
+      <path d="M -85 -10 C -75 -5, -65 -5, -55 -10"/>
+      
+      <!-- Left body (slouched) -->
+      <path d="M -70 5 L -70 80"/>
+      <path d="M -70 30 L -100 60"/>
+      <path d="M -70 30 L -40 60"/>
+      
+      <!-- Right side: Curated/perfect (happy) -->
+      <circle cx="70" cy="-40" r="45"/>
+      <circle cx="60" cy="-50" r="6" fill="rgba(26, 26, 26, 0.8)"/>
+      <circle cx="80" cy="-50" r="6" fill="rgba(26, 26, 26, 0.8)"/>
+      <path d="M 55 -10 C 65 -15, 75 -15, 85 -10"/>
+      
+      <!-- Right body (confident) -->
+      <path d="M 70 5 L 70 80"/>
+      <path d="M 70 30 L 40 50"/>
+      <path d="M 70 30 L 100 50"/>
+      
+      <!-- Stars/likes around right side -->
+      <g transform="translate(110, -80) scale(0.6)">
+        <path d="M 0 -15 L 4 0 L 15 0 L 6 8 L 10 20 L 0 12 L -10 20 L -6 8 L -15 0 L -4 0 Z" fill="rgba(26, 26, 26, 0.8)"/>
+      </g>
+      <g transform="translate(110, 20) scale(0.6)">
+        <path d="M 0 -15 L 4 0 L 15 0 L 6 8 L 10 20 L 0 12 L -10 20 L -6 8 L -15 0 L -4 0 Z" fill="rgba(26, 26, 26, 0.8)"/>
+      </g>
+      
+      <!-- Downward arrow on left -->
+      <path d="M -120 60 L -120 100" stroke-width="10"/>
+      <path d="M -130 90 L -120 100 L -110 90" stroke-width="10"/>
+    </g>
+  </g>
+  
+  <!-- Text content -->
+  <text x="540" y="780" font-family="Literata, Georgia, serif" font-size="42" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+    <tspan x="540" dy="0">Social comparison and</tspan>
+    <tspan x="540" dy="55">curated content warp</tspan>
+    <tspan x="540" dy="55">self-esteem and drive</tspan>
+    <tspan x="540" dy="55">compulsive checking.</tspan>
+  </text>
+  
+  <!-- Bottom emphasis -->
+  <g>
+    <rect x="260" y="1050" width="560" height="55" fill="rgba(0, 0, 0, 0.18)" rx="6" opacity="0.8"/>
+    <text x="540" y="1088" font-family="Literata, Georgia, serif" font-size="32" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+      FOMO + anxiety cycles
+    </text>
+  </g>
+  
+  <!-- Swipe chevron -->
+  <g transform="translate(1000, 675)" opacity="0.6">
+    <path d="M 0 -40 L 30 0 L 0 40" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    <path d="M -15 -40 L 15 0 L -15 40" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+</svg>

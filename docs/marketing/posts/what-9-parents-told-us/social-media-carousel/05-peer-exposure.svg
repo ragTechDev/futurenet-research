@@ -1,0 +1,81 @@
+<svg viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1350" fill="#f7f3ea"/>
+  <rect width="1080" height="1350" fill="rgba(0, 0, 0, 0.02)"/>
+  
+  <!-- Central doodle: Kids sharing content (viral spread) -->
+  <g transform="translate(540, 420)">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Central phone -->
+      <rect x="-50" y="-80" width="100" height="160" rx="12"/>
+      <circle cx="0" cy="60" r="12"/>
+      <rect x="-30" y="-50" width="60" height="80" rx="4"/>
+      
+      <!-- Arrows spreading outward -->
+      <path d="M 50 0 L 120 -40" stroke-width="12"/>
+      <path d="M 110 -50 L 120 -40 L 110 -30" stroke-width="12"/>
+      
+      <path d="M 50 0 L 120 40" stroke-width="12"/>
+      <path d="M 110 30 L 120 40 L 110 50" stroke-width="12"/>
+      
+      <path d="M -50 0 L -120 -40" stroke-width="12"/>
+      <path d="M -110 -50 L -120 -40 L -110 -30" stroke-width="12"/>
+      
+      <path d="M -50 0 L -120 40" stroke-width="12"/>
+      <path d="M -110 30 L -120 40 L -110 50" stroke-width="12"/>
+      
+      <!-- Kid heads at endpoints -->
+      <circle cx="150" cy="-40" r="35"/>
+      <circle cx="150" cy="40" r="35"/>
+      <circle cx="-150" cy="-40" r="35"/>
+      <circle cx="-150" cy="40" r="35"/>
+      
+      <!-- Simple faces -->
+      <circle cx="145" cy="-45" r="4" fill="rgba(26, 26, 26, 0.8)"/>
+      <circle cx="155" cy="-45" r="4" fill="rgba(26, 26, 26, 0.8)"/>
+      
+      <circle cx="145" cy="35" r="4" fill="rgba(26, 26, 26, 0.8)"/>
+      <circle cx="155" cy="35" r="4" fill="rgba(26, 26, 26, 0.8)"/>
+      
+      <circle cx="-155" cy="-45" r="4" fill="rgba(26, 26, 26, 0.8)"/>
+      <circle cx="-145" cy="-45" r="4" fill="rgba(26, 26, 26, 0.8)"/>
+      
+      <circle cx="-155" cy="35" r="4" fill="rgba(26, 26, 26, 0.8)"/>
+      <circle cx="-145" cy="35" r="4" fill="rgba(26, 26, 26, 0.8)"/>
+      
+      <!-- Meme/virus symbol in center phone -->
+      <text x="0" y="-5" font-family="Literata, Georgia, serif" font-size="32" font-weight="600" fill="rgba(26, 26, 26, 0.8)" text-anchor="middle"></text>
+    </g>
+  </g>
+  
+  <!-- Text content -->
+  <text x="540" y="780" font-family="Literata, Georgia, serif" font-size="42" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+    <tspan x="540" dy="0">Harmful content spreads</tspan>
+    <tspan x="540" dy="55">through peers at school,</tspan>
+    <tspan x="540" dy="55">undermining home controls.</tspan>
+  </text>
+  
+  <!-- Bottom emphasis -->
+  <g>
+    <rect x="160" y="1050" width="760" height="55" fill="rgba(0, 0, 0, 0.18)" rx="6" opacity="0.8"/>
+    <text x="540" y="1088" font-family="Literata, Georgia, serif" font-size="32" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+      "Memes are like viruses in kids' heads"
+    </text>
+  </g>
+  
+  <!-- Swipe chevron -->
+  <g transform="translate(1000, 675)" opacity="0.6">
+    <path d="M 0 -40 L 30 0 L 0 40" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    <path d="M -15 -40 L 15 0 L -15 40" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+</svg>

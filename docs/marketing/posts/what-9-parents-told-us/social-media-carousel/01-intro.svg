@@ -1,0 +1,120 @@
+<svg viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1350" fill="#f7f3ea"/>
+  
+  <!-- Subtle texture overlay -->
+  <rect width="1080" height="1350" fill="rgba(0, 0, 0, 0.02)"/>
+  
+  <!-- Doodle: Tree (top left) -->
+  <g transform="translate(120, 120) scale(0.35) rotate(-3)" opacity="0.95">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M320 90 C240 120, 200 190, 210 250 C170 260, 150 300, 160 340 C175 400, 250 430, 300 412 C320 460, 390 492, 450 470 C520 444, 540 370, 502 325 C540 300, 552 242, 522 205 C480 155, 390 135, 320 165" />
+      <path d="M318 260 C320 360, 320 450, 320 550" />
+      <path d="M320 430 C280 410, 250 385, 220 350" />
+      <path d="M320 380 C360 360, 390 330, 420 300" />
+      <path d="M280 550 C300 520, 340 520, 360 550" />
+    </g>
+  </g>
+  
+  <!-- Doodle: Leaf (top right) -->
+  <g transform="translate(900, 140) scale(0.3) rotate(4)" opacity="0.88">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M400 200 C400 100, 300 50, 200 100 C100 150, 50 250, 100 350 C150 450, 250 500, 350 450 C450 400, 500 300, 450 200 C420 150, 400 200, 400 200" />
+      <path d="M400 200 C350 250, 300 300, 250 350" />
+      <path d="M400 200 C320 220, 240 260, 180 320" />
+    </g>
+  </g>
+  
+  <!-- Doodle: Cat (bottom left) -->
+  <g transform="translate(100, 1100) scale(0.28) rotate(-2)" opacity="0.95">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M250 260 C250 180, 350 130, 400 170 C450 130, 550 180, 550 260 C550 380, 480 430, 400 430 C320 430, 250 380, 250 260 Z" />
+      <path d="M300 200 C280 140, 330 110, 360 160" />
+      <path d="M500 200 C520 140, 470 110, 440 160" />
+      <path d="M320 430 C280 520, 300 640, 400 650 C500 640, 520 520, 480 430" />
+      <path d="M480 560 C580 580, 600 720, 500 740" />
+      <path d="M390 320 C395 330, 405 330, 410 320" />
+      <path d="M330 330 C280 320, 260 320, 230 330" />
+      <path d="M330 350 C280 350, 260 360, 230 370" />
+      <path d="M470 330 C520 320, 540 320, 570 330" />
+      <path d="M470 350 C520 350, 540 360, 570 370" />
+    </g>
+  </g>
+  
+  <!-- Doodle: Phone (bottom right) -->
+  <g transform="translate(880, 1120) scale(0.32) rotate(2)" opacity="0.9">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="250" y="100" width="300" height="500" rx="30" />
+      <line x1="350" y1="150" x2="450" y2="150" />
+      <circle cx="400" cy="560" r="25" />
+      <rect x="300" y="200" width="200" height="300" rx="8" />
+    </g>
+  </g>
+  
+  <!-- Doodle: Laptop (bottom center) -->
+  <g transform="translate(540, 1180) scale(0.35) rotate(-3)" opacity="0.86">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M200 300 L200 150 C200 130, 210 120, 230 120 L570 120 C590 120, 600 130, 600 150 L600 300" />
+      <path d="M150 300 L650 300 L680 380 L120 380 Z" />
+      <line x1="250" y1="160" x2="550" y2="160" />
+      <line x1="250" y1="200" x2="550" y2="200" />
+      <line x1="250" y1="240" x2="450" y2="240" />
+    </g>
+  </g>
+  
+  <!-- Main content area -->
+  <g>
+    <!-- Title -->
+    <text x="540" y="420" font-family="Literata, Georgia, serif" font-size="88" font-weight="600" fill="#1a1a1a" text-anchor="middle" letter-spacing="1">
+      FutureNet
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="540" y="470" font-family="Literata, Georgia, serif" font-size="22" font-style="italic" fill="rgba(26, 26, 26, 0.75)" text-anchor="middle">
+      with love from ragtechdev
+    </text>
+    
+    <!-- Main message -->
+    <text x="540" y="600" font-family="Literata, Georgia, serif" font-size="32" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+      <tspan x="540" dy="0">We are three technologists</tspan>
+      <tspan x="540" dy="50">who realized that tech is</tspan>
+      <tspan x="540" dy="50">affecting everyone,</tspan>
+    </text>
+    
+    <!-- Highlighted text with background -->
+    <rect x="240" y="760" width="600" height="50" fill="rgba(0, 0, 0, 0.18)" rx="6" opacity="0.8"/>
+    <text x="540" y="795" font-family="Literata, Georgia, serif" font-size="32" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+      especially kids and adolescents
+    </text>
+    
+    <!-- Continuation -->
+    <text x="540" y="880" font-family="Literata, Georgia, serif" font-size="32" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+      <tspan x="540" dy="0">...so we interviewed 9 parents</tspan>
+      <tspan x="540" dy="50">and found out that...</tspan>
+    </text>
+    
+    <!-- Hand-drawn underline under "found out that" -->
+    <path d="M 280 945 C 340 935, 420 950, 500 940 S 620 945, 700 935 S 760 945, 800 940" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="3.5" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Swipe chevron -->
+  <g transform="translate(1000, 675)" opacity="0.6">
+    <path d="M 0 -40 L 30 0 L 0 40" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    <path d="M -15 -40 L 15 0 L -15 40" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+</svg>

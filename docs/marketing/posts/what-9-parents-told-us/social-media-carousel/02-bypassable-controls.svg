@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1350" fill="#f7f3ea"/>
+  <rect width="1080" height="1350" fill="rgba(0, 0, 0, 0.02)"/>
+  
+  <!-- Central doodle: Lock with broken chain -->
+  <g transform="translate(540, 450) scale(1.2)">
+    <g fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Lock body -->
+      <rect x="-80" y="0" width="160" height="180" rx="20"/>
+      <!-- Lock shackle (open/broken) -->
+      <path d="M -60 0 L -60 -80 C -60 -120, -40 -140, 0 -140 C 40 -140, 60 -120, 60 -80 L 60 -40"/>
+      <!-- Break in shackle -->
+      <path d="M 60 -40 L 75 -55" stroke-dasharray="5,5"/>
+      <path d="M 85 -65 L 100 -80" stroke-dasharray="5,5"/>
+      <!-- Keyhole -->
+      <circle cx="0" cy="70" r="18"/>
+      <path d="M 0 88 L 0 130"/>
+      <!-- Chain links (broken) -->
+      <ellipse cx="-150" cy="90" rx="30" ry="40" transform="rotate(-30 -150 90)"/>
+      <ellipse cx="-200" cy="60" rx="30" ry="40" transform="rotate(-45 -200 60)"/>
+      <!-- Break marks -->
+      <path d="M -120 80 L -110 70" stroke-width="16"/>
+      <path d="M -115 85 L -105 75" stroke-width="16"/>
+    </g>
+  </g>
+  
+  <!-- Text content -->
+  <text x="540" y="780" font-family="Literata, Georgia, serif" font-size="42" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+    <tspan x="540" dy="0">Kids bypass controls</tspan>
+    <tspan x="540" dy="55">through browser loopholes,</tspan>
+    <tspan x="540" dy="55">account switching,</tspan>
+    <tspan x="540" dy="55">and search engines.</tspan>
+  </text>
+  
+  <!-- Bottom emphasis -->
+  <g>
+    <rect x="200" y="1050" width="680" height="55" fill="rgba(0, 0, 0, 0.18)" rx="6" opacity="0.8"/>
+    <text x="540" y="1088" font-family="Literata, Georgia, serif" font-size="32" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+      High monitoring burden + trust erosion
+    </text>
+  </g>
+  
+  <!-- Decorative corner doodles -->
+  <g transform="translate(120, 120) scale(0.25)" opacity="0.7">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12"/>
+    <path d="M -20 0 L 20 0 M 0 -20 L 0 20" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  
+  <g transform="translate(960, 120) scale(0.25)" opacity="0.7">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12"/>
+    <path d="M -20 0 L 20 0 M 0 -20 L 0 20" stroke="rgba(26, 26, 26, 0.8)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Swipe chevron -->
+  <g transform="translate(1000, 675)" opacity="0.6">
+    <path d="M 0 -40 L 30 0 L 0 40" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    <path d="M -15 -40 L 15 0 L -15 40" 
+          fill="none" 
+          stroke="rgba(26, 26, 26, 0.8)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+</svg>
