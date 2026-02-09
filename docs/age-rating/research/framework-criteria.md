@@ -87,6 +87,7 @@ Web apps and websites have intrinsic differences that each require a different l
 
 ## Positive Content
 - Educational Value
+- Creative activities (e.g. drawing)
 - Positive Messages
 - Ease of Play
 - Positive Role Models
