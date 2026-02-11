@@ -1,99 +1,119 @@
-# Guidance on AI and Children 
-Updated guidance for governments and businesses to create AI policies and systems that uphold children’s rights
+# UNICEF Guidance on AI and Children (Version 3)
 
-See [full report](https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf)
+**Updated guidance for governments and businesses to create AI policies and systems that uphold children's rights**
 
-## Guidance on AI and Children (v3): Checklist
-1. Ensure regulatory frameworks, oversight and compliance for child-centred AI
-• Review, update and, where necessary, develop comprehensive AI-related regulatory
-frameworks to integrate child rights.
-• Establish – or assign responsibility to existing – oversight or regulatory bodies to ensure
-compliance with AI principles and laws and set up support mechanisms for redress.
-• Ensure that government AI systems comply with AI-related laws and child rights law.
-2. Ensure safety for children
-• Mandate child rights impact assessments of AI systems in AI strategies, policies, laws and
-regulations.
-• Continuously assess and monitor AI’s impact on children throughout the entire AI
-development life cycle, and disclose results.
-• Require testing of AI systems for safety, security and robustness.
-• Eliminate harms and mitigate risks to children of harmful and illegal content that is generated,
-disseminated and/or amplified by AI, including mis/disinformation, cyberbullying and scams.
-• Prevent AI-enabled crimes against children such as child sexual abuse and exploitation.
-• Address risks from AI-enabled chatbots or companions.
-• Protect children from the harmful use of AI in armed conflict and cyber operations.
-• Leverage the use of AI systems, where appropriate, to promote children’s safety and support
-those protecting children.
-3. Protect children’s data and privacy
-• Responsibly handle data about and for children.
-• Adopt a privacy-by-design approach.
-• Protect groups.
-• Promote children’s data agency.
-4. Ensure non-discrimination and fairness for children
-• Actively support children in disadvantaged or vulnerable situations so that they may benefit
-from AI systems.
-• Reduce prejudicial bias against children, or certain groups of children, which leads to
-discrimination and exclusion.
-5. Provide transparency, explainability and accountability for children
-• AI systems should clearly warn children and caregivers upfront that they are interacting with
-an AI, not a human.
-• Explicitly address children when promoting explainability and transparency of AI systems, and
-prevent anthropomorphizing such systems.
-• Use age-appropriate language to describe AI.
-• Design, develop and deploy AI systems so that they protect and support child users according
-to legal and policy frameworks, regardless of children’s understandings of the system.
-6. Respect human and child rights through responsible AI practice
-• Ensure respect for children’s rights across all digital business activities involving AI.
-• Ensure a rights-based AI value chain for all inputs ranging from data to hardware and eliminate
-child labour and exploitation at all stages.
-• Ensure capacity-building on AI and child rights for top management and those in the AI life
-cycle, including designers, developers and researchers, and commit to action.
-• Capitalize on customers’ demand for trusted and transparent AI solutions for children.
-7. Support children's best interests, development and well-being
-• Prioritize how AI can benefit children, in particular in AI policies, laws and systems.
-• Develop and apply a child rights-by-design approach.
-• Integrate metrics and processes to support children’s well-being in the use of AI.
-• Address negative environmental impacts from AI and digital infrastructure.
-• Leverage AI systems to support and increase environmental sustainability, including by
-ensuring a sustainable AI value chain.
-8. Ensure inclusion of and for children
-• Support meaningful child participation, both in AI policies and governance, and in design,
-development and deployment processes.
-• Adopt an inclusive design approach when developing AI products that will be used by children
-or impact them.
-• Strive for diversity amongst those who design, develop, implement, research, regulate and
-oversee AI systems that children may use or be impacted by, including those collecting and
-processing AI data.
-9. Prepare and skill children for present and future developments in AI
-• Develop or update formal and informal education programmes for AI literacy and strengthen
-life skills and technical skills needed to flourish in an AI world, including in the future
-workplace.
-• Train, equip and support teachers on AI to put them at the centre, not replace them.
-• Provide guidance to teachers, schools and education departments to effectively procure and
-deploy AI and mitigate the risks.
-• Leverage the use of AI systems in education, when it is appropriate and based on evidence.
-• Develop and promote AI-related awareness campaigns for parents, caregivers and society as a
-whole.
-• Manage the impact of AI on the future of work to uphold children’s rights.
-10. Create an enabling environment for child-centred AI
-• Support infrastructure development to address the digital divide and aim for equitable sharing
-of the benefits of AI.
-• Invest, mobilize resources and create incentives for child-centred AI policies and
-programmes.
-• Support research on AI for and with children across the system’s life cycle.
-• Engage in digital cooperation in the public interest and for upholding children’s rights.
-• Foster a multi-stakeholder approach both in government and in business practices.
-• Support efforts towards interoperable AI, data and digital governance that provide equal
-opportunities and protections for children everywhere.
-Cross-cutting considerations
-• Adapt to the national or local context.
-• Employ foresight to better anticipate and govern AI.
-• Be future ready.
+[Full Report](https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf)
+
+---
+
+## 10 Requirements for Child-Centred AI
+
+### 1. Ensure Regulatory Frameworks, Oversight and Compliance for Child-Centred AI
+
+- Review, update and, where necessary, develop comprehensive AI-related regulatory frameworks to integrate child rights
+- Establish – or assign responsibility to existing – oversight or regulatory bodies to ensure compliance with AI principles and laws and set up support mechanisms for redress
+- Ensure that government AI systems comply with AI-related laws and child rights law
+
+---
+
+### 2. Ensure Safety for Children
+
+- Mandate child rights impact assessments of AI systems in AI strategies, policies, laws and regulations
+- Continuously assess and monitor AI's impact on children throughout the entire AI development life cycle, and disclose results
+- Require testing of AI systems for safety, security and robustness
+- Eliminate harms and mitigate risks to children of harmful and illegal content that is generated, disseminated and/or amplified by AI, including mis/disinformation, cyberbullying and scams
+- Prevent AI-enabled crimes against children such as child sexual abuse and exploitation
+- Address risks from AI-enabled chatbots or companions
+- Protect children from the harmful use of AI in armed conflict and cyber operations
+- Leverage the use of AI systems, where appropriate, to promote children's safety and support those protecting children
+
+---
+
+### 3. Protect Children's Data and Privacy
+
+- Responsibly handle data about and for children
+- Adopt a privacy-by-design approach
+- Protect groups
+- Promote children's data agency
+
+---
+
+### 4. Ensure Non-Discrimination and Fairness for Children
+
+- Actively support children in disadvantaged or vulnerable situations so that they may benefit from AI systems
+- Reduce prejudicial bias against children, or certain groups of children, which leads to discrimination and exclusion
+
+---
+
+### 5. Provide Transparency, Explainability and Accountability for Children
+
+- AI systems should clearly warn children and caregivers upfront that they are interacting with an AI, not a human
+- Explicitly address children when promoting explainability and transparency of AI systems, and prevent anthropomorphizing such systems
+- Use age-appropriate language to describe AI
+- Design, develop and deploy AI systems so that they protect and support child users according to legal and policy frameworks, regardless of children's understandings of the system
+
+---
+
+### 6. Respect Human and Child Rights Through Responsible AI Practice
+
+- Ensure respect for children's rights across all digital business activities involving AI
+- Ensure a rights-based AI value chain for all inputs ranging from data to hardware and eliminate child labour and exploitation at all stages
+- Ensure capacity-building on AI and child rights for top management and those in the AI life cycle, including designers, developers and researchers, and commit to action
+- Capitalize on customers' demand for trusted and transparent AI solutions for children
+
+---
+
+### 7. Support Children's Best Interests, Development and Well-Being
+
+- Prioritize how AI can benefit children, in particular in AI policies, laws and systems
+- Develop and apply a child rights-by-design approach
+- Integrate metrics and processes to support children's well-being in the use of AI
+- Address negative environmental impacts from AI and digital infrastructure
+- Leverage AI systems to support and increase environmental sustainability, including by ensuring a sustainable AI value chain
+
+---
+
+### 8. Ensure Inclusion of and for Children
+
+- Support meaningful child participation, both in AI policies and governance, and in design, development and deployment processes
+- Adopt an inclusive design approach when developing AI products that will be used by children or impact them
+- Strive for diversity amongst those who design, develop, implement, research, regulate and oversee AI systems that children may use or be impacted by, including those collecting and processing AI data
+
+---
+
+### 9. Prepare and Skill Children for Present and Future Developments in AI
+
+- Develop or update formal and informal education programmes for AI literacy and strengthen life skills and technical skills needed to flourish in an AI world, including in the future workplace
+- Train, equip and support teachers on AI to put them at the centre, not replace them
+- Provide guidance to teachers, schools and education departments to effectively procure and deploy AI and mitigate the risks
+- Leverage the use of AI systems in education, when it is appropriate and based on evidence
+- Develop and promote AI-related awareness campaigns for parents, caregivers and society as a whole
+- Manage the impact of AI on the future of work to uphold children's rights
+
+---
+
+### 10. Create an Enabling Environment for Child-Centred AI
+
+- Support infrastructure development to address the digital divide and aim for equitable sharing of the benefits of AI
+- Invest, mobilize resources and create incentives for child-centred AI policies and programmes
+- Support research on AI for and with children across the system's life cycle
+- Engage in digital cooperation in the public interest and for upholding children's rights
+- Foster a multi-stakeholder approach both in government and in business practices
+- Support efforts towards interoperable AI, data and digital governance that provide equal opportunities and protections for children everywhere
+
+---
+
+## Cross-Cutting Considerations
+
+- **Adapt to the national or local context**
+- **Employ foresight** to better anticipate and govern AI
+- **Be future ready**
 
 ## Impetus
 Artificial intelligence (AI) is now front and centre in almost every major app
 or platform that children use. Recent data reveals rapid adoption: 67 per cent
 of UK teens now use AI (a figure that has almost doubled in two years),1
- 39
+39 per cent of American elementary students learn through AI applications2
 per cent of American elementary students learn through AI applications2
 and 37 per cent of children aged 9–11 in Argentina turn to ChatGPT for
 information.3
