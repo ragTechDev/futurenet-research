@@ -1,0 +1,631 @@
+.page {
+  min-height: 100vh;
+  background: #f7f3ea;
+  color: #1a1a1a;
+}
+
+.hero {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02));
+  border-bottom: 3px solid rgba(26, 26, 26, 0.1);
+}
+
+.heroContent {
+  max-width: 900px;
+  text-align: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: clamp(36px, 5vw, 64px);
+  line-height: 1.1;
+  margin: 0 0 20px 0;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.5;
+  margin: 0 0 16px 0;
+  opacity: 0.85;
+}
+
+.tagline {
+  font-size: clamp(14px, 1.5vw, 16px);
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.75;
+}
+
+.section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  font-size: clamp(28px, 3.5vw, 42px);
+  line-height: 1.2;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.01em;
+}
+
+.text {
+  font-size: clamp(16px, 1.6vw, 19px);
+  line-height: 1.7;
+  margin: 0 0 16px 0;
+  opacity: 0.9;
+}
+
+.problemGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.problemCard {
+  padding: 28px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(26, 26, 26, 0.12);
+  border-radius: 4px;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.problemCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(26, 26, 26, 0.08);
+}
+
+.problemCardTitle {
+  font-size: clamp(18px, 2vw, 21px);
+  font-weight: 600;
+  margin: 0 0 14px 0;
+  line-height: 1.3;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.problemIcon {
+  font-size: 1.4em;
+  flex-shrink: 0;
+}
+
+.problemCardText {
+  font-size: clamp(15px, 1.5vw, 17px);
+  line-height: 1.7;
+  margin: 0;
+  opacity: 0.88;
+}
+
+.problemSummary {
+  margin-top: 48px;
+  padding: 28px;
+  background: rgba(26, 26, 26, 0.06);
+  border-left: 5px solid rgba(26, 26, 26, 0.4);
+  border-radius: 4px;
+}
+
+.problemSummaryText {
+  font-size: clamp(16px, 1.7vw, 19px);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.keyPoints {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.keyPoint {
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(26, 26, 26, 0.1);
+  border-radius: 4px;
+}
+
+.keyPointTitle {
+  font-size: clamp(18px, 2vw, 22px);
+  font-weight: 600;
+  margin: 0 0 12px 0;
+}
+
+.keyPointText {
+  font-size: clamp(15px, 1.5vw, 17px);
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  margin: 32px 0;
+  border: 2px solid rgba(26, 26, 26, 0.1);
+  border-radius: 4px;
+}
+
+.criteriaTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.6);
+  font-size: clamp(14px, 1.4vw, 16px);
+}
+
+.criteriaTable thead {
+  background: rgba(26, 26, 26, 0.08);
+}
+
+.criteriaTable th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(26, 26, 26, 0.15);
+}
+
+.criteriaTable td {
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.08);
+  vertical-align: top;
+}
+
+.criteriaTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.categoryRow {
+  background: rgba(26, 26, 26, 0.05);
+}
+
+.categoryRow td {
+  padding: 12px 16px;
+  font-weight: 600;
+  border-top: 2px solid rgba(26, 26, 26, 0.15);
+}
+
+.scoringNote {
+  margin-top: 24px;
+  padding: 20px;
+  background: rgba(26, 26, 26, 0.04);
+  border-left: 4px solid rgba(26, 26, 26, 0.3);
+  border-radius: 4px;
+}
+
+.scoringNote p {
+  margin: 0;
+  font-size: clamp(15px, 1.5vw, 17px);
+  line-height: 1.6;
+}
+
+.implementations {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.implementation {
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(26, 26, 26, 0.1);
+  border-radius: 4px;
+}
+
+.implementationHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.implementationTitle {
+  font-size: clamp(22px, 2.5vw, 28px);
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.implementationIcon {
+  font-size: 1.3em;
+}
+
+.implementationBadge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(26, 26, 26, 0.85);
+  color: #f7f3ea;
+  font-size: clamp(12px, 1.2vw, 14px);
+  font-weight: 600;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+
+.implementationDesc {
+  font-size: clamp(16px, 1.6vw, 18px);
+  line-height: 1.6;
+  margin: 0 0 24px 0;
+  opacity: 0.9;
+}
+
+.features {
+  margin: 24px 0;
+}
+
+.featuresTitle {
+  font-size: clamp(16px, 1.6vw, 18px);
+  font-weight: 600;
+  margin: 0 0 12px 0;
+}
+
+.featuresList {
+  margin: 0;
+  padding-left: 24px;
+  list-style-type: disc;
+}
+
+.featuresList li {
+  font-size: clamp(15px, 1.5vw, 17px);
+  line-height: 1.7;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.featuresList li:last-child {
+  margin-bottom: 0;
+}
+
+.useCases {
+  margin-top: 20px;
+  padding: 16px;
+  background: rgba(26, 26, 26, 0.04);
+  border-radius: 4px;
+  font-size: clamp(14px, 1.4vw, 16px);
+  line-height: 1.6;
+}
+
+.comparisonSection {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 2px solid rgba(26, 26, 26, 0.1);
+}
+
+.comparisonTitle {
+  font-size: clamp(24px, 2.8vw, 32px);
+  font-weight: 600;
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+
+.comparisonTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.6);
+  font-size: clamp(14px, 1.4vw, 16px);
+}
+
+.comparisonTable thead {
+  background: rgba(26, 26, 26, 0.08);
+}
+
+.comparisonTable th {
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(26, 26, 26, 0.15);
+}
+
+.comparisonTable td {
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.08);
+  vertical-align: top;
+}
+
+.comparisonTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.comparisonNote {
+  margin-top: 20px;
+  text-align: center;
+  font-size: clamp(16px, 1.6vw, 18px);
+  line-height: 1.6;
+}
+
+.ageGroupsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+  margin-bottom: 48px;
+}
+
+.ageGroupCard {
+  padding: 28px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(26, 26, 26, 0.1);
+  border-radius: 4px;
+}
+
+.ageGroupHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ageGroupTitle {
+  font-size: clamp(20px, 2.2vw, 24px);
+  font-weight: 600;
+  margin: 0;
+}
+
+.ageGroupBadge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: rgba(26, 26, 26, 0.1);
+  font-size: clamp(12px, 1.2vw, 14px);
+  font-weight: 600;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+
+.capacityBars {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.capacityBar {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.capacityLabel {
+  font-size: clamp(13px, 1.3vw, 15px);
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.capacityBarBg {
+  height: 12px;
+  background: rgba(26, 26, 26, 0.08);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.capacityBarFill {
+  height: 100%;
+  background: linear-gradient(90deg, rgba(26, 26, 26, 0.6), rgba(26, 26, 26, 0.8));
+  border-radius: 6px;
+  transition: width 400ms ease;
+}
+
+.capacityValue {
+  font-size: clamp(12px, 1.2vw, 14px);
+  font-weight: 600;
+  opacity: 0.7;
+  min-width: 50px;
+  text-align: right;
+}
+
+.ageGroupRequirements {
+  padding: 16px;
+  background: rgba(26, 26, 26, 0.04);
+  border-radius: 4px;
+  font-size: clamp(13px, 1.3vw, 15px);
+  line-height: 1.6;
+}
+
+.matchingExplanation {
+  margin-top: 48px;
+  padding-top: 40px;
+  border-top: 2px solid rgba(26, 26, 26, 0.1);
+}
+
+.matchingTitle {
+  font-size: clamp(22px, 2.5vw, 28px);
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.scoreThresholds {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.thresholdCard {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(26, 26, 26, 0.08);
+  border-radius: 4px;
+}
+
+.thresholdGrade {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.thresholdInfo {
+  flex: 1;
+}
+
+.thresholdInfo strong {
+  display: block;
+  font-size: clamp(16px, 1.6vw, 18px);
+  margin-bottom: 6px;
+}
+
+.thresholdInfo p {
+  margin: 0;
+  font-size: clamp(14px, 1.4vw, 16px);
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
+.techGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.techCard {
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(26, 26, 26, 0.1);
+  border-radius: 4px;
+}
+
+.techCardTitle {
+  font-size: clamp(17px, 1.7vw, 20px);
+  font-weight: 600;
+  margin: 0 0 12px 0;
+}
+
+.techCardText {
+  font-size: clamp(14px, 1.4vw, 16px);
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.cta {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.ctaText {
+  font-size: clamp(16px, 1.6vw, 19px);
+  line-height: 1.7;
+  margin: 0 0 32px 0;
+  opacity: 0.9;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 14px 28px;
+  border: 3px solid rgba(26, 26, 26, 0.75);
+  border-radius: 0;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: clamp(15px, 1.5vw, 17px);
+  letter-spacing: 0.01em;
+  background: rgba(26, 26, 26, 0.85);
+  color: #f7f3ea;
+  transition: background 160ms ease, border-color 160ms ease, transform 120ms ease;
+}
+
+.ctaButton:hover {
+  background: rgba(26, 26, 26, 0.95);
+  border-color: rgba(26, 26, 26, 0.95);
+  transform: translateY(-2px);
+}
+
+.ctaButtonSecondary {
+  display: inline-block;
+  padding: 14px 28px;
+  border: 3px solid rgba(26, 26, 26, 0.65);
+  border-radius: 0;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: clamp(15px, 1.5vw, 17px);
+  letter-spacing: 0.01em;
+  background: rgba(247, 243, 234, 0.2);
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.ctaButtonSecondary:hover {
+  background: rgba(26, 26, 26, 0.04);
+  border-color: rgba(26, 26, 26, 0.85);
+}
+
+.footer {
+  padding: 40px 20px;
+  background: rgba(26, 26, 26, 0.04);
+  border-top: 2px solid rgba(26, 26, 26, 0.1);
+}
+
+.footerText {
+  text-align: center;
+  font-size: clamp(13px, 1.3vw, 15px);
+  line-height: 1.8;
+  margin: 0;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+
+  .implementationHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .criteriaTable,
+  .comparisonTable {
+    font-size: 13px;
+  }
+
+  .criteriaTable th,
+  .criteriaTable td {
+    padding: 10px;
+  }
+
+  .comparisonTable th,
+  .comparisonTable td {
+    padding: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ctaButton:hover {
+    transform: none;
+  }
+}
