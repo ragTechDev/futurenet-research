@@ -3,33 +3,34 @@
 Welcome to the stakeholder research area of the FutureNet project.  
 This folder explains **how to plan, conduct, and document stakeholder interviews** and outlines expectations before, during, and after each session.
 
-The goal of stakeholder interviews is to understand the needs of children aged 5–12, parents, teachers, schools, and experts regarding **safe, distraction-minimal, ethically designed communication devices for kids**.
+The goal of stakeholder interviews is to understand the needs of regulators, platform providers, safety experts, educators, and parents regarding **content assessment frameworks for online safety and age-appropriate content classification**.
 
 ---
 
-## 🎯 Purpose of Stakeholder Interviews
+## Purpose of Stakeholder Interviews
 
 We conduct interviews to:
-- Understand real needs and behaviours around children’s device usage
-- Learn what parents, teachers, and students value most
-- Verify or challenge our design and product assumptions
-- Identify risks, constraints, and opportunities
-- Inform UI/UX decisions, feature roadmap, and positioning strategy
+- Understand current approaches to content assessment and online safety
+- Learn what regulators, platforms, and safety experts prioritize
+- Verify or challenge our framework design assumptions
+- Identify regulatory requirements, technical constraints, and opportunities
+- Inform framework design, assessment criteria, and implementation strategy
 
 Interviews are not sales pitches — they are learning conversations.
 
 ---
 
-## 🧠 Stakeholder Types
+## Stakeholder Types
 
 We aim to speak with:
-- Children (5–8, 9–12)
-- Parents and caregivers
-- Teachers & school staff
-- Safety and education experts
-- Technology and policy advisors
+- Regulators and policy makers
+- Platform providers and social media companies
+- Content safety and moderation experts
+- Educators and child development specialists
+- Parents and advocacy groups
+- Technology and AI/ML experts
 
-We use stakeholder codes (e.g. P01, T01, S03) to protect identities.
+We use stakeholder codes (e.g. E01 for experts, R01 for regulators, P01 for platform providers) to protect identities.
 
 ---
 
@@ -63,7 +64,7 @@ If solo: record (if allowed) and take lightweight notes.
 ### **Opening Script**
 Introduce:
 - who we are
-- what FutureNet aims to explore
+- what FutureNet content assessment framework aims to explore
 - why their input matters
 - consent
 
@@ -81,9 +82,9 @@ Capture:
 - Surprising insights
 
 Use the template:  
-[`docs\research\stakeholders\interview-notes\0-interview-notes-template.md`](docs\research\stakeholders\interview-notes\0-interview-notes-template.md)
+[`docs/interviews/interview-notes/0-interview-notes-template.md`](docs/interviews/interview-notes/0-interview-notes-template.md)
 
-Use tags such as `#safety #communication #screenaddiction #schooluse #trust #privacy` for easy searching across repository.
+Use tags such as `#contentassessment #onlinesafety #agerating #moderation #regulation #ai #platformsafety` for easy searching across repository.
 
 ---
 
@@ -91,17 +92,17 @@ Use tags such as `#safety #communication #screenaddiction #schooluse #trust #pri
 
 ### **1. Save Transcript/Raw Notes**
 Create a file in:
-[`docs\research\stakeholders\interview-transcripts`](docs\research\stakeholders\interview-transcripts)
+[`docs/interviews/interview-transcripts`](docs/interviews/interview-transcripts)
 
 Use format:
-- E01-expert-transcripts.md
-- P01-parent-transcripts.md
-- R01-regulator-transcripts.md
-- S01-student-transcripts.md
-- T01-teacher-transcripts.md
+- E01-expert-transcript.md
+- R01-regulator-transcript.md
+- P01-platform-provider-transcript.md
+- A01-advocacy-group-transcript.md
+- T01-tech-specialist-transcript.md
 
 ### **2. Summarize into Notes In Standard Format**
-Use the template in [`docs/research/stakeholders/interview-notes/0-interview-notes-template.md`](docs/research/stakeholders/interview-notes/0-interview-notes-template.md) to fill in notes template from your raw notes in the transcript. You can use an AI tool to do so! 
+Use the template in [`docs/interviews/interview-notes/0-interview-notes-template.md`](docs/interviews/interview-notes/0-interview-notes-template.md) to fill in notes template from your raw notes in the transcript. You can use an AI tool to do so! 
 
 _Chatbot Prompt_
 ```txt
@@ -114,29 +115,30 @@ Interview Notes template:
 [Copy-paste template here]
 ```
 
-_Vibe Coding Tool Prompt_
+_Cascade Coding Tool Prompt_
 ```
-Create a user interview note file in docs/research/stakeholders/interview-notes/ using the template in 0-interview-notes-template.md below from the raw notes and transcript in docs\research\stakeholders\interview-transcripts\[name-of-file].md
+Create an interview note file in docs/interviews/interview-notes/ using the template in 0-interview-notes-template.md from the raw notes and transcript in docs/interviews/interview-transcripts/[name-of-file].md
 ```
 
-### **3. Create User Persona If New Persona identified**
-Look through the user personas in [`docs/research/user-personas`](docs/research/user-personas) if any of them fit the interview you just did. If this is a new user persona, create a new user persona file. You can adapt the prompts from above to use the same workflow to generate a user persona.
+### **3. Create Stakeholder Persona If New Persona Identified**
+Look through the stakeholder personas in [`docs/interviews/user-personas`](docs/interviews/user-personas) if any of them fit the interview you just did. If this is a new stakeholder persona, create a new persona file. You can adapt the prompts from above to use the same workflow to generate a stakeholder persona.
 
 ### **4. Add Findings to Insights Dashboard**
 In a group after a batch of interviews or individually, update:
-[`docs\research\stakeholders\summary\insights-dashboard.md`](docs\research\stakeholders\summary\insights-dashboard.md)
+[`docs/interviews/summary/insights-dashboard.md`](docs/interviews/summary/insights-dashboard.md)
 
 
 ### **5. Identify Themes**
 Add summary insights & opportunities to:
-[`docs\research\stakeholders\summary\insights-and-themes.md`](docs\research\stakeholders\summary\insights-and-themes.md)
+[`docs/interviews/summary/insights-and-themes.md`](docs/interviews/summary/insights-and-themes.md)
 
 
 ### **6. Create GitHub Issues if Needed**
 Examples:
-- New feature request
-- UX problem discovered
-- Safety gap identified
+- New assessment criteria identified
+- Regulatory requirement discovered
+- Framework design gap identified
+- Technical implementation challenge
 
 ### **7. Thank the participant**
 A short message expressing appreciation.
@@ -168,5 +170,5 @@ A short message expressing appreciation.
 
 # 🙌 Thank You
 Running interviews is one of the most valuable contributions to FutureNet.  
-It ensures we build something children can use safely — and parents & educators can trust.
+It ensures we build a content assessment framework that is practical, effective, and trusted by regulators, platforms, and families alike.
 
