@@ -57,8 +57,8 @@ export default function Home() {
                 <Link className={styles.ctaButton} href="/digital-parent-quiz">
                   Digital Parent Quiz
                 </Link>
-                <Link className={styles.ctaButton} href="/">
-                  See Our Research [Coming Soon!]
+                <Link className={styles.ctaButton} href="/content-assessment">
+                  Content Assessment Framework
                 </Link>
               </div>
             </div>
