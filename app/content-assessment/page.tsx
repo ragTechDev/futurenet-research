@@ -64,7 +64,7 @@ export default function ContentAssessmentPage() {
                 Children Are the Most Vulnerable Users
               </h3>
               <p className={styles.problemCardText}>
-                Children are among the <strong>largest and most vulnerable users</strong> of technology and AI. Recent data shows <strong>67% of UK teens use AI</strong>, <strong>39% of US elementary students learn through AI apps</strong>, and <strong>37% of Argentine children aged 9-11 use ChatGPT</strong>. Yet they face unique risks: AI-generated CSAM, deepfakes, emotional dependency on chatbots, and exposure to harmful content their developing minds cannot process.
+                Children are among the <strong>largest and most vulnerable users</strong> of technology and AI. <a href="https://www.ceiglobal.org/work-and-insights/investigating-parent-views-teen-use-generative-ai">Recent Singapore data</a> shows <strong>8 in 10 young people aged 13 to 17 are using Generative AI at least once a week</strong> and <strong>70% of that use for homework or school-related tasks</strong>. Yet they face unique risks: AI-generated CSAM, deepfakes, emotional dependency on chatbots, and exposure to harmful content their developing minds cannot process.
               </p>
             </div>
           </div>
