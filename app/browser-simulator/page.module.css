@@ -1,0 +1,487 @@
+.page {
+  min-height: 100svh;
+  padding: 72px 20px;
+  background: #f7f7f2;
+  color: #141414;
+}
+
+.container {
+  width: min(960px, 100%);
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 1.08;
+}
+
+.subcopy {
+  margin: 16px 0 0;
+  font-size: clamp(16px, 1.6vw, 20px);
+  line-height: 1.65;
+  opacity: 0.92;
+}
+
+.card {
+  margin-top: 28px;
+  border: 1px solid rgba(26, 26, 26, 0.28);
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border: 2px solid rgba(26, 26, 26, 0.62);
+  border-radius: 0;
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  transition: transform 120ms ease, background-color 120ms ease, border-color 120ms ease;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.button:hover {
+  background: rgba(26, 26, 26, 0.06);
+}
+
+.buttonSecondary {
+  border-width: 1px;
+  opacity: 0.88;
+}
+
+.buttonPrimary {
+  background: rgba(26, 26, 26, 0.92);
+  color: #f7f7f2;
+  border-color: rgba(26, 26, 26, 0.92);
+}
+
+.buttonPrimary:hover {
+  background: rgba(26, 26, 26, 1);
+  border-color: rgba(26, 26, 26, 1);
+}
+
+.buttonDisabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.kicker {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  opacity: 0.85;
+  margin-bottom: 12px;
+}
+
+.ageSelector {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.agePill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  border: 2px solid rgba(26, 26, 26, 0.28);
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  font: inherit;
+  transition: all 120ms ease;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.agePill:hover {
+  background: rgba(26, 26, 26, 0.04);
+  border-color: rgba(26, 26, 26, 0.42);
+}
+
+.agePillSelected {
+  background: rgba(26, 26, 26, 0.08);
+  border-color: rgba(26, 26, 26, 0.92);
+}
+
+.lockIcon {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.urlInputWrapper {
+  margin-top: 16px;
+}
+
+.urlInput {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid rgba(26, 26, 26, 0.28);
+  background: rgba(255, 255, 255, 0.8);
+  font: inherit;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 120ms ease;
+}
+
+.urlInput:focus {
+  outline: none;
+  border-color: rgba(26, 26, 26, 0.62);
+}
+
+.urlInput::placeholder {
+  color: rgba(26, 26, 26, 0.5);
+}
+
+.scanProgress {
+  margin-top: 20px;
+}
+
+.scanItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.12);
+}
+
+.scanItem:last-child {
+  border-bottom: none;
+}
+
+.scanIcon {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+}
+
+.scanText {
+  flex: 1;
+  font-size: 15px;
+}
+
+.scanSpinner {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.resultCard {
+  margin-top: 28px;
+  border: 1px solid rgba(26, 26, 26, 0.28);
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.resultHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.badgeSuitable {
+  background: rgba(34, 197, 94, 0.15);
+  color: rgba(21, 128, 61, 1);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.badgeCaution {
+  background: rgba(251, 191, 36, 0.15);
+  color: rgba(161, 98, 7, 1);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+.badgeNotRecommended {
+  background: rgba(239, 68, 68, 0.12);
+  color: rgba(153, 27, 27, 1);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.resultTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.safetyScore {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0;
+  font-size: 15px;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  font-size: 18px;
+}
+
+.breakdown {
+  margin-top: 20px;
+}
+
+.breakdownTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.breakdownRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.12);
+  font-size: 15px;
+}
+
+.breakdownRow:last-child {
+  border-bottom: none;
+}
+
+.breakdownLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.breakdownStatus {
+  font-weight: 600;
+}
+
+.statusGood {
+  color: rgba(21, 128, 61, 1);
+}
+
+.statusCaution {
+  color: rgba(161, 98, 7, 1);
+}
+
+.statusBad {
+  color: rgba(153, 27, 27, 1);
+}
+
+.explanation {
+  margin-top: 16px;
+  padding: 14px;
+  background: rgba(26, 26, 26, 0.04);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.actionButtons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.parentReviews {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(26, 26, 26, 0.18);
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.reviewStars {
+  display: flex;
+  gap: 2px;
+  font-size: 16px;
+}
+
+.reviewCount {
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+.reviewTags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.reviewTag {
+  padding: 4px 10px;
+  background: rgba(26, 26, 26, 0.06);
+  border: 1px solid rgba(26, 26, 26, 0.18);
+  font-size: 13px;
+  border-radius: 999px;
+}
+
+.browserFrame {
+  margin-top: 28px;
+  border: 1px solid rgba(26, 26, 26, 0.28);
+  background: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+}
+
+.browserChrome {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: rgba(26, 26, 26, 0.04);
+  border-bottom: 1px solid rgba(26, 26, 26, 0.18);
+}
+
+.browserDots {
+  display: flex;
+  gap: 6px;
+}
+
+.browserDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(26, 26, 26, 0.2);
+}
+
+.browserUrlBar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(26, 26, 26, 0.18);
+  font-size: 13px;
+  color: rgba(26, 26, 26, 0.7);
+}
+
+.browserShield {
+  font-size: 14px;
+  color: rgba(21, 128, 61, 1);
+}
+
+.browserContent {
+  padding: 24px;
+  min-height: 200px;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(26, 26, 26, 0.7);
+}
+
+.browserActions {
+  display: flex;
+  gap: 10px;
+  padding: 12px 16px;
+  background: rgba(26, 26, 26, 0.04);
+  border-top: 1px solid rgba(26, 26, 26, 0.18);
+}
+
+.browserActionBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid rgba(26, 26, 26, 0.28);
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  transition: all 120ms ease;
+}
+
+.browserActionBtn:hover {
+  background: rgba(26, 26, 26, 0.06);
+  border-color: rgba(26, 26, 26, 0.42);
+}
+
+.alternatives {
+  margin-top: 16px;
+}
+
+.alternativesTitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.alternativesList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.alternativeLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: inherit;
+  text-decoration: underline;
+  font-size: 14px;
+  opacity: 0.85;
+  transition: opacity 120ms ease;
+}
+
+.alternativeLink:hover {
+  opacity: 1;
+}
+
+@media (max-width: 640px) {
+  .ageSelector {
+    gap: 8px;
+  }
+
+  .agePill {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .resultCard {
+    padding: 18px;
+  }
+
+  .browserChrome {
+    padding: 10px 12px;
+  }
+
+  .browserContent {
+    padding: 18px;
+  }
+}
